@@ -3,23 +3,24 @@ import numpy as np
 from pathlib import Path
 
 def preprocess_text(text):
+    # Lowercase the text and remove non-alphabetic characters except spaces
     return re.sub(r'[^a-zA-Z\s]', '', text.lower())
 
 def create_frequency_matrix(text):
-    unique_chars = sorted(set(text))
-    unique_chars.remove(' ')
+    words = text.split()  # Split the text into words
+    unique_chars = sorted(set(text.replace(" ", "")))  # Get unique characters, excluding spaces
     n = len(unique_chars)
     matrix = np.zeros((n, n), dtype=int)
 
-    prev_char = None
-    for char in text:
-        if char == ' ':
-            continue
-        if prev_char is not None:
-            row = unique_chars.index(prev_char)
-            col = unique_chars.index(char)
-            matrix[row, col] += 1
-        prev_char = char
+    # Process each word individually
+    for word in words:
+        prev_char = None
+        for char in word:
+            if prev_char is not None:
+                row = unique_chars.index(prev_char)
+                col = unique_chars.index(char)
+                matrix[row, col] += 1
+            prev_char = char
 
     return unique_chars, matrix
 
@@ -50,13 +51,10 @@ def separate_vowels_consonants(text):
     return vowels, consonants
 
 def load_text_file(filename):
-    # Construct the file path using pathlib for better path handling
     file_path = Path.cwd() / filename
-
     try:
         with file_path.open('r', encoding='ISO-8859-1') as file:
             text = file.read()
-            # Apply text cleaning directly here
             text = re.sub(r"\W+", " ", text)
             text = re.sub(r"\d+", "", text)
             text = re.sub(r"\s+", " ", text)
@@ -68,7 +66,7 @@ def load_text_file(filename):
         print(f"An error occurred: {str(e)}")
         return None
 
-# Use the function to load and preprocess the text
+# Example usage
 filename = "sherlock_holmes.txt"
 text = load_text_file(filename)
 if text is not None:
