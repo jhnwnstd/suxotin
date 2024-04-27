@@ -1,0 +1,143 @@
+"The first algorithm we present is Suxotin's ALGORITHM FOR SEPARATING VOWELS FROM CONSONANTS.
+This algorithm is based on the assumption that the alphabet of letters used to represent 
+the given text is already known. Its task is to provide a key to the 
+rules for reading the text. Without such rules the decipherment 
+cannot be considered complete. Any division of the alphabet into 
+two classes is a possible solution. The algorithm formalizes the 
+following substantive hypothesis about the properties of vowel 
+and consonant letters: vowels and consonants alternate in texts; 
+no text is composed of vowels only, and no text is composed of 
+consonants only; vowels followed by consonants are followed by 
+vowels, cf. korova 'cow\palata 'ward', sobaka 'dog', etc. However, 
+this is not a strictly regular alternation; clusters of vowels and 
+consonants are possible, cf. teatr 'theater', kloaka 'cesspool', 
+iirax 'fear', vstroennyj 'built in', etc. We can therefore be sure 
+only of the PREVALENCE of vowel-consonant alternations over 
+clusters: vowels are followed by consonants MORE OFTEN than by 
+vowels, and consonants are followed by vowels MORE OFTEN than 
+by consonants. The most frequent letter in any text is a vowel 
+(a phenomenon demonstrated by texts in numerous languages). 
+Let us draw up a table to represent the frequencies of two-letter 
+combinations (Table 1). Let us assign to each line and each column a letter of the alphabet 
+and then write in each square the number of times the combination 
+of the letters ax and a j occurs in the given text (that is, we record the 
+number of occurrences of ai with ai, with az, etc.). Each combination is represented by a dot in Table 1. 
+Let us assume that we have already classified the vowels and 
+consonants, and the vowels are now in the upper left corner of 
+the table (Table 2). If our hypothesis is correct, then the table should reflect the composition of the text as follows: the number 
+of entries in squares 1 and 3 should be small (because vowels 
+rarely combine with vowels and consonants rarely combine with 
+consonants), and the number of entries in squares 2 and 4 should 
+be much larger (because vowels often combine with consonants, 
+and consonants often combine with vowels). Consequently, in 
+order to find in the set of possible solutions the correct one for 
+our problem, we must change the original table into a table such 
+as Table 2, that is, rearrange the lines and columns so that the 
+sums of entries in the diagonal squares 1 and 3 would be the 
+smallest. 
+This is achieved by the following algorithm:
+
+(1) Find the sum of entries in each line.
+
+(2) Check whether there are any lines with positive sums. If 
+not — give the answer. If yes — execute (3). 
+
+(3) Find the line with the largest sum of entries and carry over 
+to the class of vowels the letter at the head of this line. 
+
+(4) Find the column headed by the letter carried over in step (3), 
+and deduct from the sum of entries in each line, excluding lines 
+which have already been carried over, twice the number of entries 
+at the intersection of the given line and the column headed by the 
+letter carried over in step (3). 
+
+(5) Erase the former sums of entries for the lines and execute (2). 
+Let us apply this algorithm to Table 1. The first step yields the 
+results 11, 12, 13, 14, and 10, written in the first column to the 
+right of the table. The second step convinces us that all the sums 
+are positive. The line with the largest sum of entries, which we 
+find in executing (3), is the fourth line (the sum of its entries is 14). 
+We carry over to the class of vowels the letter a. The results of the 
+execution of (4) are shown in the second column to the right of 
+the table. They were obtained in the following way: 11 —2- 3 = 5 
+for the first line, 12 — 2 • 4 = 4 for the second, 13 — 2- 2 = 9 
+for the third, and 10 — 2 • 3 = 4 for the fifth. We execute (5), 
+erasing the former sums, and return to (2). We establish that all 
+the sums (5, 4, 9, 4) are positive, we find the line with the largest 
+sum (the third), and carry over to the class of vowels the letter az. 
+We carry out the remaining steps and find that no positive sums 
+are left (cf. the numbers -3, -2, and -4 in the third column). The 
+letters az and ai are thus in the class of vowels, and the letters 
+a\, a<i, and az in the class of consonants. It is obvious that the 
+table we have obtained (Table 3) is the right one. 
+Suxotin's algorithm was tried out in a number of computer experiments conducted on Russian, English, French, German, and Spanish materials 
+(the text in each language contained 10,000 symbols). The operation of the algorithm on the German text 
+produced three mistakes (s, h, and k were classified as vowels, 
+apparently because of the high frequency of the combinations 
+sch, ch and ck); its operation on the English, French, and Russian 
+materials produced only one insignificant and easily accountable 
+mistake in each case; the Spanish text was processed without any 
+mistakes at all."
+
+Alternate explination of the algorithm:
+
+"Say we have this text: "SAGITTA" and we want to know which letters are vowels and which are consonants. 
+To make things just a little bit more interesting (and ought to appeal to decipheres of the Phaistos disk), let us also suppose that it was written arounf a plate so that there is no way of being sure where it starts or ends, even in which direction it ought to be read. It could be "SAGITTA" or "ATTOGAS", "AGITTAS", or "SATTIGA", etc. for all we know. 
+
+Step 1. Count the number of times each letter of the text is in contact with another. 
+Thus "G" is in contact with "I" once (and "I" with "G" once), "A" with "S" twice, etc. remember that the text is written in a ciricle and so on. 
+You end up with a symetircal frequcny matrix:
+
+	S A G I T
+S	0 2 0 0 0
+A	2 0 1 0 1
+G	0 1 0 1 0
+I	0 0 1 0 1
+T	0 1 0 1 2
+
+Step 2. Fill the main diagonal with zeros:
+
+	S A G I T
+S	0 2 0 0 0
+A	2 0 1 0 1
+G	0 1 0 1 0
+I	0 0 1 0 1
+T	0 1 0 1 0
+
+Step 3. Sum the rows, and assume all the letters are consonants:
+
+	S A G I T	Sum	
+S	0 2 0 0 0	2	consonant
+A	2 0 1 0 1	4	consonant
+G	0 1 0 1 0	2	consonant
+I	0 0 1 0 1	2	consonant
+T	0 1 0 1 0	2	consonant
+
+Step 4. Find the consoant with the highest sum greater than zero. That consonant should be changed to a vowel.
+
+	S A G I T	Sum	
+S	0 2 0 0 0	2	consonant
+A	2 0 1 0 1	4	vowel
+G	0 1 0 1 0	2	consonant
+I	0 0 1 0 1	2	consonant
+T	0 1 0 1 0	2	consonant
+
+Step 5. Now subtract from the sum of the row of each consonant twice the number of times it occurs next to the new-found vowel. For instance, "S" occurs twice next to "A", so the sum of its row becomes 2 - 4 = -2. Do the same for the other consonants. One a consonant has been identified as a vowel remove its row and column for the matrix before updating the sums.
+
+	S A G I T	Sum	
+S	0 2 0 0 0	-2	consonant
+A	2 0 1 0 1	4	vowel
+G	0 1 0 1 0	0	consonant
+I	0 0 1 0 1	2	consonant
+T	0 1 0 1 0	0	consonant
+
+Repeat step 4 until you find no more new vowels. Thus for instance, here "I" being the consonant with the highest sum greater than zero, it would become a vowel (at step 4):
+
+	S A G I T	Sum	
+S	0 2 0 0 0	-2	consonant
+A	2 0 1 0 1	4	vowel
+G	0 1 0 1 0	-2	consonant
+I	0 0 1 0 1	2	vowel
+T	0 1 0 1 0	-2	consonant
+
+Since there are no consonants left with the sum greater than zero, the process stops there."
