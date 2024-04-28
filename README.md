@@ -1,9 +1,14 @@
 # Suxotin's Algorithm Implementation
 
 ## Overview
-This repository contains an implementation of Suxotin's algorithm, designed to distinguish vowels from consonants based on their formal properties within a text. The code is ideal for decipherment hobbyists who are interested in exploring text properties and linguistic patterns.
+This repository hosts an implementation of Suxotin's algorithm, designed to distinguish vowels from consonants by analyzing their formal properties in texts. It is intended for use by both linguistics researchers and decipherment hobbyists. The algorithm utilizes statistical properties of letter combinations to classify characters based on their typical alternation patterns in various languages.
 
-Suxotin's algorithm utilizes statistical properties of letter combinations within a text to classify letters as either vowels or consonants. This method is based on the hypothesis that vowels and consonants typically alternate in most languages, with vowels being more likely to precede and follow consonants rather than other vowels, and vice versa for consonants.
+The exact reasons for the algorithm's effectiveness are not detailed in existing literature, underscoring the importance of further study.
+
+Currently, the implementation effectively identifies consonants, but it mistakenly classifies 'n' and 't' as vowels on occasion. Enhancements are needed to improve its robustness and to expand its usability with different text corpora.
+
+## Background
+Suxotin's algorithm was extensively tested in computer experiments across multiple languages including Russian, English, French, German, and Spanish, demonstrating robustness with minimal errors. Detailed descriptions and theoretical justifications of the algorithm are available in the `vowel-algorithm.sty` file.
 
 ## Features
 - **Text Preprocessing**: Converts text to a lower case and removes non-alphabetic characters, preparing it for analysis.
@@ -19,7 +24,7 @@ Suxotin's algorithm utilizes statistical properties of letter combinations withi
 The script can handle text input directly from files within the working directory or from predefined NLTK corpora. Here are the steps to run the script:
 1. Ensure you have Python and NLTK installed, and the required NLTK corpora are downloaded.
 2. Execute `suxotin.py` with a specified text source:
-   - For local files: `python suxotin.py sherlock_holmes.txt`
+   - For local files: `python suxotin.py sherlock_holmes.sty`
    - For NLTK corpora: `python suxotin.py gutenberg`
 
 ## Installation
@@ -32,6 +37,3 @@ The script can handle text input directly from files within the working director
    ```
    python -m nltk.downloader gutenberg
    ```
-
-## Background
-Suxotin's algorithm was extensively tested in computer experiments across multiple languages including Russian, English, French, German, and Spanish, demonstrating robustness with minimal errors. Detailed descriptions and theoretical justifications of the algorithm are available in the `vowel-algorithm.txt` file.
