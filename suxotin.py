@@ -76,26 +76,36 @@ def separate_vowels_consonants(text):
     return vowels, consonants
 
 def load_text(source):
+    # Check if the source is a path to a file that exists
     if Path(source).exists():
-        # Assume source is a file path
+        # Create a Path object from the source string
         file_path = Path(source)
         try:
+            # Open the file with the specified encoding
             with file_path.open('r', encoding='ISO-8859-1') as file:
+                # Read the entire content of the file
                 text = file.read()
         except FileNotFoundError:
+            # Handle the case where the file does not exist
             print(f"Error: The file {source} was not found.")
             return None
         except Exception as e:
+            # Handle other possible exceptions during file opening or reading
             print(f"An error occurred: {e}")
             return None
     else:
-        # Assume source is an NLTK corpus name
+        # If the source is not a file, assume it's an NLTK corpus name
         try:
+            # Dynamically access the NLTK corpus and retrieve its raw text
             text = nltk.corpus.__getattr__(source).raw()
         except AttributeError:
+            # Handle the case where the NLTK corpus does not exist
             print(f"Error: NLTK corpus '{source}' not found.")
             return None
-    text = re.sub(r"[\W\d]+", " ", text)  # Normalize text
+
+    # Normalize the text by removing all non-word characters and digits,
+    # replacing them with spaces, and strip leading/trailing spaces.
+    text = re.sub(r"[\W\d]+", " ", text)
     return text.strip()
 
 # Example usage for file
