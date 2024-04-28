@@ -12,7 +12,7 @@ Suxotin's algorithm utilizes statistical properties of letter combinations withi
 
 ## Repository Contents
 - `suxotin.py`: Main Python script implementing Suxotin's algorithm.
-- `vowel-algorithm.txt`: Contains two prose descriptions of Suxotin's algorithm.
+- `vowel-algorithm.sty`: Contains two prose descriptions of Suxotin's algorithm.
 - `README.md`: This file, providing an overview and usage instructions.
 
 ## Usage
