@@ -1,7 +1,8 @@
-import nltk
 import re
+import nltk
 import numpy as np
 from pathlib import Path
+from nltk.corpus.util import LazyCorpusLoader
 
 def preprocess_text(text):
     # Lowercase the text and remove non-alphabetic characters except spaces
@@ -76,36 +77,46 @@ def separate_vowels_consonants(text):
     return vowels, consonants
 
 def load_text(source):
-    # Check if the source is a path to a file that exists
+    # Check if the provided source is a path that exists on the file system
     if Path(source).exists():
-        # Create a Path object from the source string
         file_path = Path(source)
         try:
-            # Open the file with the specified encoding
+            # Open the file with a specified encoding (ISO-8859-1, commonly used for Western European languages)
             with file_path.open('r', encoding='ISO-8859-1') as file:
-                # Read the entire content of the file
+                # Read the entire content of the file into a string
                 text = file.read()
         except FileNotFoundError:
-            # Handle the case where the file does not exist
+            # This exception is raised if the file does not exist at the given path
             print(f"Error: The file {source} was not found.")
             return None
         except Exception as e:
-            # Handle other possible exceptions during file opening or reading
+            # Catch any other exceptions that may occur during file opening or reading
             print(f"An error occurred: {e}")
             return None
     else:
-        # If the source is not a file, assume it's an NLTK corpus name
         try:
-            # Dynamically access the NLTK corpus and retrieve its raw text
-            text = nltk.corpus.__getattr__(source).raw()
-        except AttributeError:
-            # Handle the case where the NLTK corpus does not exist
-            print(f"Error: NLTK corpus '{source}' not found.")
+            # Ensure the NLTK corpus is available, download it if it's not already downloaded
+            nltk.download(source, quiet=True)
+            # Initialize a LazyCorpusLoader with the specified corpus using a plaintext reader.
+            # This setup tries to read the text with UTF-8 encoding initially.
+            nltk_corpus = LazyCorpusLoader(source, nltk.corpus.reader.PlaintextCorpusReader, r'.*\.txt', encoding='utf-8')
+            try:
+                # Attempt to fetch the raw content of the corpus
+                text = nltk_corpus.raw()
+            except UnicodeDecodeError:
+                # If a UnicodeDecodeError occurs, it suggests the text isn't compatible with UTF-8 encoding.
+                # The block retries loading the corpus with ISO-8859-1 encoding, which can handle different character sets.
+                nltk_corpus = LazyCorpusLoader(source, nltk.corpus.reader.PlaintextCorpusReader, r'.*\.txt', encoding='iso-8859-1')
+                text = nltk_corpus.raw()
+        except (LookupError, AttributeError, UnicodeDecodeError) as e:
+            # Handle errors related to corpus access or encoding issues
+            print(f"Failed to load NLTK corpus '{source}': {e}")
             return None
 
-    # Normalize the text by removing all non-word characters and digits,
-    # replacing them with spaces, and strip leading/trailing spaces.
+    # Normalize the text by replacing non-alphanumeric characters and digits with spaces
+    # This helps in cleaning the text from any punctuation or unwanted symbols
     text = re.sub(r"[\W\d]+", " ", text)
+    # Return the cleaned text with leading and trailing spaces removed
     return text.strip()
 
 # Example usage for file
