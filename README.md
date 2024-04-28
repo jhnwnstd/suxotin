@@ -8,7 +8,7 @@ The exact reasons for the algorithm's effectiveness are not detailed in existing
 Currently, the implementation effectively identifies consonants, but it mistakenly classifies 'n' and 't' as vowels on occasion. Enhancements are needed to improve its robustness and to expand its usability with different text corpora.
 
 ## Background
-Suxotin's algorithm was extensively tested in computer experiments across multiple languages including Russian, English, French, German, and Spanish, demonstrating robustness with minimal errors. Detailed descriptions and theoretical justifications of the algorithm are available in the `vowel-algorithm.sty` file.
+Suxotin's algorithm was extensively tested in computer experiments across multiple languages including Russian, English, French, German, and Spanish, demonstrating robustness with minimal errors. Detailed descriptions of the algorithm are available in the `vowel-algorithm.sty` file.
 
 ## Features
 - **Text Preprocessing**: Converts text to a lower case and removes non-alphabetic characters, preparing it for analysis.
