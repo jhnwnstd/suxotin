@@ -1,14 +1,25 @@
-import re
-import nltk
 import numpy as np
 from pathlib import Path
-from nltk.corpus.util import LazyCorpusLoader
 
 def preprocess_text(text):
-    # Lowercase the text and remove non-alphabetic characters except spaces
-    return re.sub(r'[^a-zA-Z\s]', '', text.lower())
+    """
+    Preprocess the input text by converting it to lowercase and removing non-alphabetic characters.
+    
+    Returns:
+    str: The preprocessed text containing only lowercase alphabetic characters and spaces.
+    """
+    # Convert the text to lowercase first to standardize it
+    text = text.lower()
+    # Use a generator expression to filter out only alphabetic characters and spaces
+    return ''.join(c if c.isalpha() or c.isspace() else '' for c in text)
 
 def create_frequency_matrix(text):
+    """
+    Create a frequency matrix from a given text which counts each adjacent pair of characters.
+
+    Returns:
+    tuple: A tuple containing the frequency matrix (as a defaultdict of Counters) and a sorted list of unique letters.
+    """
     # Split the input text into individual words
     words = text.split()
     
@@ -34,6 +45,12 @@ def create_frequency_matrix(text):
     return unique_chars, matrix
 
 def separate_vowels_consonants(text):
+    """
+    Separate the characters in the input text into vowels and consonants based on transition frequencies.
+    
+    Returns:
+    tuple: A tuple containing two lists (vowels, consonants).
+    """
     # Generate the frequency matrix and retrieve the list of unique characters
     chars, freq_matrix = create_frequency_matrix(text)
     
@@ -77,14 +94,24 @@ def separate_vowels_consonants(text):
     return vowels, consonants
 
 def load_text(source):
+    """
+    Load text from a file and preprocess it by removing non-alphabetic characters.
+    
+    Returns:
+    str: The cleaned text with only alphabetic characters and spaces.
+    """
     # Check if the provided source is a path that exists on the file system
     if Path(source).exists():
         file_path = Path(source)
         try:
-            # Open the file with a specified encoding (ISO-8859-1, commonly used for Western European languages)
+            # Open the file with a specified encoding
             with file_path.open('r', encoding='ISO-8859-1') as file:
                 # Read the entire content of the file into a string
                 text = file.read()
+                # Normalize the text by keeping alphabetic characters and spaces, replacing others with spaces
+                text = ''.join(c if c.isalpha() or c.isspace() else ' ' for c in text)
+                # Return the cleaned text with leading and trailing spaces removed and extra spaces reduced
+                return ' '.join(text.split())
         except FileNotFoundError:
             # This exception is raised if the file does not exist at the given path
             print(f"Error: The file {source} was not found.")
@@ -94,46 +121,24 @@ def load_text(source):
             print(f"An error occurred: {e}")
             return None
     else:
-        try:
-            # Ensure the NLTK corpus is available, download it if it's not already downloaded
-            nltk.download(source, quiet=True)
-            # Initialize a LazyCorpusLoader with the specified corpus using a plaintext reader.
-            # This setup tries to read the text with UTF-8 encoding initially.
-            nltk_corpus = LazyCorpusLoader(source, nltk.corpus.reader.PlaintextCorpusReader, r'.*\.txt', encoding='utf-8')
-            try:
-                # Attempt to fetch the raw content of the corpus
-                text = nltk_corpus.raw()
-            except UnicodeDecodeError:
-                # If a UnicodeDecodeError occurs, it suggests the text isn't compatible with UTF-8 encoding.
-                # The block retries loading the corpus with ISO-8859-1 encoding, which can handle different character sets.
-                nltk_corpus = LazyCorpusLoader(source, nltk.corpus.reader.PlaintextCorpusReader, r'.*\.txt', encoding='iso-8859-1')
-                text = nltk_corpus.raw()
-        except (LookupError, AttributeError, UnicodeDecodeError) as e:
-            # Handle errors related to corpus access or encoding issues
-            print(f"Failed to load NLTK corpus '{source}': {e}")
-            return None
-
-    # Normalize the text by replacing non-alphanumeric characters and digits with spaces
-    # This helps in cleaning the text from any punctuation or unwanted symbols
-    text = re.sub(r"[\W\d]+", " ", text)
-    # Return the cleaned text with leading and trailing spaces removed
-    return text.strip()
+        # If the source does not exist as a file, notify the user
+        print(f"Error: The file {source} does not exist.")
+        return None
 
 # Example usage for file
-filename = "sherlock_holmes.txt"
-text = load_text(filename)
-if text:
-    text = preprocess_text(text)
-    vowels, consonants = separate_vowels_consonants(text)
-    print("Vowels:", vowels)
-    print("Consonants:", consonants)
+def main():
+    """ 
+    Main function to execute the vowel and consonant separation algorithm.
+    """
+    filename = "sherlock_holmes.txt"
+    text = load_text(filename)
+    if text:
+        text = preprocess_text(text)
+        vowels, consonants = separate_vowels_consonants(text)
+        print("Vowels:", vowels)
+        print("Consonants:", consonants)
+    else:
+        print("No text available for processing.")
 
-# Example usage for NLTK corpus
-nltk.download('gutenberg')
-corpus_name = 'gutenberg'
-nltk_text = load_text(corpus_name)
-if nltk_text:
-    nltk_text = preprocess_text(nltk_text)
-    vowels, consonants = separate_vowels_consonants(nltk_text)
-    print("Vowels from NLTK Corpus:", vowels)
-    print("Consonants from NLTK Corpus:", consonants)
+if __name__ == "__main__":
+    main()
