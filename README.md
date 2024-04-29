@@ -1,4 +1,4 @@
-# Suxotin's Algorithm Implementation
+# Suxotin's Vowel Identification Algorithm
 
 ## Overview
 This repository hosts an implementation of Suxotin's algorithm, designed to distinguish vowels from consonants by analyzing their formal properties in texts. It is intended for use by both linguistics researchers and decipherment hobbyists. The algorithm utilizes statistical properties of letter combinations to classify characters based on their typical alternation patterns in various languages.
@@ -11,7 +11,7 @@ Currently, the implementation effectively identifies consonants, but it mistaken
 Suxotin's algorithm was extensively tested in computer experiments across multiple languages including Russian, English, French, German, and Spanish, demonstrating robustness with minimal errors. Detailed descriptions of the algorithm are available in the `vowel-algorithm.sty` file.
 
 ## Features
-- **Text Preprocessing**: Converts text to a lower case and removes non-alphabetic characters, preparing it for analysis.
+- **Text Preprocessing**: Converts text to lowercase and removes non-alphabetic characters, preparing it for analysis.
 - **Frequency Matrix Generation**: Creates a matrix to count transitions between each pair of characters within words.
 - **Vowel and Consonant Separation**: Uses the generated matrix to determine the most likely vowels and consonants based on the frequency of their transitions.
 
