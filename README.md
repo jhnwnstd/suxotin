@@ -24,7 +24,7 @@ Suxotin's algorithm was extensively tested in computer experiments across multip
 The script can handle text input directly from files within the working directory or from predefined NLTK corpora. Here are the steps to run the script:
 1. Ensure you have Python and NLTK installed, and the required NLTK corpora are downloaded.
 2. Execute `suxotin.py` with a specified text source:
-   - For local files: `python suxotin.py sherlock_holmes.sty`
+   - For local files: `python suxotin.py sherlock_holmes.txt`
    - For NLTK corpora: `python suxotin.py gutenberg`
 
 ## Installation
