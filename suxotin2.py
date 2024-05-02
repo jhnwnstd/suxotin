@@ -1,89 +1,108 @@
-from collections import defaultdict, Counter
+import sys
+from pathlib import Path
+import numpy as np
 
-def read_text(filename):
-    """
-    Reads and processes text from a specified file.
-
-    Returns:
-    str: The processed text containing only lowercase alphabetical characters.
-
-    Raises:
-    IOError: An error occurred accessing the file.
-    """
+def load_text(filename):
+    """Reads and processes text from a specified file, returning only lowercase alphabetical characters."""
+    file_path = Path(filename)
     try:
-        with open(filename, 'r', encoding='utf-8') as file:
-            # Read the entire file and filter out non-alphabetical characters
-            return ''.join(c for c in file.read().lower() if c.isalpha())
-    except FileNotFoundError:
-        print(f"Error: The file {filename} does not exist.")
+        if not file_path.exists() or not file_path.is_file():
+            raise FileNotFoundError(f"Error: The file {filename} does not exist.")
+        with file_path.open('r', encoding='ISO-8859-1') as file:
+            return ''.join(filter(str.isalpha, file.read().lower()))
+    except FileNotFoundError as e:
+        print(str(e), file=sys.stderr)
         return None
-    except Exception as e:
-        print(f"An error occurred: {e}")
+    except IOError as e:
+        print(f"File read error: {e}", file=sys.stderr)
         return None
+
+def preprocess_text(text):
+    """
+    Preprocess the input text by converting it to lowercase and removing non-alphabetic characters.
+    
+    Returns:
+    str: The preprocessed text containing only lowercase alphabetic characters and spaces.
+    """
+    # Convert the text to lowercase first to standardize it
+    text = text.lower()
+    # Use a generator expression to filter out only alphabetic characters and spaces
+    return ''.join(c if c.isalpha() or c.isspace() else '' for c in text)
 
 def create_frequency_matrix(text):
     """
     Create a frequency matrix from a given text which counts each adjacent pair of characters.
-    
+
     Returns:
     tuple: A tuple containing the frequency matrix (as a defaultdict of Counters) and a sorted list of unique letters.
     """
-    if len(text) < 2:
-        raise ValueError("Text must contain at least two characters to form pairs.")
-
-    freq_matrix = defaultdict(Counter)
-    for i in range(len(text) - 1):
-        # Increment the count for forward pair
-        freq_matrix[text[i]][text[i+1]] += 1
-        # Increment the count for reverse pair to maintain symmetry
-        freq_matrix[text[i+1]][text[i]] += 1
-
-    # Extract and sort the unique letters involved in the pairs
-    letters = sorted(freq_matrix.keys())
-    return freq_matrix, letters
-
-def classify_letters(freq_matrix, letters):
-    """
-    Classify letters as vowels or consonants based on their connection frequencies.
+    # Split the input text into individual words
+    words = text.split()
     
-    Returns:
-    tuple: A tuple containing two lists (vowels, consonants).
+    # Create a sorted list of unique characters from the text, excluding spaces
+    unique_chars = sorted(set(text.replace(" ", "")))
+    
+    # Create a dictionary that maps each character to a unique index based on sorted order
+    char_index = {char: idx for idx, char in enumerate(unique_chars)}
+    
+    # Initialize a square matrix of zeros with dimensions based on the number of unique characters
+    matrix = np.zeros((len(unique_chars), len(unique_chars)), dtype=int)
+
+    # Iterate over each word to fill the frequency matrix with transition counts
+    for word in words:
+        prev_char = None  # Initialize the previous character variable
+        for char in word:  # Iterate over each character in the word
+            if prev_char is not None:  # Ensure there is a previous character to compare
+                # Increment the matrix cell that corresponds to the transition from prev_char to char
+                matrix[char_index[prev_char], char_index[char]] += 1
+            prev_char = char  # Update prev_char to the current character for the next iteration
+
+    # Return the list of unique characters and the filled frequency matrix
+    return unique_chars, matrix
+
+def find_vowels_and_consonants(unique_chars, freq_matrix):
     """
-    sum_connections = {letter: sum(freq_matrix[letter].values()) for letter in letters}
-    vowels, consonants = set(), set(letters)
+    Classify characters as vowels or consonants based on their adjacency frequencies in the frequency matrix.
 
-    while sum_connections:
-        # Identify the letter with the highest sum of connections
-        vowel = max(sum_connections, key=sum_connections.get)
-        vowels.add(vowel)
-        consonants.remove(vowel)
+    Args:
+    unique_chars (list): List of unique characters.
+    freq_matrix (numpy.ndarray): Frequency matrix where each element represents the count of adjacencies between characters.
+
+    Returns:
+    dict: A dictionary with characters as keys and 'vowel' or 'consonant' as values.
+    """
+    sums = np.sum(freq_matrix, axis=1)
+    status = np.array(['consonant'] * len(unique_chars))
+    
+    while np.any(sums > 0):
+        vowel_index = np.argmax(sums)
+        status[vowel_index] = 'vowel'
         
-        # Prepare updates for sum_connections to reflect the new classification
-        updates = {letter: 2 * freq_matrix[letter][vowel] for letter in consonants if vowel in freq_matrix[letter]}
+        # Update sums
+        sums -= 2 * freq_matrix[:, vowel_index]
         
-        # Apply the updates safely
-        for letter, deduction in updates.items():
-            sum_connections[letter] = sum_connections.get(letter, 0) - deduction
+        # Disable further modifications from the identified vowel
+        freq_matrix[:, vowel_index] = 0
+        freq_matrix[vowel_index, :] = 0
+        
+        # Update sums directly
+        sums[vowel_index] = 0
 
-        # Clean up: remove processed vowel and non-positive sums
-        sum_connections.pop(vowel, None)
-        sum_connections = {k: v for k, v in sum_connections.items() if v > 0}
-
-    return sorted(vowels), sorted(consonants)
+    return dict(zip(unique_chars, status))
 
 def main():
-    """
-    Main function to execute the vowel and consonant separation algorithm.
-    """
     filename = 'sherlock_holmes.txt'
-    text = read_text(filename)
-    if text:
-        freq_matrix, letters = create_frequency_matrix(text)
-        vowels, consonants = classify_letters(freq_matrix, letters)
+    raw_text = load_text(filename)
+    if raw_text:
+        preprocessed_text = preprocess_text(raw_text)  # Use the correct function to preprocess text
+        unique_chars, freq_matrix = create_frequency_matrix(preprocessed_text)  # Pass the cleaned, continuous text
+        status = find_vowels_and_consonants(unique_chars, freq_matrix)  # Correctly using two parameters here
+        vowels = [char for char, st in status.items() if st == 'vowel']
+        consonants = [char for char, st in status.items() if st == 'consonant']
         print("Vowels:", vowels)
         print("Consonants:", consonants)
     else:
-        print("Failed to process text due to an error or empty file.")
+        print("Failed to process text due to an error or empty file.", file=sys.stderr)
 
 if __name__ == "__main__":
     main()

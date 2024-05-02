@@ -1,6 +1,38 @@
 import numpy as np
 from pathlib import Path
 
+def load_text(source):
+    """
+    Load text from a file and preprocess it by removing non-alphabetic characters.
+    
+    Returns:
+    str: The cleaned text with only alphabetic characters and spaces.
+    """
+    # Check if the provided source is a path that exists on the file system
+    if Path(source).exists():
+        file_path = Path(source)
+        try:
+            # Open the file with a specified encoding
+            with file_path.open('r', encoding='ISO-8859-1') as file:
+                # Read the entire content of the file into a string
+                text = file.read()
+                # Normalize the text by keeping alphabetic characters and spaces, replacing others with spaces
+                text = ''.join(c if c.isalpha() or c.isspace() else ' ' for c in text)
+                # Return the cleaned text with leading and trailing spaces removed and extra spaces reduced
+                return ' '.join(text.split())
+        except FileNotFoundError:
+            # This exception is raised if the file does not exist at the given path
+            print(f"Error: The file {source} was not found.")
+            return None
+        except Exception as e:
+            # Catch any other exceptions that may occur during file opening or reading
+            print(f"An error occurred: {e}")
+            return None
+    else:
+        # If the source does not exist as a file, notify the user
+        print(f"Error: The file {source} does not exist.")
+        return None
+
 def preprocess_text(text):
     """
     Preprocess the input text by converting it to lowercase and removing non-alphabetic characters.
@@ -92,38 +124,6 @@ def separate_vowels_consonants(text):
 
     # Return the lists of identified vowels and consonants
     return vowels, consonants
-
-def load_text(source):
-    """
-    Load text from a file and preprocess it by removing non-alphabetic characters.
-    
-    Returns:
-    str: The cleaned text with only alphabetic characters and spaces.
-    """
-    # Check if the provided source is a path that exists on the file system
-    if Path(source).exists():
-        file_path = Path(source)
-        try:
-            # Open the file with a specified encoding
-            with file_path.open('r', encoding='ISO-8859-1') as file:
-                # Read the entire content of the file into a string
-                text = file.read()
-                # Normalize the text by keeping alphabetic characters and spaces, replacing others with spaces
-                text = ''.join(c if c.isalpha() or c.isspace() else ' ' for c in text)
-                # Return the cleaned text with leading and trailing spaces removed and extra spaces reduced
-                return ' '.join(text.split())
-        except FileNotFoundError:
-            # This exception is raised if the file does not exist at the given path
-            print(f"Error: The file {source} was not found.")
-            return None
-        except Exception as e:
-            # Catch any other exceptions that may occur during file opening or reading
-            print(f"An error occurred: {e}")
-            return None
-    else:
-        # If the source does not exist as a file, notify the user
-        print(f"Error: The file {source} does not exist.")
-        return None
 
 # Example usage for file
 def main():
