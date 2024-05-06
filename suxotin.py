@@ -1,9 +1,9 @@
 import numpy as np
 from pathlib import Path
 import nltk
-from nltk.corpus import brown
+from nltk.corpus import gutenberg
 
-nltk.download('brown')
+nltk.download('gutenberg')
 
 def preprocess_text(text)->str:
     """
@@ -37,7 +37,7 @@ def create_frequency_matrix(text)->tuple:
     matrix = np.zeros((size, size), dtype=int)
 
     # Generate pairs of adjacent characters and populate the matrix
-    pairs = zip(text, text[1:] + text[:1])
+    pairs = zip(text, text[1:] + text[:1]) 
     for left, right in pairs:
         l_idx, r_idx = char_to_index[left], char_to_index[right]
         matrix[l_idx][r_idx] += 1
@@ -113,9 +113,9 @@ def suxotins_algorithm(text, preprocess=True)->set:
     sums = sum_rows(matrix)
     return classify_vowels(sums, matrix, char_to_index)
 
-def process_brown_corpus(preprocess):
+def process_gutenberg_corpus(preprocess):
     """
-    Process text from the Brown Corpus using Suxotin's algorithm.
+    Process text from the gutenberg Corpus using Suxotin's algorithm.
 
     Args:
     preprocess (bool): Whether to preprocess the text.
@@ -123,22 +123,35 @@ def process_brown_corpus(preprocess):
     Returns:
     tuple: Sets of classified vowels and consonants.
     """
-    # Concatenate all items in the Brown Corpus into a single string
-    text = ' '.join(brown.words())
+    # Concatenate all items in the gutenberg Corpus into a single string
+    text = ' '.join(gutenberg.words())
     return suxotins_algorithm(text, preprocess)
+
+def get_preprocess_confirmation():
+    """
+    Prompt the user to confirm if they want to preprocess the text.
+    Accepts any input starting with 'y' or 'n' as a valid response and is case insensitive.
+
+    Returns:
+    bool: True if the user confirms preprocessing, False otherwise.
+    """
+    while True:
+        preprocess_input = input("Do you want to preprocess the text? (yes/no): ").strip().lower()
+        if preprocess_input.startswith('y'):
+            return True
+        elif preprocess_input.startswith('n'):
+            return False
+        else:
+            print("Invalid input. Please answer with 'yes' or 'no'.")
 
 def main():
     """
-    Main execution function to process a text file or Brown Corpus and classify characters using Suxotin's algorithm.
+    Main execution function to process a text file or Gutenberg Corpus and classify characters using Suxotin's algorithm.
     Filters and prints sorted, printable vowels and consonants, excluding spaces and newlines.
     Enhances user input flexibility and organizes output for better readability.
     """
-    # Enhanced input handling: choose data source
-    data_source = input("Choose the data source - 'local' for local file, 'nltk' for Brown Corpus: ").lower()
-    
-    # Enhanced input handling: accept 'y', 'ye', or 'yes' for preprocessing confirmation
-    preprocess_input = input("Do you want to preprocess the text? (yes/no): ").lower()
-    preprocess = preprocess_input in ['y', 'ye', 'yes']
+    data_source = input("Choose the data source - 'local' for local file, 'nltk' for Gutenberg Corpus: ").lower()
+    preprocess = get_preprocess_confirmation()
     
     try:
         if data_source == 'local':
@@ -146,7 +159,7 @@ def main():
             with file_path.open('r', encoding='utf-8') as file:
                 text = file.read()
         elif data_source == 'nltk':
-            text = ' '.join(brown.words())
+            text = ' '.join(gutenberg.words())
         else:
             raise ValueError("Invalid data source selected.")
 
@@ -164,9 +177,9 @@ def main():
     except FileNotFoundError:
         print("File not found. Ensure the file is in the correct directory.")
     except ValueError as e:
-        print(e)
+        print(str(e))
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        print(f"An unexpected error occurred: {str(e)}")
 
 if __name__ == '__main__':
     main()
