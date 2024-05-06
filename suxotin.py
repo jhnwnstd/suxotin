@@ -58,7 +58,8 @@ def sum_rows(matrix):
 
 def classify_vowels(sums, matrix, char_to_index):
     """
-    Classify characters as vowels based on their adjacency counts using the provided matrix and sums.
+    Classify characters as vowels based on their adjacency counts using the provided matrix and sums,
+    and classify remaining alphabetic characters as consonants, ensuring vowels and consonants are mutually exclusive.
 
     Args:
     sums (np.array): Array of sums for each character's adjacencies.
@@ -66,19 +67,30 @@ def classify_vowels(sums, matrix, char_to_index):
     char_to_index (dict): Mapping of characters to their respective indices in the matrix.
 
     Returns:
-    set: A set of characters classified as vowels.
+    tuple: A tuple containing sets of characters classified as vowels and consonants.
     """
     classified_vowels = set()
+    classified_consonants = set()
     index_to_char = {idx: char for char, idx in char_to_index.items()}
+    used_indices = set()  # Keep track of indices classified as vowels
 
     # Continue classifying vowels while there are positive sums
     while np.any(sums > 0):
         vowel_idx = np.argmax(sums)
-        classified_vowels.add(index_to_char[vowel_idx])
-        # Adjust sums based on the newly classified vowel
-        sums -= 2 * matrix[:, vowel_idx]
-        sums[vowel_idx] = 0
-    return classified_vowels
+        if sums[vowel_idx] > 0:  # Ensure we are processing a positive sum
+            classified_vowels.add(index_to_char[vowel_idx])
+            used_indices.add(vowel_idx)
+            # Adjust sums based on the newly classified vowel
+            sums -= 2 * matrix[:, vowel_idx]
+            sums[vowel_idx] = 0
+
+    # Classify remaining alphabetic characters as consonants
+    for idx, sum_value in enumerate(sums):
+        char = index_to_char[idx]
+        if char.isalpha() and idx not in used_indices:
+            classified_consonants.add(char)
+
+    return classified_vowels, classified_consonants
 
 def suxotins_algorithm(text, preprocess=True):
     """
@@ -99,17 +111,19 @@ def suxotins_algorithm(text, preprocess=True):
 
 def main():
     """
-    Main execution function to process a text file and classify vowels using Suxotin's algorithm.
-    Filters and prints only sorted, printable vowels excluding spaces and newlines.
+    Main execution function to process a text file and classify characters using Suxotin's algorithm.
+    Filters and prints sorted, printable vowels and consonants, excluding spaces and newlines.
     """
     file_path = Path('sherlock_holmes.txt')
     preprocess = input("Do you want to preprocess the text? (yes/no): ").lower() == 'yes'
     try:
         with file_path.open('r', encoding='utf-8') as file:
             text = file.read()
-            vowels = suxotins_algorithm(text, preprocess)
+            vowels, consonants = suxotins_algorithm(text, preprocess)
             printable_vowels = sorted(filter(lambda x: x not in ' \n', vowels))
+            printable_consonants = sorted(filter(lambda x: x not in ' \n', consonants))
             print("Classified vowels:", printable_vowels)
+            print("Classified consonants:", printable_consonants)
     except FileNotFoundError:
         print("File not found. Ensure the file is in the correct directory.")
     except Exception as e:
