@@ -120,8 +120,8 @@ def main():
         with file_path.open('r', encoding='utf-8') as file:
             text = file.read()
             vowels, consonants = suxotins_algorithm(text, preprocess)
-            printable_vowels = sorted(filter(lambda x: x not in ' \n', vowels))
-            printable_consonants = sorted(filter(lambda x: x not in ' \n', consonants))
+            printable_vowels = sorted(filter(lambda x: x not in ' \n\t', vowels))
+            printable_consonants = sorted(filter(lambda x: x not in ' \n\t', consonants))
             print("Classified vowels:", printable_vowels)
             print("Classified consonants:", printable_consonants)
     except FileNotFoundError:

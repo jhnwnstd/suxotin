@@ -3,9 +3,10 @@
 ## Overview
 This repository hosts an implementation of Suxotin's algorithm, designed to identify vowels by analyzing only their formal properties in texts. Ideal for linguists and decipherment enthusiasts, the algorithm employs statistical analysis of letter combinations to classify characters based on their adjacency patterns across various words.
 
-The explaination for why the algorithm works is not detailed in literature, but it has shown promising results, highlighting the potential for further empirical study and discussion. In the sherlock_holmes text file, the algorithm identified all the vowels in the sample text with no incorrect classifications.
+The explaination for why the algorithm works is not detailed in literature, but it has shown promising results, highlighting the potential for further empirical study and discussion. In the sherlock_holmes text file, the algorithm identified all the vowels in the sample text with nearly no incorrect classifications.
 
 `Classified vowels: ['a', 'e', 'i', 'o', 'u', 'â', 'æ', 'è', 'é']`
+`Classified consonants: ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'à', 'œ']`
 
 ## Features
 - **Multi-Language Support**: The algorithm is capable of processing text in multiple languages, recognizing vowel patterns effectively across linguistic boundaries.
