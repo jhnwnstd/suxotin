@@ -1,7 +1,11 @@
 import numpy as np
 from pathlib import Path
+import nltk
+from nltk.corpus import brown
 
-def preprocess_text(text):
+nltk.download('brown')
+
+def preprocess_text(text)->str:
     """
     Convert the input text to lowercase and remove all characters except alphabets and spaces.
 
@@ -14,7 +18,7 @@ def preprocess_text(text):
     # Iterate through text, convert to lower case if alphabetic or space, otherwise remove
     return ''.join(char.lower() if char.isalpha() or char.isspace() else '' for char in text)
 
-def create_frequency_matrix(text):
+def create_frequency_matrix(text)->tuple:
     """
     Create a frequency matrix of adjacent characters in the text based on unique characters.
 
@@ -43,7 +47,7 @@ def create_frequency_matrix(text):
     np.fill_diagonal(matrix, 0)
     return matrix, char_to_index
 
-def sum_rows(matrix):
+def sum_rows(matrix)->np.array:
     """
     Compute the sum of each row in the matrix to get total adjacency counts for each character.
 
@@ -56,7 +60,7 @@ def sum_rows(matrix):
     # Sum across rows to get total adjacency counts for each character
     return matrix.sum(axis=1)
 
-def classify_vowels(sums, matrix, char_to_index):
+def classify_vowels(sums, matrix, char_to_index)->tuple:
     """
     Classify characters as vowels based on their adjacency counts using the provided matrix and sums,
     and classify remaining alphabetic characters as consonants, ensuring vowels and consonants are mutually exclusive.
@@ -92,7 +96,7 @@ def classify_vowels(sums, matrix, char_to_index):
 
     return classified_vowels, classified_consonants
 
-def suxotins_algorithm(text, preprocess=True):
+def suxotins_algorithm(text, preprocess=True)->set:
     """
     Apply Suxotin's algorithm to classify vowels in the text based on adjacency frequencies.
 
@@ -109,23 +113,58 @@ def suxotins_algorithm(text, preprocess=True):
     sums = sum_rows(matrix)
     return classify_vowels(sums, matrix, char_to_index)
 
+def process_brown_corpus(preprocess):
+    """
+    Process text from the Brown Corpus using Suxotin's algorithm.
+
+    Args:
+    preprocess (bool): Whether to preprocess the text.
+
+    Returns:
+    tuple: Sets of classified vowels and consonants.
+    """
+    # Concatenate all items in the Brown Corpus into a single string
+    text = ' '.join(brown.words())
+    return suxotins_algorithm(text, preprocess)
+
 def main():
     """
-    Main execution function to process a text file and classify characters using Suxotin's algorithm.
+    Main execution function to process a text file or Brown Corpus and classify characters using Suxotin's algorithm.
     Filters and prints sorted, printable vowels and consonants, excluding spaces and newlines.
+    Enhances user input flexibility and organizes output for better readability.
     """
-    file_path = Path('sherlock_holmes.txt')
-    preprocess = input("Do you want to preprocess the text? (yes/no): ").lower() == 'yes'
+    # Enhanced input handling: choose data source
+    data_source = input("Choose the data source - 'local' for local file, 'nltk' for Brown Corpus: ").lower()
+    
+    # Enhanced input handling: accept 'y', 'ye', or 'yes' for preprocessing confirmation
+    preprocess_input = input("Do you want to preprocess the text? (yes/no): ").lower()
+    preprocess = preprocess_input in ['y', 'ye', 'yes']
+    
     try:
-        with file_path.open('r', encoding='utf-8') as file:
-            text = file.read()
-            vowels, consonants = suxotins_algorithm(text, preprocess)
-            printable_vowels = sorted(filter(lambda x: x not in ' \n\t', vowels))
-            printable_consonants = sorted(filter(lambda x: x not in ' \n\t', consonants))
-            print("Classified vowels:", printable_vowels)
-            print("Classified consonants:", printable_consonants)
+        if data_source == 'local':
+            file_path = Path('sherlock_holmes.txt')
+            with file_path.open('r', encoding='utf-8') as file:
+                text = file.read()
+        elif data_source == 'nltk':
+            text = ' '.join(brown.words())
+        else:
+            raise ValueError("Invalid data source selected.")
+
+        vowels, consonants = suxotins_algorithm(text, preprocess)
+
+        # Using list comprehension to filter out non-printable characters
+        printable_vowels = sorted([v for v in vowels if v not in ' \n\t'])
+        printable_consonants = sorted([c for c in consonants if c not in ' \n\t'])
+
+        # Improved output formatting for clarity and aesthetics
+        print("\nClassified Characters:")
+        print("Vowels:     ", ', '.join(printable_vowels))
+        print("Consonants: ", ', '.join(printable_consonants))
+            
     except FileNotFoundError:
         print("File not found. Ensure the file is in the correct directory.")
+    except ValueError as e:
+        print(e)
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
