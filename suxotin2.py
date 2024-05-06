@@ -1,5 +1,5 @@
 import numpy as np
-import string
+from pathlib import Path
 
 def preprocess_text(text):
     """
@@ -102,13 +102,12 @@ def main():
     Main execution function to process a text file and classify vowels using Suxotin's algorithm.
     Filters and prints only sorted, printable vowels excluding spaces and newlines.
     """
-    file_path = 'sherlock_holmes.txt'
+    file_path = Path('sherlock_holmes.txt')
     preprocess = input("Do you want to preprocess the text? (yes/no): ").lower() == 'yes'
     try:
-        with open(file_path, 'r', encoding='utf-8') as file:
+        with file_path.open('r', encoding='utf-8') as file:
             text = file.read()
             vowels = suxotins_algorithm(text, preprocess)
-            # Filter vowels to exclude spaces and newlines
             printable_vowels = sorted(filter(lambda x: x not in ' \n', vowels))
             print("Classified vowels:", printable_vowels)
     except FileNotFoundError:
