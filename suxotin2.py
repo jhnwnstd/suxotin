@@ -1,87 +1,119 @@
-from collections import defaultdict
+import numpy as np
+import string
 
 def preprocess_text(text):
     """
-    Preprocess the input text by converting it to lowercase and removing non-alphabetic characters.
+    Convert the input text to lowercase and remove all characters except alphabets and spaces.
+
+    Args:
+    text (str): The text to preprocess.
+
+    Returns:
+    str: The preprocessed text with only lowercase letters and spaces.
     """
+    # Iterate through text, convert to lower case if alphabetic or space, otherwise remove
     return ''.join(char.lower() if char.isalpha() or char.isspace() else '' for char in text)
 
 def create_frequency_matrix(text):
     """
-    Create a frequency matrix from a given text which counts each adjacent pair of characters.
+    Create a frequency matrix of adjacent characters in the text based on unique characters.
+
+    Args:
+    text (str): The text from which to create the frequency matrix.
+
+    Returns:
+    tuple: A tuple containing the matrix as a NumPy array and a dictionary mapping characters to indices.
     """
-    # Create a frequency matrix using a defaultdict of defaultdicts, initializing missing values to int (0)
-    matrix = defaultdict(lambda: defaultdict(int))
-    # Generate pairs of adjacent characters, considering the text as circular
+    # Identify unique characters in the text
+    unique_chars = set(text)
+    # Create a mapping from characters to indices
+    char_to_index = {char: idx for idx, char in enumerate(unique_chars)}
+    # Initialize a square matrix of size based on the number of unique characters
+    size = len(unique_chars)
+    matrix = np.zeros((size, size), dtype=int)
+
+    # Generate pairs of adjacent characters and populate the matrix
     pairs = zip(text, text[1:] + text[:1])
-    # Populate the matrix with counts of each pair occurrence
     for left, right in pairs:
-        matrix[left][right] += 1
-        matrix[right][left] += 1
-    # Zero out the diagonal (self-pairings) as they are not relevant for this analysis
-    for letter in matrix:
-        matrix[letter][letter] = 0
-    return matrix
+        l_idx, r_idx = char_to_index[left], char_to_index[right]
+        matrix[l_idx][r_idx] += 1
+        matrix[r_idx][l_idx] += 1
+
+    # Ensure the diagonal is zeroed out as self-pairing is not relevant
+    np.fill_diagonal(matrix, 0)
+    return matrix, char_to_index
 
 def sum_rows(matrix):
     """
-    Sum up the values in each row of the matrix to get the total counts of adjacencies for each character.
-    """
-    # Sum up the values in each row of the matrix to get the total counts of adjacencies for each character
-    return {letter: sum(connections.values()) for letter, connections in matrix.items()}
+    Compute the sum of each row in the matrix to get total adjacency counts for each character.
 
-def classify_vowels(sums, matrix):
+    Args:
+    matrix (np.array): The frequency matrix of character adjacencies.
+
+    Returns:
+    np.array: A NumPy array containing the sums of adjacencies for each character.
     """
-    Classify vowels based on the adjacency sums of each character.
+    # Sum across rows to get total adjacency counts for each character
+    return matrix.sum(axis=1)
+
+def classify_vowels(sums, matrix, char_to_index):
     """
-    # Initialize a set to keep track of classified vowels
+    Classify characters as vowels based on their adjacency counts using the provided matrix and sums.
+
+    Args:
+    sums (np.array): Array of sums for each character's adjacencies.
+    matrix (np.array): The frequency matrix of character adjacencies.
+    char_to_index (dict): Mapping of characters to their respective indices in the matrix.
+
+    Returns:
+    set: A set of characters classified as vowels.
+    """
     classified_vowels = set()
-    # Loop until all entries are either processed or sums are zero or negative
-    while any(value > 0 for value in sums.values()):
-        # Identify the character with the maximum adjacency sum, considering it a vowel
-        vowel = max(sums, key=sums.get)
-        classified_vowels.add(vowel)
-        # Subtract twice the adjacency count from all other characters' sums
-        for letter in list(sums):
-            sums[letter] -= 2 * matrix[letter][vowel]
-        # Reset the sum of the newly classified vowel to zero to prevent reclassification
-        sums[vowel] = 0
+    index_to_char = {idx: char for char, idx in char_to_index.items()}
+
+    # Continue classifying vowels while there are positive sums
+    while np.any(sums > 0):
+        vowel_idx = np.argmax(sums)
+        classified_vowels.add(index_to_char[vowel_idx])
+        # Adjust sums based on the newly classified vowel
+        sums -= 2 * matrix[:, vowel_idx]
+        sums[vowel_idx] = 0
     return classified_vowels
 
 def suxotins_algorithm(text, preprocess=True):
     """
-    Apply Suxotin's algorithm to classify vowels in a given text.
+    Apply Suxotin's algorithm to classify vowels in the text based on adjacency frequencies.
+
+    Args:
+    text (str): The text to process.
+    preprocess (bool): Whether to preprocess the text (default True).
+
+    Returns:
+    set: A set of characters classified as vowels.
     """
-    # Conditionally preprocess text based on user choice
     if preprocess:
         text = preprocess_text(text)
-    # Generate a frequency matrix from the text
-    matrix = create_frequency_matrix(text)
-    # Calculate the sum of connections for each letter
+    matrix, char_to_index = create_frequency_matrix(text)
     sums = sum_rows(matrix)
-    # Classify letters as vowels based on their adjacency sums
-    return classify_vowels(sums, matrix)
+    return classify_vowels(sums, matrix, char_to_index)
 
 def main():
     """
-    Main function to run Suxotin's algorithm on the Sherlock Holmes text.
+    Main execution function to process a text file and classify vowels using Suxotin's algorithm.
+    Filters and prints only sorted, printable vowels excluding spaces and newlines.
     """
-    # Path to the Sherlock Holmes text file in your working directory
     file_path = 'sherlock_holmes.txt'
-    # Ask the user whether to preprocess the text or not
     preprocess = input("Do you want to preprocess the text? (yes/no): ").lower() == 'yes'
     try:
-        # Open and read the file
         with open(file_path, 'r', encoding='utf-8') as file:
             text = file.read()
-            # Run the Suxotin's algorithm and print classified vowels
             vowels = suxotins_algorithm(text, preprocess)
-            print("Classified vowels:", vowels)
+            # Filter vowels to exclude spaces and newlines
+            printable_vowels = sorted(filter(lambda x: x not in ' \n', vowels))
+            print("Classified vowels:", printable_vowels)
     except FileNotFoundError:
-        # Handle the case where the file is not found
         print("File not found. Ensure the file is in the correct directory.")
     except Exception as e:
-        # Handle other exceptions that may occur
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == '__main__':
