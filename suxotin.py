@@ -131,20 +131,6 @@ def suxotins_algorithm(text: str, preprocess: bool = True) -> tuple[set, set]:
     # Return the classified sets of vowels and consonants
     return vowels, consonants
 
-def process_gutenberg_corpus(preprocess):
-    """
-    Process text from the gutenberg Corpus using Suxotin's algorithm.
-
-    Args:
-    preprocess (bool): Whether to preprocess the text.
-
-    Returns:
-    tuple: Sets of classified vowels and consonants.
-    """
-    # Concatenate all items in the gutenberg Corpus into a single string
-    text = ' '.join(gutenberg.words())
-    return suxotins_algorithm(text, preprocess)
-
 def get_preprocess_confirmation():
     """
     Prompt the user to confirm if they want to preprocess the text.
