@@ -53,22 +53,6 @@ def create_frequency_matrix(text)->tuple:
     np.fill_diagonal(matrix, 0)
     return matrix, char_to_index
 
-def sum_rows(matrix)->np.array:
-    """
-    Compute the sum of each row in the matrix to get total adjacency counts for each character.
-    This sum represents the total number of times each character (corresponding to each row)
-    appears adjacent to any other character in the text, providing a key metric for further analyses.
-
-    Args:
-    matrix (np.array): The frequency matrix of character adjacencies, where each element at (i, j)
-                       represents the count of adjacencies between the i-th and j-th characters.
-
-    Returns:
-    np.array: A NumPy array containing the sums of adjacencies for each character, effectively
-              summing up all interactions of each character with others.
-    """
-    return matrix.sum(axis=1)
-
 def classify_vowels(sums, matrix, char_to_index)->tuple[set, set]:
     """
     Classify characters as vowels or consonants based on their adjacency counts within a given text.
@@ -112,22 +96,39 @@ def classify_vowels(sums, matrix, char_to_index)->tuple[set, set]:
 
 def suxotins_algorithm(text: str, preprocess: bool = True) -> tuple[set, set]:
     """
-    Apply Suxotin's algorithm to classify vowels and consonants in the text based on adjacency frequencies.
-    Characters are classified into vowels or consonants based on their adjacency counts after processing
-    the text through a frequency matrix.
+    Apply Suxotin's algorithm to classify characters in a given text into vowels and consonants based on their adjacency frequencies.
+    This method involves processing the text through a frequency matrix that counts adjacencies between characters.
+    Characters with higher adjacency counts are more likely to be classified as vowels, a decision based on the assumption
+    that vowels generally appear more frequently and adjacent to a variety of other characters.
 
     Args:
-    text (str): The text to process.
-    preprocess (bool): Whether to preprocess the text (default True).
+    text (str): The text to be analyzed and processed.
+    preprocess (bool): Indicates whether the text should be preprocessed to normalize it (e.g., converting to lowercase and removing non-alphabetic characters).
+                       The default value is True, which applies preprocessing.
 
     Returns:
-    tuple: A tuple containing two sets, one of characters classified as vowels and the other as consonants.
+    tuple: A tuple containing two sets:
+           - The first set includes characters classified as vowels.
+           - The second set includes characters classified as consonants.
     """
+    # Conditionally preprocess the text to remove non-alphabetic characters and convert to lowercase for uniformity
     if preprocess:
         text = preprocess_text(text)
+
+    # Generate a frequency matrix and a character-to-index mapping from the processed text
     matrix, char_to_index = create_frequency_matrix(text)
+    
+    # Define a lambda function to compute the sum of adjacencies for each character in the matrix
+    # The lambda function takes a matrix 'm' and computes the sum across its rows (axis=1)
+    sum_rows = lambda m: m.sum(axis=1)
+    
+    # Calculate the adjacency sums which will be used to classify characters
     sums = sum_rows(matrix)
+    
+    # Classify characters into vowels and consonants based on the calculated sums and the frequency matrix
     vowels, consonants = classify_vowels(sums, matrix, char_to_index)
+
+    # Return the classified sets of vowels and consonants
     return vowels, consonants
 
 def process_gutenberg_corpus(preprocess):
