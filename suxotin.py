@@ -1,3 +1,4 @@
+import time
 import numpy as np
 from pathlib import Path
 import nltk
@@ -21,97 +22,113 @@ def preprocess_text(text)->str:
 def create_frequency_matrix(text)->tuple:
     """
     Create a frequency matrix of adjacent characters in the text based on unique characters.
+    This matrix is symmetric and counts the adjacencies for each pair of characters in the text.
+    The matrix and character index mapping are essential for analyzing character adjacency relationships.
 
     Args:
     text (str): The text from which to create the frequency matrix.
 
     Returns:
-    tuple: A tuple containing the matrix as a NumPy array and a dictionary mapping characters to indices.
+    tuple: A tuple containing the matrix as a NumPy array and a dictionary mapping characters to indices,
+           which serves as the legend for understanding the matrix indices.
     """
-    # Identify unique characters in the text
+    # Extract all unique characters from the text to define the matrix dimension
     unique_chars = set(text)
-    # Create a mapping from characters to indices
+    # Map each unique character to a unique index using dictionary comprehension
     char_to_index = {char: idx for idx, char in enumerate(unique_chars)}
-    # Initialize a square matrix of size based on the number of unique characters
+    # Determine the size of the matrix based on the number of unique characters
     size = len(unique_chars)
+    # Initialize a square matrix of zeros with dimensions [size x size]
     matrix = np.zeros((size, size), dtype=int)
 
-    # Generate pairs of adjacent characters and populate the matrix
-    pairs = zip(text, text[1:] + text[:1]) 
-    for left, right in pairs:
-        l_idx, r_idx = char_to_index[left], char_to_index[right]
+    # Loop through the text, character by character, excluding the last character to prevent index error
+    for i in range(len(text) - 1):
+        # Retrieve indices from the mapping for current and next character
+        l_idx, r_idx = char_to_index[text[i]], char_to_index[text[i+1]]
+        # Increment the position in the matrix for both (l_idx, r_idx) and (r_idx, l_idx) to maintain symmetry
         matrix[l_idx][r_idx] += 1
-        matrix[r_idx][l_idx] += 1
+        matrix[r_idx][l_idx] += 1  # Ensures the matrix is symmetric
 
-    # Ensure the diagonal is zeroed out as self-pairing is not relevant
+    # Ensure diagonal entries are zero to ignore self-pairings, as a character adjacent to itself is not considered
     np.fill_diagonal(matrix, 0)
     return matrix, char_to_index
 
 def sum_rows(matrix)->np.array:
     """
     Compute the sum of each row in the matrix to get total adjacency counts for each character.
+    This sum represents the total number of times each character (corresponding to each row)
+    appears adjacent to any other character in the text, providing a key metric for further analyses.
 
     Args:
-    matrix (np.array): The frequency matrix of character adjacencies.
+    matrix (np.array): The frequency matrix of character adjacencies, where each element at (i, j)
+                       represents the count of adjacencies between the i-th and j-th characters.
 
     Returns:
-    np.array: A NumPy array containing the sums of adjacencies for each character.
+    np.array: A NumPy array containing the sums of adjacencies for each character, effectively
+              summing up all interactions of each character with others.
     """
-    # Sum across rows to get total adjacency counts for each character
     return matrix.sum(axis=1)
 
-def classify_vowels(sums, matrix, char_to_index)->tuple:
+def classify_vowels(sums, matrix, char_to_index)->tuple[set, set]:
     """
-    Classify characters as vowels based on their adjacency counts using the provided matrix and sums,
-    and classify remaining alphabetic characters as consonants, ensuring vowels and consonants are mutually exclusive.
+    Classify characters as vowels or consonants based on their adjacency counts within a given text.
+    Characters with higher adjacency counts are initially considered for classification as vowels,
+    as they typically appear more frequently next to a variety of other characters. The classification
+    process iteratively selects the character with the highest adjacency count, adjusts the counts,
+    and then classifies the remaining characters as consonants.
 
     Args:
-    sums (np.array): Array of sums for each character's adjacencies.
-    matrix (np.array): The frequency matrix of character adjacencies.
-    char_to_index (dict): Mapping of characters to their respective indices in the matrix.
+    sums (np.array): Array of sums for each character's adjacencies, where each sum is the total count
+                     of adjacencies involving the corresponding character.
+    matrix (np.array): The frequency matrix of character adjacencies, where the element at [i, j]
+                       indicates the adjacency count between characters i and j.
+    char_to_index (dict): Mapping of characters to their respective indices in the matrix. This mapping
+                          helps identify characters from indices in the matrix.
 
     Returns:
-    tuple: A tuple containing sets of characters classified as vowels and consonants.
+    tuple: A tuple containing two sets, one of characters classified as vowels and the other as consonants.
     """
-    classified_vowels = set()
-    classified_consonants = set()
-    index_to_char = {idx: char for char, idx in char_to_index.items()}
-    used_indices = set()  # Keep track of indices classified as vowels
+    classified_vowels = set()  # Set to store characters classified as vowels
+    classified_consonants = set()  # Initially empty set for consonants
+    index_to_char = {idx: char for char, idx in char_to_index.items()}  # Reverse mapping from indices to characters
+    remaining_sums = sums.copy()  # Copy of the sums array to avoid altering the original during classification
 
-    # Continue classifying vowels while there are positive sums
-    while np.any(sums > 0):
-        vowel_idx = np.argmax(sums)
-        if sums[vowel_idx] > 0:  # Ensure we are processing a positive sum
-            classified_vowels.add(index_to_char[vowel_idx])
-            used_indices.add(vowel_idx)
-            # Adjust sums based on the newly classified vowel
-            sums -= 2 * matrix[:, vowel_idx]
-            sums[vowel_idx] = 0
+    # Iterate over sums to classify characters with the highest adjacency counts as vowels
+    while np.any(remaining_sums > 0):
+        vowel_idx = np.argmax(remaining_sums)  # Find index with the highest adjacency count
+        if remaining_sums[vowel_idx] > 0:  # Check if the highest count is positive
+            char = index_to_char[vowel_idx]
+            classified_vowels.add(char)  # Classify character as a vowel
+            remaining_sums -= 2 * matrix[:, vowel_idx]  # Reduce sums by counts associated with the newly classified vowel
+            remaining_sums[vowel_idx] = 0  # Zero out the sum for the classified vowel to prevent reclassification
 
-    # Classify remaining alphabetic characters as consonants
-    for idx, sum_value in enumerate(sums):
-        char = index_to_char[idx]
-        if char.isalpha() and idx not in used_indices:
-            classified_consonants.add(char)
+    # Use set comprehension to classify the remaining characters as consonants
+    classified_consonants = {
+        index_to_char[idx] for idx in range(len(sums))
+        if index_to_char[idx].isalpha() and index_to_char[idx] not in classified_vowels  # Ensure character is alphabetic and not already classified as a vowel
+    }
 
     return classified_vowels, classified_consonants
 
-def suxotins_algorithm(text, preprocess=True)->set:
+def suxotins_algorithm(text: str, preprocess: bool = True) -> tuple[set, set]:
     """
-    Apply Suxotin's algorithm to classify vowels in the text based on adjacency frequencies.
+    Apply Suxotin's algorithm to classify vowels and consonants in the text based on adjacency frequencies.
+    Characters are classified into vowels or consonants based on their adjacency counts after processing
+    the text through a frequency matrix.
 
     Args:
     text (str): The text to process.
     preprocess (bool): Whether to preprocess the text (default True).
 
     Returns:
-    set: A set of characters classified as vowels.
+    tuple: A tuple containing two sets, one of characters classified as vowels and the other as consonants.
     """
     if preprocess:
         text = preprocess_text(text)
     matrix, char_to_index = create_frequency_matrix(text)
     sums = sum_rows(matrix)
-    return classify_vowels(sums, matrix, char_to_index)
+    vowels, consonants = classify_vowels(sums, matrix, char_to_index)
+    return vowels, consonants
 
 def process_gutenberg_corpus(preprocess):
     """
@@ -150,9 +167,13 @@ def main():
     Filters and prints sorted, printable vowels and consonants, excluding spaces and newlines.
     Enhances user input flexibility and organizes output for better readability.
     """
+    # Gather user inputs first
     data_source = input("Choose the data source - 'local' for local file, 'nltk' for Gutenberg Corpus: ").lower()
     preprocess = get_preprocess_confirmation()
-    
+
+    # Start timing after user input
+    start_time = time.perf_counter()
+
     try:
         if data_source == 'local':
             file_path = Path('sherlock_holmes.txt')
@@ -180,6 +201,9 @@ def main():
         print(str(e))
     except Exception as e:
         print(f"An unexpected error occurred: {str(e)}")
+
+    end_time = time.perf_counter()  # End timing
+    print(f"Execution time: {end_time - start_time:.4f} seconds")  # Print execution time
 
 if __name__ == '__main__':
     main()
