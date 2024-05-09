@@ -62,4 +62,4 @@ To run the script `suxotin.py` in this repository:
    - You will also be asked whether to preprocess the text. Respond with 'yes' or 'no' based on your preference. It is recommended 'yes' to preprocess the text to remove punctuation and convert all characters to lowercase.
 
 ## Contributing
-I appreciate contributions to enhance this project and extend the capabilities of the algorothm. To contribute, please fork the repository, make changes, and submit a pull request.
+I appreciate contributions to enhance this project and extend the capabilities of the algorithm. To contribute, please fork the repository, make changes, and submit a pull request.
