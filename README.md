@@ -1,9 +1,9 @@
 # Suxotin's Vowel Identification Algorithm
 
 ## Overview
-This repository contains an implementation of Suxotin's algorithm, designed to identify vowels in texts by analyzing their formal properties. Using statistical analysis, the algorithm examines letter combinations to classify characters based on their adjacency patterns. This method is especially useful for linguists and decipherment enthusiasts.
+This repository contains an implementation of Suxotin's algorithm, designed to identify vowels in texts by analyzing their formal properties. Using statistical analysis, the algorithm examines letter combinations to classify letters based on their adjacency patterns. This algorithm is especially useful for linguists and decipherment enthusiasts.
 
-Although the underlying principles of the algorithm are not extensively documented in the literature, its efficacy is evident. For example, in the `sherlock_holmes.txt` file, the algorithm accurately identified all relevant vowels with minimal errors.
+Although the underlying principles of the algorithm are not extensively explained in the literature, its efficacy is evident. For example, in the `sherlock_holmes.txt` file, the algorithm accurately identified all relevant vowels with minimal errors.
 
 `Classified vowels: ['a', 'e', 'i', 'o', 'u', 'â', 'æ', 'è', 'é']`
 `Classified consonants: ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'à', 'œ']`
@@ -13,7 +13,7 @@ Testing on the NLTK Gutenberg corpus yielded similar accuracy, confirming its ro
 `Classified Vowels: [a, e, i, o, u, æ, è]`
 `Classified Consonants: [b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, é, î]`
 
-The algorithm occasionally misclassified low-frequency diacritical vowels like 'à' and 'î' as consonants.
+The algorithm occasionally misclassified low-frequency diacritical vowels like 'à', 'œ', 'é' and 'î' as consonants.
 
 ## Features
 - **Language Agnostic**: The algorithm can process texts in multiple languages and accurately identify vowel patterns regardless of the language.
