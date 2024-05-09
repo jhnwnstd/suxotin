@@ -16,13 +16,13 @@ Testing on the NLTK Gutenberg corpus yielded similar accuracy, confirming its ro
 The algorithm occasionally misclassified low-frequency diacritical vowels like 'à' and 'î' as consonants.
 
 ## Features
-- **Multi-Language Support**: Capable of processing texts in various languages, the algorithm effectively recognizes vowel patterns across linguistic boundaries.
-- **Efficient Processing**: It utilizes NumPy for matrix operations, enhancing both computational speed and efficiency.
+- **Language Agnostic**: The algorithm can process texts in multiple languages and accurately identify vowel patterns regardless of the language.
+- **Fast and Efficient**: By leveraging NumPy for matrix operations, the algorithm achieves high computational speed and efficiency.
 
 ## Repository Contents
 - `suxotin.py`: The primary Python script implementing Suxotin's algorithm with NumPy for efficient matrix operations.
 - `sherlock_holmes.txt`: A sample text file used to test the algorithm's performance.
-- `suxotin`: A directory containing detailed documentation of two versions of the Suxotin algorithm and a text version of the algorithm for testing purposes.
+- `suxotin`: A directory containing documentation of two versions of the Suxotin algorithm and a text version of the algorithm for furhter testing purposes.
    - `Decipherment_Models_1973.pdf`: Details the original version of the Suxotin algorithm.
    - `guySuxotin.pdf`: Details an alternate version of the Suxotin algorithm.
    - `vowel-algorithm.txt`: A text version of the Suxotin algorithm for additional testing purposes.
@@ -59,9 +59,7 @@ To run the script `suxotin.py` in this repository:
    python suxotin.py
    ```
    - Follow the on-screen prompts to choose between processing a local text file or using the NLTK Gutenberg corpus.
-   - You will also be asked whether to preprocess the text. Respond with 'yes' or 'no' based on your preference.
+   - You will also be asked whether to preprocess the text. Respond with 'yes' or 'no' based on your preference. It is recommended 'yes' to preprocess the text to remove punctuation and convert all characters to lowercase.
 
 ## Contributing
-We welcome contributions to this project. To contribute, fork the repository, make your changes, and submit a pull request. Your contributions will help enhance the algorithm and extend its capabilities.
-
-This version aims to provide clearer instructions and descriptions, making it easier for readers to understand the repository's purpose and how to engage with it effectively.
+I appreciate contributions to enhance this project and extend the capabilities of the algorothm. To contribute, please fork the repository, make changes, and submit a pull request.
