@@ -6,11 +6,13 @@ This repository contains an implementation of Suxotin's algorithm, designed to i
 Although the underlying principles of the algorithm are not extensively explained in the literature, its efficacy is evident. For example, in the `sherlock_holmes.txt` file, the algorithm accurately identified all relevant vowels with minimal errors.
 
 `Classified vowels: ['a', 'e', 'i', 'o', 'u', 'â', 'æ', 'è', 'é']`
+
 `Classified consonants: ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'à', 'œ']`
 
 Testing on the NLTK Gutenberg corpus yielded similar accuracy, confirming its robustness.
 
 `Classified Vowels: [a, e, i, o, u, æ, è]`
+
 `Classified Consonants: [b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, é, î]`
 
 The algorithm occasionally misclassified low-frequency diacritical vowels like 'à', 'œ', 'é' and 'î' as consonants.
