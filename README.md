@@ -30,10 +30,16 @@ The algorithm occasionally misclassified low-frequency diacritical vowels like '
 
 ## Installation
 1. **Clone this repository to your local machine:**
-   ```bash
-   git clone <repository-url>
-   ```
-   Replace `<repository-url>` with the actual URL of the repository.
+
+   - Using `git`:
+     ```bash
+     git clone https://github.com/jhnwnstd/suxotin
+     ```
+
+   - Using GitHub CLI:
+     ```bash
+     gh repo clone jhnwnstd/suxotin
+     ```
 
 2. **Install the required dependencies:**
    - You need Python 3.6 or higher. Check your Python version by running `python --version` in your terminal.
@@ -41,6 +47,7 @@ The algorithm occasionally misclassified low-frequency diacritical vowels like '
      ```bash
      pip install numpy nltk
      ```
+
 3. **Download the necessary NLTK data:**
    - After installing NLTK, download the Gutenberg corpus, which is used if you choose the NLTK data source:
      ```python
