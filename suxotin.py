@@ -4,9 +4,9 @@ from pathlib import Path
 import nltk
 from nltk.corpus import gutenberg
 
-nltk.download('gutenberg')
+nltk.download('gutenberg', quiet=True)  # Download the Gutenberg Corpus if not already downloaded
 
-def preprocess_text(text)->str:
+def preprocess_text(text) -> str:
     """
     Convert the input text to lowercase and remove all characters except alphabets and spaces.
 
@@ -19,7 +19,7 @@ def preprocess_text(text)->str:
     # Iterate through text, convert to lower case if alphabetic or space, otherwise remove
     return ''.join(char.lower() if char.isalpha() or char.isspace() else '' for char in text)
 
-def create_frequency_matrix(text)->tuple:
+def create_frequency_matrix(text) -> tuple[np.ndarray, dict]:
     """
     Create a frequency matrix of adjacent characters in the text based on unique characters.
     This matrix is symmetric and counts the adjacencies for each pair of characters in the text.
@@ -53,7 +53,7 @@ def create_frequency_matrix(text)->tuple:
     np.fill_diagonal(matrix, 0)
     return matrix, char_to_index
 
-def classify_vowels(sums, matrix, char_to_index)->tuple[set, set]:
+def classify_vowels(sums, matrix, char_to_index) -> tuple[set, set]:
     """
     Classify characters as vowels or consonants based on their adjacency counts within a given text.
     Characters with higher adjacency counts are initially considered for classification as vowels,
@@ -62,10 +62,10 @@ def classify_vowels(sums, matrix, char_to_index)->tuple[set, set]:
     and then classifies the remaining characters as consonants.
 
     Args:
-    sums (np.array): Array of sums for each character's adjacencies, where each sum is the total count
-                     of adjacencies involving the corresponding character.
-    matrix (np.array): The frequency matrix of character adjacencies, where the element at [i, j]
-                       indicates the adjacency count between characters i and j.
+    sums (np.ndarray): Array of sums for each character's adjacencies, where each sum is the total count
+                       of adjacencies involving the corresponding character.
+    matrix (np.ndarray): The frequency matrix of character adjacencies, where the element at [i, j]
+                         indicates the adjacency count between characters i and j.
     char_to_index (dict): Mapping of characters to their respective indices in the matrix. This mapping
                           helps identify characters from indices in the matrix.
 
@@ -118,12 +118,8 @@ def suxotins_algorithm(text: str, preprocess: bool = True) -> tuple[set, set]:
     # Generate a frequency matrix and a character-to-index mapping from the processed text
     matrix, char_to_index = create_frequency_matrix(text)
     
-    # Define a lambda function to compute the sum of adjacencies for each character in the matrix
-    # The lambda function takes a matrix 'm' and computes the sum across its rows (axis=1)
-    sum_rows = lambda m: m.sum(axis=1)
-    
     # Calculate the adjacency sums which will be used to classify characters
-    sums = sum_rows(matrix)
+    sums = matrix.sum(axis=1)
     
     # Classify characters into vowels and consonants based on the calculated sums and the frequency matrix
     vowels, consonants = classify_vowels(sums, matrix, char_to_index)
@@ -131,7 +127,7 @@ def suxotins_algorithm(text: str, preprocess: bool = True) -> tuple[set, set]:
     # Return the classified sets of vowels and consonants
     return vowels, consonants
 
-def get_preprocess_confirmation():
+def get_preprocess_confirmation() -> bool:
     """
     Prompt the user to confirm if they want to preprocess the text.
     Accepts any input starting with 'y' or 'n' as a valid response and is case insensitive.
