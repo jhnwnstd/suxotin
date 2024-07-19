@@ -1,23 +1,23 @@
-Here's the updated README with the detailed explanation of why Suxotin's algorithm works:
-
 # Suxotin's Vowel Identification Algorithm
 
 ## Overview
 This repository contains an implementation of Suxotin's algorithm, designed to identify vowels in texts by analyzing their formal properties. Using statistical analysis, the algorithm examines letter combinations to classify letters based on their adjacency patterns. This algorithm is especially useful for linguists and decipherment enthusiasts.
 
-Although the underlying principles of the algorithm are not extensively explained in the literature, its efficacy is evident. For example, in the `sherlock_holmes.txt` file, the algorithm accurately identified all relevant vowels with minimal errors.
+Although the underlying principles of the algorithm are not extensively explained in the literature, its efficacy is evident. For example, in the `sherlock_holmes.txt` file, the algorithm accurately identified all relevant vowels with minimal errors:
 
-`Classified vowels: ['a', 'e', 'i', 'o', 'u', 'â', 'æ', 'è', 'é']`
+```
+Classified vowels: ['a', 'e', 'i', 'o', 'u', 'â', 'æ', 'è', 'é']
+Classified consonants: ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'à', 'œ']
+```
 
-`Classified consonants: ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'à', 'œ']`
+Testing on the NLTK Gutenberg corpus yielded similar accuracy, confirming its robustness:
 
-Testing on the NLTK Gutenberg corpus yielded similar accuracy, confirming its robustness.
+```
+Classified Vowels: ['a', 'e', 'i', 'o', 'u', 'æ', 'è']
+Classified Consonants: ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'é', 'î']
+```
 
-`Classified Vowels: [a, e, i, o, u, æ, è]`
-
-`Classified Consonants: [b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, é, î]`
-
-The algorithm occasionally misclassified low-frequency diacritical vowels like 'à', 'œ', 'é' and 'î' as consonants.
+The algorithm occasionally misclassified low-frequency vowels like 'à', 'œ', 'é' and 'î' as consonants.
 
 ## Features
 - **Language Agnostic**: The algorithm can process texts in multiple languages and accurately identify vowel patterns regardless of the language.
@@ -77,7 +77,7 @@ These principles, combined with the iterative refinement process, make Suxotin's
      ```
 
 2. **Install the required dependencies:**
-   - You need Python 3.6 or higher. Check your Python version by running `python --version` in your terminal.
+   - You need Python 3.11 or higher. Check your Python version by running `python --version` in your terminal.
    - Install NumPy and NLTK, which are essential for running the algorithm:
      ```bash
      pip install numpy nltk
