@@ -1,3 +1,7 @@
+Here's the updated README with the detailed explanation of why Suxotin's algorithm works:
+
+---
+
 # Suxotin's Vowel Identification Algorithm
 
 ## Overview
@@ -21,10 +25,41 @@ The algorithm occasionally misclassified low-frequency diacritical vowels like '
 - **Language Agnostic**: The algorithm can process texts in multiple languages and accurately identify vowel patterns regardless of the language.
 - **Fast and Efficient**: By leveraging NumPy for matrix operations, the algorithm achieves high computational speed and efficiency.
 
+## Why the Algorithm Works
+Suxotin's algorithm is effective because it leverages two key linguistic and statistical principles observed in natural languages:
+
+1. **Alternation of Vowels and Consonants**:
+    - Vowels and consonants often alternate in texts. This means that vowels are frequently adjacent to consonants and vice versa. Clusters of vowels or consonants do occur but are less common.
+    - This alternation results in high adjacency counts between vowels and consonants, which is captured in the frequency matrix.
+
+2. **Prevalence of Vowels**:
+    - Vowels typically occur more frequently in texts than individual consonants because they are essential for the phonetic structure of words.
+    - Therefore, in any sufficiently long text, vowels will have higher overall counts and higher adjacency counts due to their frequent alternation with consonants.
+
+### Algorithm Steps
+1. **Frequency Matrix Creation**:
+    - Create a matrix where each cell (i, j) represents the number of times character i is adjacent to character j.
+    - High values in this matrix indicate frequent adjacency.
+
+2. **Row Sums**:
+    - The sum of each row in the frequency matrix provides a measure of how frequently each character appears next to others.
+    - Vowels, due to their frequent alternation with consonants, will generally have higher row sums compared to consonants.
+
+3. **Iterative Classification**:
+    - Classify the character with the highest adjacency sum as a vowel.
+    - Adjust the sums of the remaining characters by subtracting twice the adjacency counts involving the newly classified vowel, reducing the likelihood of adjacent characters being misclassified.
+    - Repeat until no positive sums are left.
+
+### Mathematical Foundation
+- **Markov Chains**: The algorithm can be viewed through the lens of Markov chains, where state transitions (i.e., moving from one character to another) are influenced by the classification of previous characters.
+- **Maximum Likelihood Estimation (MLE)**: The algorithm maximizes the likelihood that the classified vowels and consonants fit the observed adjacency patterns in the text.
+
+These principles, combined with the iterative refinement process, make Suxotin's algorithm effective in separating vowels from consonants based on the statistical behavior of characters in natural language texts.
+
 ## Repository Contents
 - `suxotin.py`: The primary Python script implementing Suxotin's algorithm with NumPy for efficient matrix operations.
 - `sherlock_holmes.txt`: A sample text file used to test the algorithm's performance.
-- `suxotin`: A directory containing documentation of two versions of the Suxotin algorithm and a text version of the algorithm for furhter testing purposes.
+- `suxotin`: A directory containing documentation of two versions of the Suxotin algorithm and a text version of the algorithm for further testing purposes.
    - `Decipherment_Models_1973.pdf`: Details the original version of the Suxotin algorithm.
    - `guySuxotin.pdf`: Details an alternate version of the Suxotin algorithm.
    - `vowel-algorithm.txt`: A text version of the Suxotin algorithm for additional testing purposes.
