@@ -1,7 +1,5 @@
 Here's the updated README with the detailed explanation of why Suxotin's algorithm works:
 
----
-
 # Suxotin's Vowel Identification Algorithm
 
 ## Overview
