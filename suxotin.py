@@ -98,7 +98,7 @@ def classify_vowels(
             vowels.append(char)
         else:
             consonants.append(char)
-        adjustment = matrix[:, max_idx] * 2
+        adjustment = matrix[:, max_idx] * 2  # Fixed factor of 2 for consistent results
         remaining_sums -= adjustment
         remaining_sums[max_idx] = -np.inf
 
@@ -109,8 +109,8 @@ def classify_vowels(
     else:
         min_vowel_sum = 0
 
-    # Set a threshold slightly below min_vowel_sum
-    threshold = min_vowel_sum - (abs(min_vowel_sum) * 2)  # Adjust the factor as needed
+    # Apply a fixed threshold adjustment with factor 2
+    threshold = min_vowel_sum - (abs(min_vowel_sum) * 2)
 
     # Reclassify consonants with adjusted sums above the threshold as vowels
     reclassified_vowels = []
