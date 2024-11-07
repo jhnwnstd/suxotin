@@ -224,6 +224,10 @@ def main():
     vowels = [v for v in vowels if v not in {' ', '\n', '\t'}]
     consonants = [c for c in consonants if c not in {' ', '\n', '\t'}]
 
+    # Sort the results alphabetically
+    vowels = sorted(vowels)
+    consonants = sorted(consonants)
+
     # Display the classified characters
     print("\nClassified Characters:")
     print("Vowels:     ", ', '.join(vowels))
