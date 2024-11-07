@@ -72,7 +72,8 @@ def classify_vowels(
     sums: np.ndarray, matrix: np.ndarray, index_to_char: Dict[int, str]
 ) -> Tuple[List[str], List[str]]:
     """
-    Classify characters as vowels or consonants based on adjacency counts.
+    Classify characters as vowels or consonants based on adjacency counts,
+    using a threshold to capture misclassified vowels.
 
     Args:
         sums (np.ndarray): Sum of adjacency counts for each character.
@@ -82,27 +83,52 @@ def classify_vowels(
     Returns:
         Tuple[List[str], List[str]]: Lists of vowels and consonants in the order they were classified.
     """
-    num_chars = len(sums)  # Total number of unique characters
-    remaining_sums = sums.astype(np.float64)  # Convert to float to allow -np.inf assignment
-    vowels = []       # List to store classified vowels in order
-    consonants = []   # List to store classified consonants in order
+    num_chars = len(sums)
+    remaining_sums = sums.astype(np.float64)
+    vowels = []
+    consonants = []
+    adjusted_sums = np.zeros(num_chars, dtype=np.float64)  # To store final adjusted sums
 
-    for _ in range(num_chars):  # Iterate over all characters
-        # Find the index of the character with the highest remaining adjacency sum
+    for _ in range(num_chars):
         max_idx = np.argmax(remaining_sums)
-        # Retrieve the character corresponding to the index
         char = index_to_char[max_idx]
-        # Classify the character based on the remaining sum
+        adjusted_sums[max_idx] = remaining_sums[max_idx]  # Store the adjusted sum
+        # Classify based on remaining sum
         if remaining_sums[max_idx] > 0:
-            vowels.append(char)  # Positive sum indicates a vowel
+            vowels.append(char)
         else:
-            consonants.append(char)  # Non-positive sum indicates a consonant
-        # Calculate the adjustment to remaining sums based on adjacency counts with the selected character
-        adjustment = matrix[:, max_idx] * 2  # Multiply by 2 because matrix is symmetric
-        remaining_sums -= adjustment  # Subtract the adjustment from remaining sums
-        remaining_sums[max_idx] = -np.inf  # Set the sum for the processed index to -inf to exclude it from future selection
+            consonants.append(char)
+        adjustment = matrix[:, max_idx] * 2
+        remaining_sums -= adjustment
+        remaining_sums[max_idx] = -np.inf
 
-    return vowels, consonants  # Return the lists of vowels and consonants
+    # Determine threshold based on minimum adjusted sum among vowels
+    if vowels:
+        vowel_indices = [idx for idx, c in index_to_char.items() if c in vowels]
+        min_vowel_sum = adjusted_sums[vowel_indices].min()
+    else:
+        min_vowel_sum = 0
+
+    # Set a threshold slightly below min_vowel_sum
+    threshold = min_vowel_sum - (abs(min_vowel_sum) * 2)  # Adjust the factor as needed
+
+    # Reclassify consonants with adjusted sums above the threshold as vowels
+    reclassified_vowels = []
+    new_consonants = []
+    for char in consonants:
+        idx = next(idx for idx, c in index_to_char.items() if c == char)
+        if adjusted_sums[idx] >= threshold:
+            reclassified_vowels.append(char)
+        else:
+            new_consonants.append(char)
+
+    # Combine the original vowels with reclassified vowels
+    vowels.extend(reclassified_vowels)
+
+    # The consonants list now consists of new_consonants
+    consonants = new_consonants
+
+    return vowels, consonants  # Return the classified lists
 
 def suxotins_algorithm(text: str, preprocess: bool = True) -> Tuple[List[str], List[str]]:
     """
