@@ -51,15 +51,15 @@ Suxotin's algorithm relies on fundamental statistical properties observed in nat
 
 The algorithm was tested across multiple languages with distinct vowel and consonant sets. Here are the results, including precision, recall, and F1 scores:
 
-| **Language** | **True Positives (TP)** | **False Positives (FP)** | **False Negatives (FN)** | **Precision** | **Recall** | **F1 Score** |
+| Language | True Positives (TP) | False Positives (FP) | False Negatives (FN) | Precision | Recall | F1 Score |
 |--------------|-------------------------|--------------------------|--------------------------|---------------|------------|--------------|
-| **German**   | 9                       | 1                        | 0                        | 0.9000        | 1.0000     | 0.9474       |
-| **French**   | 12                      | 0                        | 2                        | 1.0000        | 0.8571     | 0.9231       |
-| **Spanish**  | 9                       | 1                        | 1                        | 0.9000        | 0.9000     | 0.9000       |
-| **Italian**  | 7                       | 0                        | 4                        | 1.0000        | 0.6364     | 0.7778       |
-| **Dutch**    | 10                      | 0                        | 1                        | 1.0000        | 0.9091     | 0.9524       |
-| **Greek**    | 14                      | 0                        | 1                        | 1.0000        | 0.9333     | 0.9655       |
-| **English**  | 5                       | 0                        | 1                        | 1.0000        | 0.8333     | 0.9091       |
+| German   | 12                      | 1                        | 0                        | 0.923         | 1.000      | 0.960        |
+| French   | 17                      | 1                        | 1                        | 0.944         | 0.944      | 0.944        |
+| Spanish  | 11                      | 2                        | 0                        | 0.846         | 1.000      | 0.917        |
+| Italian  | 12                      | 2                        | 4                        | 0.857         | 0.750      | 0.800        |
+| Dutch    | 12                      | 0                        | 1                        | 1.000         | 0.923      | 0.960        |
+| Greek    | 20                      | 3                        | 2                        | 0.870         | 0.909      | 0.889        |
+| English  | 9                       | 0                        | 0                        | 1.000         | 1.000      | 1.000        |
 
 ### Interpretation
 
