@@ -2,60 +2,70 @@
 
 ## Overview
 
-This repository contains an implementation of Suxotin's algorithm, designed to identify vowels in texts by analyzing character adjacency patterns. The algorithm utilizes statistical analysis of letter combinations to classify letters based on their adjacency counts, making it a powerful tool for linguists, cryptanalysts, and language enthusiasts.
+This repository contains an implementation of Suxotin's algorithm, designed to identify vowels in texts by analyzing character adjacency patterns. By leveraging the statistical properties of letters in natural languages, the algorithm can classify letters as vowels or consonants, making it a valuable tool for linguists, cryptanalysts, and language enthusiasts.
 
-The algorithm operates independently of any specific language, making it applicable to a wide range of texts. It is particularly effective in deciphering unknown languages or scripts by leveraging the statistical properties of letters in natural languages.
+The algorithm operates independently of any specific language, making it applicable to a wide range of texts. Its versatility allows it to identify vowel patterns across different languages with high precision.
 
 ## Features
 
-- **Language Agnostic**: Processes texts in any language and accurately identifies vowel patterns regardless of the language's orthography or phonetics.
-- **Efficient Computation**: Utilizes NumPy for efficient matrix operations, allowing for the analysis of large texts with high performance.
-- **Improved Accuracy**: Implements an adjustable threshold factor to refine the classification of vowels and consonants, ensuring high accuracy across different datasets.
-- **Alphabetical Output**: The final classified vowels and consonants are sorted alphabetically for easy interpretation.
+- **Language Agnostic**: Processes texts in any language and identifies vowel patterns, regardless of the language's orthography.
+- **Efficient Computation**: Utilizes NumPy for matrix operations, enabling high performance for large texts.
+- **Precision-Focused Classification**: Refines vowel and consonant classification through an adjustable threshold, achieving high accuracy across various datasets.
+- **Alphabetical Output**: The results are sorted alphabetically for easy interpretation.
 
 ## Why the Algorithm Works
 
-Suxotin's algorithm is effective because it leverages fundamental statistical properties observed in natural languages:
+Suxotin's algorithm relies on fundamental statistical properties observed in natural languages:
 
-1. **Alternation of Vowels and Consonants**: In most languages, vowels and consonants alternate frequently within words. This means that vowels are often adjacent to consonants, and vice versa. By analyzing the adjacency patterns between letters, the algorithm can detect which letters behave like vowels based on their frequent transitions with consonants.
+1. **Alternation of Vowels and Consonants**: Vowels and consonants frequently alternate in words, leading to characteristic adjacency patterns. This behavior helps the algorithm detect letters that function like vowels.
+  
+2. **Frequency of Vowels**: Vowels tend to appear frequently and in multiple combinations, creating higher adjacency counts, which the algorithm leverages for classification.
 
-2. **Frequency of Vowels**: Vowels tend to occur more frequently than individual consonants due to their essential role in word formation and pronunciation. They often appear in multiple contexts and combinations, leading to higher overall adjacency counts.
-
-## How the Algorithm Works
+## Algorithm Workflow
 
 ### 1. Preprocessing the Text
 
-- The text is converted to lowercase, and all non-alphabetic characters are removed (except for spaces, if desired). This standardizes the input and focuses the analysis on the letters themselves.
+- Text is converted to lowercase, and non-alphabetic characters are removed, standardizing the input for analysis.
 
 ### 2. Creating the Frequency Matrix
 
-- A frequency matrix is constructed where each cell `(i, j)` represents the number of times character `i` appears adjacent to character `j` in the text. This matrix is symmetric since adjacency is bidirectional.
+- A symmetric matrix is created, where each cell `(i, j)` represents the number of times character `i` is adjacent to character `j` in the text.
 
-### 3. Calculating the Adjacency Sums
+### 3. Calculating Adjacency Sums
 
-- The sum of each row (or column) in the frequency matrix is calculated, representing the total number of adjacencies for each character. Characters with higher adjacency sums are more connected to other characters in the text.
+- Each character’s adjacency count is summed, highlighting characters with high connectivity to others, often vowels.
 
 ### 4. Iterative Classification of Vowels and Consonants
 
-- The algorithm iteratively selects the character with the highest remaining adjacency sum as a vowel.
-- After selecting a vowel, the adjacency sums of all other characters are adjusted by subtracting twice the adjacency counts involving the newly classified vowel. This reduces the influence of already classified vowels on the remaining characters.
-- This process continues until all characters have been classified.
+- Characters with the highest remaining adjacency sums are iteratively classified as vowels, with adjustments made to minimize the influence of previously classified vowels.
 
 ### 5. Threshold-Based Reclassification
 
-- To capture any vowels that might have been misclassified due to slight variations in their adjacency sums, a threshold is applied.
-- The threshold is calculated based on the minimum adjusted sum among the initially classified vowels, adjusted by a factor (set to **2** in this implementation).
-- Consonants with adjusted sums above this threshold are reclassified as vowels.
-- This step ensures that vowels with slightly lower adjacency sums are not overlooked.
-
-**Why Factor 2?**
-
-- **Capturing Misclassified Vowels**: Some vowels may have adjusted sums that are slightly negative due to the adjustments made during the iterative classification. By setting the threshold factor to **2**, the threshold is lowered enough to include these vowels in the final classification.
-- **Avoiding Overclassification**: Higher threshold factors can lead to consonants with low adjacency sums being misclassified as vowels. By selecting a factor of **2**, we strike a balance between capturing all vowels and avoiding the inclusion of consonants.
+- A threshold, set to **2** in this implementation, ensures that vowels with slightly lower adjacency sums are not misclassified. This balance helps capture all vowels while avoiding overclassification.
 
 ### 6. Sorting the Results
 
-- The final lists of vowels and consonants are sorted alphabetically. This makes the results easier to read and compare, especially when analyzing outputs across different texts.
+- Classified vowels and consonants are sorted alphabetically for clarity.
+
+## Performance and Evaluation
+
+The algorithm was tested across multiple languages with distinct vowel and consonant sets. Here are the results, including precision, recall, and F1 scores:
+
+| **Language** | **True Positives (TP)** | **False Positives (FP)** | **False Negatives (FN)** | **Precision** | **Recall** | **F1 Score** |
+|--------------|-------------------------|--------------------------|--------------------------|---------------|------------|--------------|
+| **German**   | 9                       | 1                        | 0                        | 0.9000        | 1.0000     | 0.9474       |
+| **French**   | 12                      | 0                        | 2                        | 1.0000        | 0.8571     | 0.9231       |
+| **Spanish**  | 9                       | 1                        | 1                        | 0.9000        | 0.9000     | 0.9000       |
+| **Italian**  | 7                       | 0                        | 4                        | 1.0000        | 0.6364     | 0.7778       |
+| **Dutch**    | 10                      | 0                        | 1                        | 1.0000        | 0.9091     | 0.9524       |
+| **Greek**    | 14                      | 0                        | 1                        | 1.0000        | 0.9333     | 0.9655       |
+| **English**  | 5                       | 0                        | 1                        | 1.0000        | 0.8333     | 0.9091       |
+
+### Interpretation
+
+- **High Precision**: Precision is perfect (1.0) for most languages, indicating that the algorithm correctly identifies vowels without misclassifying consonants.
+- **Balanced F1 Scores**: F1 scores are high across most languages, with the algorithm performing exceptionally well in Greek, Dutch, and German.
+- **Recall Considerations**: Languages like Italian and French have lower recall due to missed vowels, suggesting that minor adjustments could improve accuracy.
 
 ## Example Results
 
@@ -79,17 +89,15 @@ Consonants:  b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
 Execution time: 0.1365 seconds
 ```
 
-In both examples, the algorithm successfully identified the vowels, including accented characters such as 'à', 'â', 'æ', 'è', 'é', and 'œ'. The consonants were also correctly classified, demonstrating the algorithm's effectiveness across different texts.
-
 ## Repository Contents
 
-- **`suxotin.py`**: The main Python script implementing Suxotin's algorithm with the improvements discussed.
-- **`sherlock_holmes.txt`**: A sample text file used for testing the algorithm.
+- **`suxotin.py`**: The main Python script implementing Suxotin's algorithm.
+- **`sherlock_holmes.txt`**: Sample text used for testing.
 - **Documentation Files**:
-  - **`Decipherment_Models_1973.pdf`**: Details the original version of Suxotin's algorithm.
-  - **`guySuxotin.pdf`**: Provides an alternative version of the algorithm.
-  - **`vowel-algorithm.txt`**: A text version of the algorithm for further testing and exploration.
-- **`README.md`**: This file, providing an overview of the algorithm and instructions for use.
+  - **`Decipherment_Models_1973.pdf`**: Original version of Suxotin's algorithm.
+  - **`guySuxotin.pdf`**: An alternative version of the algorithm.
+  - **`vowel-algorithm.txt`**: Text version of the algorithm for further exploration.
+- **`README.md`**: This file, summarizing the algorithm and instructions.
 
 ## Installation
 
@@ -128,11 +136,11 @@ In both examples, the algorithm successfully identified the vowels, including ac
 
 4. **Download NLTK Data**
 
-   In a Python shell or script, download the Gutenberg corpus:
+   In a Python shell or script, download the required data:
 
    ```python
    import nltk
-   nltk.download('gutenberg')
+   nltk.download('europarl_raw')
    ```
 
 ## Usage
@@ -145,15 +153,14 @@ To run the algorithm:
    python suxotin.py
    ```
 
-2. **Select the Data Source**
+2. **Select Languages**
 
-   - **Option 1**: Use the local file `sherlock_holmes.txt`.
-   - **Option 2**: Use the NLTK Gutenberg Corpus.
+   - Choose a specific language or select "0" to analyze all languages.
 
 3. **Preprocess the Text**
 
-   - When prompted, it's recommended to choose 'yes' to preprocess the text. This will remove non-alphabetic characters and convert all letters to lowercase, improving the accuracy of the algorithm.
+   - When prompted, choosing 'yes' for preprocessing is recommended, as this removes non-alphabetic characters and standardizes input.
 
 4. **View the Results**
 
-   - The script will display the classified vowels and consonants, sorted alphabetically.
+   - The classified vowels and consonants are displayed alphabetically, alongside precision, recall, and F1 scores for each language.
