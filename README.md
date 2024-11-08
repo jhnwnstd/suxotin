@@ -61,11 +61,17 @@ The algorithm was tested across multiple languages with distinct vowel and conso
 | Greek    | 20                      | 3                        | 2                        | 0.870         | 0.909      | 0.889        |
 | English  | 9                       | 0                        | 0                        | 1.000         | 1.000      | 1.000        |
 
-### Interpretation
+### Performance Summary
+- **Strong Precision**: The algorithm achieved good precision across most languages, with English showing perfect precision (1.0). Most other languages maintained precision above 0.84, with French (0.944), German (0.923), and Greek (0.870) showing particularly strong results. Even in complex cases involving multiple alphabets and diacritics, the algorithm maintained reliable vowel identification.
+  
+- **Varied Recall**: The algorithm achieved mixed recall scores, ranging from perfect (1.0 for English, Spanish, and German) to lower values for Italian (0.750). Most languages maintained recall above 0.90, demonstrating good but not perfect detection of vowel patterns, including accented variants.
 
-- **High Precision**: Precision is perfect (1.0) for most languages, indicating that the algorithm correctly identifies vowels without misclassifying consonants.
-- **Balanced F1 Scores**: F1 scores are high across most languages, with the algorithm performing exceptionally well in Greek, Dutch, and German.
-- **Recall Considerations**: Languages like Italian and French have lower recall due to missed vowels, suggesting that minor adjustments could improve accuracy.
+- **F1 Scores**: The F1 scores show strong overall performance:
+  - Perfect score for English (1.0)
+  - Excellent performance for German and Dutch (0.960)
+  - Strong results for French (0.944) and Spanish (0.917)
+  - Good performance for Greek (0.889)
+  - Solid performance for Italian (0.800)
 
 ## Example Results
 
