@@ -177,7 +177,7 @@ def classify_vowels(
         min_vowel_sum = 0
 
     # Apply a fixed threshold adjustment with factor 2
-    threshold = min_vowel_sum - (abs(min_vowel_sum) * 1) # Adjusted threshold for consistent results 2 for Germnic languages 1 for Romance languages
+    threshold = min_vowel_sum - (abs(min_vowel_sum) * 1.5) # Adjusted threshold for consistent results 2 for Germnic languages 1 for Romance languages
 
     # Reclassify consonants with adjusted sums above the threshold as vowels
     reclassified_vowels = []
