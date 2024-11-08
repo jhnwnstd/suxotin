@@ -122,7 +122,7 @@ def classify_vowels(
         min_vowel_sum = 0
 
     # Calculate the threshold to reclassify consonants as vowels if necessary
-    threshold = min_vowel_sum - abs(min_vowel_sum) * 2
+    threshold = min_vowel_sum - abs(min_vowel_sum) * 2 # Adjust threshold as needed
 
     # Reclassify consonants with adjusted sums above the threshold as vowels
     reclassified_vowels = []
