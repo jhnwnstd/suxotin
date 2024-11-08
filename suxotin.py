@@ -1,13 +1,80 @@
 import time
-from pathlib import Path
 from typing import Dict, List, Tuple
-
+from spacy.cli import download
+from nltk.corpus import europarl_raw
+import nltk
 import numpy as np
-from nltk.corpus import gutenberg
-from nltk import download
 
-# Ensure the necessary NLTK data is downloaded silently without output
-download('gutenberg', quiet=True)
+# Download required NLTK and spaCy resources
+def setup_resources():
+    """Download and setup required language resources"""
+    nltk.download('europarl_raw', quiet=True)
+    nltk.download('gutenberg', quiet=True)
+    
+    models = {
+        'German': 'de_core_news_sm',
+        'French': 'fr_core_news_sm',
+        'Spanish': 'es_core_news_sm',
+        'Italian': 'it_core_news_sm',
+        'Dutch': 'nl_core_news_sm',
+        'Greek': 'el_core_news_sm',
+        'English': 'en_core_web_sm'
+    }
+    
+    import spacy.util
+    for model in models.values():
+        # Check if model is already installed
+        if not spacy.util.is_package(model):
+            try:
+                print(f"Downloading {model}...")
+                download(model)
+            except:
+                print(f"Error downloading {model}")
+        else:
+            print(f"{model} is already installed")
+
+def get_language_data(language: str) -> str:
+    """Get text data for the specified language from Europarl corpus"""
+    corpus_map = {
+        'German': europarl_raw.german,
+        'French': europarl_raw.french,
+        'Spanish': europarl_raw.spanish,
+        'Italian': europarl_raw.italian,
+        'Dutch': europarl_raw.dutch,
+        'Greek': europarl_raw.greek,
+        'English': europarl_raw.english
+    }
+    
+    if language in corpus_map:
+        # Get the corpus for the selected language
+        corpus = corpus_map[language]
+        # Get the raw text and join into a single string
+        try:
+            # Get first few paragraphs or sentences
+            text = ' '.join(corpus.words()[:5000])  # Using words() method and taking first 5000 words
+            return text
+        except Exception as e:
+            print(f"Error accessing {language} corpus: {e}")
+            return ""
+    return ""
+
+def select_language() -> str:
+    """Prompt user to select a language for analysis"""
+    languages = ['German', 'French', 'Spanish', 'Italian', 'Dutch', 'Greek', 'English']
+    
+    while True:
+        print("\nAvailable languages:")
+        for idx, lang in enumerate(languages, 1):
+            print(f"{idx} - {lang}")
+        
+        choice = input("Select a language (enter number): ").strip()
+        try:
+            index = int(choice) - 1
+            if 0 <= index < len(languages):
+                return languages[index]
+        except ValueError:
+            pass
+        print("Invalid choice. Please enter a number from the list.")
 
 def preprocess_text(text: str) -> str:
     """
@@ -110,7 +177,7 @@ def classify_vowels(
         min_vowel_sum = 0
 
     # Apply a fixed threshold adjustment with factor 2
-    threshold = min_vowel_sum - (abs(min_vowel_sum) * 2)
+    threshold = min_vowel_sum - (abs(min_vowel_sum) * 1) # Adjusted threshold for consistent results 2 for Germnic languages 1 for Romance languages
 
     # Reclassify consonants with adjusted sums above the threshold as vowels
     reclassified_vowels = []
@@ -174,69 +241,52 @@ def get_preprocess_confirmation() -> bool:
             # Invalid input; prompt again
             print("Invalid input. Please answer with 'yes' or 'no'.")
 
-def select_data_source() -> str:
-    """
-    Prompt the user to select the data source.
-
-    Returns:
-        str: The text to analyze.
-    """
-    while True:
-        # Present options for data source selection
-        choice = input(
-            "Choose the data source:\n"
-            "1 - Local file ('sherlock_holmes.txt')\n"
-            "2 - NLTK Gutenberg Corpus\n"
-            "Enter 1 or 2: "
-        ).strip()
-        if choice == '1':
-            # User selects local file
-            file_path = Path('sherlock_holmes.txt')
-            if not file_path.exists():
-                # Notify user if file does not exist
-                print(f"File '{file_path}' not found.")
-                continue  # Prompt again
-            # Read and return the content of the file
-            with file_path.open('r', encoding='utf-8') as file:
-                return file.read()
-        elif choice == '2':
-            # User selects NLTK Gutenberg Corpus
-            return ' '.join(gutenberg.words())  # Return the corpus as a single string
-        else:
-            # Invalid input; prompt again
-            print("Invalid choice. Please enter 1 or 2.")
-
 def main():
     """
-    Main function to execute the classification algorithm and display results.
+    Main function with multilingual support
     """
-    # Get the text to analyze based on user's choice
-    text = select_data_source()
-    # Ask user whether to preprocess the text
-    preprocess = get_preprocess_confirmation()
-    # Record the start time for performance measurement
-    start_time = time.perf_counter()
+    print("Setting up language resources...")
+    setup_resources()
+    
+    while True:
+        # Select language
+        language = select_language()
+        print(f"\nGetting {language} text data...")
+        text = get_language_data(language)
+        
+        if not text:
+            print(f"Error: No text data available for {language}")
+            continue
+            
+        # Ask for preprocessing preference
+        preprocess = input("Preprocess text? (yes/no): ").lower().startswith('y')
+        
+        # Record start time
+        start_time = time.perf_counter()
+        
+        # Run classification
+        vowels, consonants = suxotins_algorithm(text, preprocess)
+        
+        # Remove non-printable characters
+        vowels = [v for v in vowels if v not in {' ', '\n', '\t'}]
+        consonants = [c for c in consonants if c not in {' ', '\n', '\t'}]
+        
+        # Sort results
+        vowels = sorted(vowels)
+        consonants = sorted(consonants)
+        
+        # Display results
+        print(f"\n{language} Classification Results:")
+        print("Vowels:     ", ', '.join(vowels))
+        print("Consonants: ", ', '.join(consonants))
+        
+        # Show execution time
+        end_time = time.perf_counter()
+        print(f"\nExecution time: {end_time - start_time:.4f} seconds")
+        
+        # Ask if user wants to analyze another language
+        if not input("\nAnalyze another language? (yes/no): ").lower().startswith('y'):
+            break
 
-    # Apply Suxotin's algorithm to classify vowels and consonants
-    vowels, consonants = suxotins_algorithm(text, preprocess)
-
-    # Remove non-printable characters (e.g., spaces, tabs, newlines) from the results
-    vowels = [v for v in vowels if v not in {' ', '\n', '\t'}]
-    consonants = [c for c in consonants if c not in {' ', '\n', '\t'}]
-
-    # Sort the results alphabetically
-    vowels = sorted(vowels)
-    consonants = sorted(consonants)
-
-    # Display the classified characters
-    print("\nClassified Characters:")
-    print("Vowels:     ", ', '.join(vowels))
-    print("Consonants: ", ', '.join(consonants))
-
-    # Record the end time and calculate execution duration
-    end_time = time.perf_counter()
-    print(f"\nExecution time: {end_time - start_time:.4f} seconds")
-
-# Entry point of the script; execute main() if the script is run directly
 if __name__ == '__main__':
     main()
