@@ -60,6 +60,9 @@ The algorithm was tested across multiple languages with distinct vowel and conso
 | Dutch    | 12                      | 0                        | 1                        | 1.000         | 0.923      | 0.960        |
 | Greek    | 20                      | 3                        | 2                        | 0.870         | 0.909      | 0.889        |
 | English  | 9                       | 0                        | 0                        | 1.000         | 1.000      | 1.000        |
+| Swedish  | 12                      | 2                        | 0                        | 0.860         | 1.000      | 0.920        |
+| Portuguese  | 15                   | 3                        | 3                        | 0.830         | 0.830      | 0.830        |
+| Finnish  | 10                      | 2                        | 0                        | 0.830         | 1.000      | 0.910        |
 
 ### Performance Summary
 - **Strong Precision**: The algorithm achieved good precision across most languages, with English showing perfect precision (1.0). Most other languages maintained precision above 0.84, with French (0.944), German (0.923), and Greek (0.870) showing particularly strong results. Even in complex cases involving multiple alphabets and diacritics, the algorithm maintained reliable vowel identification.

@@ -31,7 +31,10 @@ def get_language_data(language: str) -> str:
         'Italian': europarl_raw.italian,
         'Dutch': europarl_raw.dutch,
         'Greek': europarl_raw.greek,
-        'English': europarl_raw.english
+        'English': europarl_raw.english,
+        'Swedish': europarl_raw.swedish,
+        'Portuguese': europarl_raw.portuguese,
+        'Finnish': europarl_raw.finnish,
     }
     # Retrieve the corpus based on the language selected
     corpus = corpus_map.get(language)
@@ -181,7 +184,7 @@ def main():
     """
     Main function with multilingual support for analyzing all or selected languages.
     """
-    languages = ['German', 'French', 'Spanish', 'Italian', 'Dutch', 'Greek', 'English']
+    languages = ['German', 'French', 'Spanish', 'Italian', 'Dutch', 'Greek', 'English', 'Swedish', 'Portuguese', 'Finnish']
     print("\nAvailable options:")
     print("0 - Run analysis for all languages")
     for idx, lang in enumerate(languages, 1):
