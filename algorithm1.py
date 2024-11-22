@@ -139,22 +139,73 @@ def algorithm1(corpus, max_words):
     # Return the lists of vowels and consonants
     return vowels, consonants
 
-# Prepare the corpus by loading words from the Brown corpus
-words = brown.words()
+# List of languages to process
+languages = ['German', 'French', 'Spanish', 'Italian', 'Dutch', 'Greek', 'English',
+             'Swedish', 'Portuguese', 'Finnish']
+
+# Ensure the Europarl corpus is downloaded
+nltk.download('europarl_raw')
+
+from nltk.corpus import europarl_raw
+
+def get_language_data(language):
+    """Get text data for the specified language from the Europarl corpus."""
+    corpus_map = {
+        'German': europarl_raw.german,
+        'French': europarl_raw.french,
+        'Spanish': europarl_raw.spanish,
+        'Italian': europarl_raw.italian,
+        'Dutch': europarl_raw.dutch,
+        'Greek': europarl_raw.greek,
+        'English': europarl_raw.english,
+        'Swedish': europarl_raw.swedish,
+        'Portuguese': europarl_raw.portuguese,
+        'Finnish': europarl_raw.finnish,
+    }
+    corpus = corpus_map.get(language)
+    if corpus:
+        try:
+            # Retrieve a portion of the corpus to limit processing time
+            words = corpus.words()[:100000]
+            return words
+        except Exception as e:
+            print(f"Error accessing {language} corpus: {e}")
+            return []
+    else:
+        print(f"No corpus available for language: {language}")
+        return []
+
+def preprocess_words(words):
+    """
+    Preprocess the list of words by lowercasing and removing non-alphabetic characters.
+    """
+    corpus = [
+        ''.join(char for char in word.lower() if char.isalpha())
+        for word in words
+        if any(char.isalpha() for char in word)
+    ]
+    return corpus
+
+def run_algorithm_for_language(language, max_words):
+    print(f"\nProcessing language: {language}")
+    words = get_language_data(language)
+    if not words:
+        print(f"Error: No words available for {language}")
+        return
+    # Preprocess words
+    corpus = preprocess_words(words)
+    # Run Algorithm 1 to classify letters into vowels and consonants
+    vowels, consonants = algorithm1(corpus, max_words)
+    # Sort the results
+    vowels = sorted(set(vowels))
+    consonants = sorted(set(consonants))
+    # Print the results
+    print(f"Vowels in {language}: {', '.join(vowels)}")
+    print(f"Consonants in {language}: {', '.join(consonants)}")
 
 # Set the maximum number of words to process
 max_words = 100000  # Adjust this value as needed
 
-# Preprocess words: remove punctuation and make lowercase
-corpus = [
-    ''.join(char for char in word.lower() if char.isalpha())  # Keep only alphabetic characters
-    for word in words
-    if any(char.isalpha() for char in word)  # Exclude words that don't contain any letters
-]
-
-# Run Algorithm 1 to classify letters into vowels and consonants
-vowels, consonants = algorithm1(corpus, max_words)
-
-# Print the results
-print("Vowels:", vowels)
-print("Consonants:", consonants)
+# Run the algorithm for each language
+for language in languages:
+    run_algorithm_for_language(language, max_words)
