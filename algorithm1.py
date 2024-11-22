@@ -1,7 +1,6 @@
 import nltk
 from nltk.corpus import brown
 import numpy as np
-import string
 
 # Ensure the Brown corpus is downloaded
 nltk.download('brown')
