@@ -1,9 +1,6 @@
-import nltk
-from nltk.corpus import brown
 import numpy as np
-
-# Ensure the Brown corpus is downloaded
-nltk.download('brown')
+import pandas as pd
+import os
 
 def vowel_consonant_classification(V, letters, most_freq_letter):
     """
@@ -139,73 +136,79 @@ def algorithm1(corpus, max_words):
     # Return the lists of vowels and consonants
     return vowels, consonants
 
-# List of languages to process
-languages = ['German', 'French', 'Spanish', 'Italian', 'Dutch', 'Greek', 'English',
-             'Swedish', 'Portuguese', 'Finnish']
-
-# Ensure the Europarl corpus is downloaded
-nltk.download('europarl_raw')
-
-from nltk.corpus import europarl_raw
-
-def get_language_data(language):
-    """Get text data for the specified language from the Europarl corpus."""
-    corpus_map = {
-        'German': europarl_raw.german,
-        'French': europarl_raw.french,
-        'Spanish': europarl_raw.spanish,
-        'Italian': europarl_raw.italian,
-        'Dutch': europarl_raw.dutch,
-        'Greek': europarl_raw.greek,
-        'English': europarl_raw.english,
-        'Swedish': europarl_raw.swedish,
-        'Portuguese': europarl_raw.portuguese,
-        'Finnish': europarl_raw.finnish,
-    }
-    corpus = corpus_map.get(language)
-    if corpus:
-        try:
-            # Retrieve a portion of the corpus to limit processing time
-            words = corpus.words()[:100000]
-            return words
-        except Exception as e:
-            print(f"Error accessing {language} corpus: {e}")
-            return []
-    else:
-        print(f"No corpus available for language: {language}")
-        return []
-
-def preprocess_words(words):
+def preprocess_text(text):
     """
-    Preprocess the list of words by lowercasing and removing non-alphabetic characters.
+    Preprocess the text by lowercasing and removing non-alphabetic characters.
     """
+    words = text.lower().split()
     corpus = [
-        ''.join(char for char in word.lower() if char.isalpha())
+        ''.join(char for char in word if char.isalpha())
         for word in words
         if any(char.isalpha() for char in word)
     ]
     return corpus
 
-def run_algorithm_for_language(language, max_words):
-    print(f"\nProcessing language: {language}")
-    words = get_language_data(language)
-    if not words:
-        print(f"Error: No words available for {language}")
+def run_algorithm_for_language(language_code, language_name, max_words, test_folder):
+    print(f"\nProcessing language: {language_name} ({language_code})")
+    # Construct the filename without extension
+    filename = os.path.join(test_folder, f"{language_code}")
+    if not os.path.isfile(filename):
+        print(f"Error: File not found for language {language_name} at {filename}")
         return
-    # Preprocess words
-    corpus = preprocess_words(words)
-    # Run Algorithm 1 to classify letters into vowels and consonants
+    # Read the text data
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            text = f.read()
+    except UnicodeDecodeError:
+        # Try a different encoding if utf-8 fails
+        with open(filename, 'r', encoding='latin-1') as f:
+            text = f.read()
+    except Exception as e:
+        print(f"Error reading file {filename}: {e}")
+        return
+    # Preprocess the text
+    corpus = preprocess_text(text)
+    if not corpus:
+        print(f"No valid words found in {language_name}. Skipping this language.")
+        return
+    # Run Algorithm 1
     vowels, consonants = algorithm1(corpus, max_words)
-    # Sort the results
+    # Sort and print the results
     vowels = sorted(set(vowels))
     consonants = sorted(set(consonants))
-    # Print the results
-    print(f"Vowels in {language}: {', '.join(vowels)}")
-    print(f"Consonants in {language}: {', '.join(consonants)}")
+    print(f"Vowels in {language_name}: {', '.join(vowels)}")
+    print(f"Consonants in {language_name}: {', '.join(consonants)}")
+
+# Read the lang_code.csv to get the list of languages
+lang_code_df = pd.read_csv('lang_code.csv')
+
+# Clean up column names and data
+lang_code_df.columns = lang_code_df.columns.str.strip()
+lang_code_df['code'] = lang_code_df['code'].astype(str).str.strip()
+lang_code_df['language'] = lang_code_df['language'].astype(str).str.strip()
+
+# Drop rows with missing 'code' or 'language'
+lang_code_df = lang_code_df.dropna(subset=['code', 'language'])
+
+# Set the path to the Test folder
+test_folder = 'Test'
+
+# Get list of files in the Test folder (filenames without extension)
+files_in_test_folder = os.listdir(test_folder)
+# Ensure we only get files (not directories)
+files_in_test_folder = [f for f in files_in_test_folder if os.path.isfile(os.path.join(test_folder, f))]
+
+# The available language codes are the filenames themselves
+available_codes = files_in_test_folder
+
+# Keep only the rows where 'code' is in the list of available codes
+lang_code_df = lang_code_df[lang_code_df['code'].isin(available_codes)]
 
 # Set the maximum number of words to process
 max_words = 100000  # Adjust this value as needed
 
 # Run the algorithm for each language
-for language in languages:
-    run_algorithm_for_language(language, max_words)
+for idx, row in lang_code_df.iterrows():
+    language_code = row['code']
+    language_name = row['language']
+    run_algorithm_for_language(language_code, language_name, max_words, test_folder)
