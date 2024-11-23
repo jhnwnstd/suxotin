@@ -1,0 +1,2515 @@
+
+Processing language: Achí Cubulco (acc)
+Vowels in Achí Cubulco: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Achí Cubulco: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0044 seconds
+
+Processing language: Gikyode (acd)
+Vowels in Gikyode: a, e, i, o, u, ɔ, ɛ
+Consonants in Gikyode: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0029 seconds
+
+Processing language: Achinese (ace)
+Vowels in Achinese: a, e, i, o, u
+Consonants in Achinese: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, w, y, z
+Execution time: 0.0104 seconds
+
+Processing language: Achang (acn)
+Vowels in Achang: f, h, i, n, o, r, u, v
+Consonants in Achang: a, b, c, d, e, g, j, k, l, m, p, q, s, t, w, x, y, z
+Execution time: 0.0029 seconds
+
+Processing language: Achi Rabinal (acr)
+Vowels in Achi Rabinal: a, e, h, i, o, u, á, é, ó, ú
+Consonants in Achi Rabinal: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0058 seconds
+
+Processing language: Achuar-Shiwiar (acu)
+Vowels in Achuar-Shiwiar: a, c, e, g, i, o, u, á, é, í, ó, ú
+Consonants in Achuar-Shiwiar: b, d, f, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0101 seconds
+
+Processing language: Adele (ade)
+Vowels in Adele: a, e, i, o, u, â, æ, è, î, ò, ô, õ, ù, û, ü
+Consonants in Adele: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y, à, ã, å, ì
+Execution time: 0.0030 seconds
+
+Processing language: Adioukrou (adj)
+Vowels in Adioukrou: a, e, i, o, u, à, á, è, é, ê, ì, í, ò, ó, ù, ú, ɔ, ɛ
+Consonants in Adioukrou: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0029 seconds
+
+Processing language: Adyghe (ady)
+Vowels in Adyghe: а, е, и, о, ъ, ы, ь, э, ю, я
+Consonants in Adyghe: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, у, ф, х, ц, ч, ш, щ, і
+Execution time: 0.0054 seconds
+
+Processing language: Afrikaans (afr)
+Vowels in Afrikaans: a, e, i, o, u, y, á, ä, é, ê, í, ò, ó, ô, ú, ü
+Consonants in Afrikaans: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, ë, ï
+Execution time: 0.0138 seconds
+
+Processing language: Agutaynen (agn)
+Vowels in Agutaynen: a, e, i, o, u
+Consonants in Agutaynen: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0062 seconds
+
+Processing language: Aguaruna (agr)
+Vowels in Aguaruna: a, e, h, i, o, u, á, é, ó, ú
+Consonants in Aguaruna: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0093 seconds
+
+Processing language: Awakateko (agu)
+Vowels in Awakateko: a, e, h, i, o, u, á, é, ó, ú
+Consonants in Awakateko: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0056 seconds
+
+Processing language: Aghul (agx)
+Vowels in Aghul: а, е, ж, и, о, у, ц, ь, ю
+Consonants in Aghul: б, в, г, д, з, й, к, л, м, н, п, р, с, т, ф, х, ч, ш, ъ, э, я, і
+Execution time: 0.0017 seconds
+
+Processing language: Akha (ahk)
+Vowels in Akha: a, e, s
+Consonants in Akha: b, c, d, g, h, i, j, k, l, m, n, o, p, t, u, w, y, z
+Execution time: 0.0005 seconds
+
+Processing language: Akawaio (ake)
+Vowels in Akawaio: a, e, i, o, u, ɨ, ʉ
+Consonants in Akawaio: k, m, n, p, r, s, t, w, y
+Execution time: 0.0055 seconds
+
+Processing language: Tosk Albanian (als)
+Vowels in Tosk Albanian: a, e, h, i, o, r, u, x, y, é, ë
+Consonants in Tosk Albanian: b, c, d, f, g, j, k, l, m, n, p, q, s, t, v, z
+Execution time: 0.0063 seconds
+
+Processing language: Guerrero Amuzgo (amu)
+Vowels in Guerrero Amuzgo: a, d, e, h, i, o, q, á, é, ê, î, ó, ú
+Consonants in Guerrero Amuzgo: b, c, f, g, j, k, l, m, n, p, r, s, t, u, v, w, x, y, z, â, í, ñ
+Execution time: 0.0044 seconds
+
+Processing language: Obolo (ann)
+Vowels in Obolo: a, c, e, i, o, u, â, è, ê, î, ô, ù
+Consonants in Obolo: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, ì, ò
+Execution time: 0.0034 seconds
+
+Processing language: Denya (anv)
+Vowels in Denya: a, e, h, i, o, u, ɔ, ɛ
+Consonants in Denya: b, c, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0022 seconds
+
+Processing language: Mapudungun (arn)
+Vowels in Mapudungun: a, c, e, g, i, o, u, ü
+Consonants in Mapudungun: b, d, f, h, j, k, l, m, n, p, r, s, t, v, w, y, ñ
+Execution time: 0.0057 seconds
+
+Processing language: Avaric (ava)
+Vowels in Avaric: а, е, и, о, у, ъ, ь, э, ю, ё, і
+Consonants in Avaric: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, щ, я
+Execution time: 0.0105 seconds
+
+Processing language: Avokaya (avu)
+Vowels in Avokaya: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Consonants in Avokaya: á, â, ã, é, ê, í, î, ó, ô, õ, ú, û, ĩ, ũ
+Execution time: 0.0023 seconds
+
+Processing language: Awa (Papua New Guinea) (awb)
+Vowels in Awa (Papua New Guinea): a, e, i, o, q, u, á, é, í, ó, ú
+Consonants in Awa (Papua New Guinea): b, g, h, k, m, n, p, r, s, t, w, y
+Execution time: 0.0091 seconds
+
+Processing language: Central Aymara (ayr)
+Vowels in Central Aymara: a, e, i, o, u, á, ä, é, ï, ó, ú, ü
+Consonants in Central Aymara: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ
+Execution time: 0.0248 seconds
+
+Processing language: Azerbaijani (aze)
+Vowels in Azerbaijani: a, e, i, j, o, u, ö, ü, ı, ә
+Consonants in Azerbaijani: b, c, d, f, g, h, k, l, m, n, p, q, r, s, t, v, x, y, z
+Execution time: 0.0069 seconds
+
+Processing language: Highland Puebla Nahuatl (azz)
+Vowels in Highland Puebla Nahuatl: a, e, h, i, o, q, z, á, é, í, ñ, ó, ú
+Consonants in Highland Puebla Nahuatl: b, c, d, f, g, j, l, m, n, p, r, s, t, u, v, x, y
+Execution time: 0.0108 seconds
+
+Processing language: Bambara (bam)
+Vowels in Bambara: a, e, i, o, u, ɔ, ɛ
+Consonants in Bambara: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0034 seconds
+
+Processing language: Balinese (ban)
+Vowels in Balinese: a, e, i, o, u
+Consonants in Balinese: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0072 seconds
+
+Processing language: Waimaha (bao)
+Vowels in Waimaha: a, i, k, o, r, u, v, á, é, ó, õ, ú, ũ, ʉ, ẽ
+Consonants in Waimaha: b, c, d, e, f, g, h, j, l, m, n, p, q, s, t, w, x, y, z, ã, í, ñ, ĩ
+Execution time: 0.0069 seconds
+
+Processing language: Vengo (bav)
+Vowels in Vengo: a, e, h, i, o, u, ɔ, ə, ɨ
+Consonants in Vengo: b, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0020 seconds
+
+Processing language: Bariba (bba)
+Vowels in Bariba: a, e, i, o, u, ɔ, ɛ
+Consonants in Bariba: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0080 seconds
+
+Processing language: Central Bikol (bcl)
+Vowels in Central Bikol: a, e, i, o, u
+Consonants in Central Bikol: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0057 seconds
+
+Processing language: Bana (bcw)
+Vowels in Bana: a, e, i, ə
+Consonants in Bana: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0043 seconds
+
+Processing language: Jur Modo (bex)
+Vowels in Jur Modo: a, e, i, o, u, å, ë, ï, ö
+Consonants in Jur Modo: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y, z, ñ, ò, ó, ô, õ, ø
+Execution time: 0.0029 seconds
+
+Processing language: Bafut (bfd)
+Vowels in Bafut: a, e, i, o, t, u, ɔ, ɛ, ɨ
+Consonants in Bafut: b, c, d, f, g, h, j, k, l, m, n, p, r, s, v, w, x, y, z, ə
+Execution time: 0.0015 seconds
+
+Processing language: Bawm Chin (bgr)
+Vowels in Bawm Chin: a, c, e, g, i, o, u, â, ê, î, û
+Consonants in Bawm Chin: b, d, f, h, j, k, l, m, n, p, r, s, t, v, w, z
+Execution time: 0.0035 seconds
+
+Processing language: Bisa (Burkina Faso) (bib)
+Vowels in Bisa (Burkina Faso): a, i, n, o, r, u, ə, ɩ, ʋ
+Consonants in Bisa (Burkina Faso): b, c, d, e, f, g, h, j, k, l, m, p, s, t, v, w, y, z, ɔ, ɛ
+Execution time: 0.0027 seconds
+
+Processing language: Bimoba (bim)
+Vowels in Bimoba: a, c, e, i, o, u, ɔ
+Consonants in Bimoba: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0036 seconds
+
+Processing language: Bislama (bis)
+Vowels in Bislama: a, e, i, o, u
+Consonants in Bislama: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0019 seconds
+
+Processing language: Southern Birifor (biv)
+Vowels in Southern Birifor: a, c, e, i, o, u, ã, õ, ĩ, ũ, ɔ, ɛ, ɩ, ʋ
+Consonants in Southern Birifor: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0022 seconds
+
+Processing language: Bukusu (bku)
+Vowels in Bukusu: a, i, o
+Consonants in Bukusu: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0053 seconds
+
+Processing language: Kuwaa (blh)
+Vowels in Kuwaa: b, d, f, j, l, m, n, p, s, t, v, w, y
+Consonants in Kuwaa: a, e, g, i, k, o, u, à, á, è, é, ì, í, ò, ó, ù, ú, ǎ, ǐ, ǔ, ɔ, ɛ
+Execution time: 0.0028 seconds
+
+Processing language: Balantak (blz)
+Vowels in Balantak: a, e, g, i, o, u
+Consonants in Balantak: b, c, d, f, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0060 seconds
+
+Processing language: Kejom (bmh)
+Vowels in Kejom: a, e, i, o, u
+Consonants in Kejom: b, c, d, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0041 seconds
+
+Processing language: Bora (boa)
+Vowels in Bora: b, d, g, h, j, k, l, m, n, p, r, s, v, w, y, ñ
+Consonants in Bora: a, c, e, i, o, t, u, á, é, í, ó, ú, ɨ
+Execution time: 0.0080 seconds
+
+Processing language: Anjam (boj)
+Vowels in Anjam: a, e, i, o, u
+Consonants in Anjam: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, ñ
+Execution time: 0.0055 seconds
+
+Processing language: Bosnian (bos)
+Vowels in Bosnian: a, e, i, o, u
+Consonants in Bosnian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z, ð
+Execution time: 0.0046 seconds
+
+Processing language: Koronadal Blaan (bpr)
+Vowels in Koronadal Blaan: a, e, i, o, u, à, è, é, ê, ì, ò, ù
+Consonants in Koronadal Blaan: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0046 seconds
+
+Processing language: Sarangani Blaan (bps)
+Vowels in Sarangani Blaan: a, e, i, o, u, à, è, é, ê, ì, ò, ù
+Consonants in Sarangani Blaan: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0047 seconds
+
+Processing language: Eastern Bru (bru)
+Vowels in Eastern Bru: a, e, g, h, o, u, á, â, é, ê, í, ó, ô, ú, ĩ, ũ, ơ, ư, ế, ố, ớ, ỡ
+Consonants in Eastern Bru: b, c, d, i, k, l, m, n, p, q, r, s, t, v, y, ō
+Execution time: 0.0021 seconds
+
+Processing language: Barasana-Eduria (bsn)
+Vowels in Barasana-Eduria: a, e, i, k, o, u, x, á, ã, é, ó, õ, ú, ü
+Consonants in Barasana-Eduria: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, y, z, ñ
+Execution time: 0.0041 seconds
+
+Processing language: Akoose (bss)
+Vowels in Akoose: a, c, e, i, o, u, á, â, é, ê, í, î, ó, ô, ú, û, ā, ē, ě, ō, ǎ, ǐ, ǒ, ǔ, ɔ, ə, ɛ
+Consonants in Akoose: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0040 seconds
+
+Processing language: Batak Dairi (btd)
+Vowels in Batak Dairi: a, e, i, o, u, è
+Consonants in Batak Dairi: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0062 seconds
+
+Processing language: Batak Simalungun (bts)
+Vowels in Batak Simalungun: a, e, i, o, u
+Consonants in Batak Simalungun: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0054 seconds
+
+Processing language: Batak Karo (btx)
+Vowels in Batak Karo: a, e, i, o, u
+Consonants in Batak Karo: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0055 seconds
+
+Processing language: Ntcham (bud)
+Vowels in Ntcham: a, e, i, o, u, ɔ
+Consonants in Ntcham: b, c, d, f, g, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0027 seconds
+
+Processing language: Buginese (bug)
+Vowels in Buginese: a, e, g, i, o, u
+Consonants in Buginese: b, c, d, f, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0050 seconds
+
+Processing language: Bulgarian (bul)
+Vowels in Bulgarian: а, е, и, о, у, ъ, ь, ю, я
+Consonants in Bulgarian: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, щ
+Execution time: 0.0243 seconds
+
+Processing language: Bauzi (bvz)
+Vowels in Bauzi: a, e, i, o, u, à
+Consonants in Bauzi: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0075 seconds
+
+Processing language: Southern Bobo Madaré (bwq)
+Vowels in Southern Bobo Madaré: a, e, i, o, u, à, ì, ɔ, ɛ
+Consonants in Southern Bobo Madaré: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0028 seconds
+
+Processing language: Buli (Ghana) (bwu)
+Vowels in Buli (Ghana): a, c, e, i, o, u
+Consonants in Buli (Ghana): b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0028 seconds
+
+Processing language: Russia Buriat (bxr)
+Vowels in Russia Buriat: а, и, о, у, ы, ь, э, ѳ, ү
+Consonants in Russia Buriat: б, в, г, д, е, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ш, ю, я, ё, һ
+Execution time: 0.0104 seconds
+
+Processing language: Chortí (caa)
+Vowels in Chortí: a, e, h, i, o, u, á, é, ó, ú
+Consonants in Chortí: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0053 seconds
+
+Processing language: Chuj (cac)
+Vowels in Chuj: a, e, h, i, o, u, z, á, é, í, ó, ú
+Consonants in Chuj: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y
+Execution time: 0.0044 seconds
+
+Processing language: Kaqchikel (cak)
+Vowels in Kaqchikel: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Kaqchikel: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0062 seconds
+
+Processing language: Chipaya (cap)
+Vowels in Chipaya: a, e, h, i, o, u, á, ä, é, ë, ï, ó, ö, ú
+Consonants in Chipaya: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ, ü
+Execution time: 0.0028 seconds
+
+Processing language: Galibi Carib (car)
+Vowels in Galibi Carib: a, e, g, i, o, u, y
+Consonants in Galibi Carib: b, d, f, h, j, k, l, m, n, p, r, s, t, v, w
+Execution time: 0.0061 seconds
+
+Processing language: Chiquitano (cax)
+Vowels in Chiquitano: a, c, e, i, o, u, á, é, í, ó, ú, ɨ
+Consonants in Chiquitano: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Execution time: 0.0070 seconds
+
+Processing language: Carapana (cbc)
+Vowels in Carapana: a, e, i, o, u, á, ã, é, í, ó, õ, ú
+Consonants in Carapana: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0038 seconds
+
+Processing language: Cashinahua (cbs)
+Vowels in Cashinahua: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Cashinahua: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0089 seconds
+
+Processing language: Chayahuita (cbt)
+Vowels in Chayahuita: a, b, e, h, i, o, q, á, ë, í, ó
+Consonants in Chayahuita: c, d, m, n, p, r, s, t, u, y
+Execution time: 0.0109 seconds
+
+Processing language: Cacua (cbv)
+Vowels in Cacua: a, e, i, o, u, á, ã, é, í, õ, ú, ĩ, ʉ, ẽ
+Consonants in Cacua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ, ó
+Execution time: 0.0058 seconds
+
+Processing language: Chopi (cce)
+Vowels in Chopi: a, b, e, i, o, u, ñ
+Consonants in Chopi: d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0056 seconds
+
+Processing language: Comaltepec Chinantec (cco)
+Vowels in Comaltepec Chinantec: a, e, i, o, u, á, é, ó, ú, ʉ
+Consonants in Comaltepec Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í, ɨ
+Execution time: 0.0006 seconds
+
+Processing language: Cebuano (ceb)
+Vowels in Cebuano: a, e, i, o, u
+Consonants in Cebuano: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0059 seconds
+
+Processing language: Czech (ces)
+Vowels in Czech: a, e, i, o, u, y, á, é, í, ú, ě
+Consonants in Czech: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z, ó
+Execution time: 0.0042 seconds
+
+Processing language: Falam Chin (cfm)
+Vowels in Falam Chin: a, e, g, i, o, u
+Consonants in Falam Chin: b, c, d, f, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ò
+Execution time: 0.0043 seconds
+
+Processing language: Chamorro (cha)
+Vowels in Chamorro: a, e, i, o, u, á, â, é, ó, ü
+Consonants in Chamorro: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, ñ
+Execution time: 0.0053 seconds
+
+Processing language: Highland Oaxaca Chontal (chd)
+Vowels in Highland Oaxaca Chontal: a, e, i, k, o, u, á, é, í, ó, ú
+Consonants in Highland Oaxaca Chontal: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Execution time: 0.0060 seconds
+
+Processing language: Chechen (che)
+Vowels in Chechen: а, е, и, о, у, ъ, ь, э
+Consonants in Chechen: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, х, ц, ч, ш, ю, я, і
+Execution time: 0.0080 seconds
+
+Processing language: Quiotepec Chinantec (chq)
+Vowels in Quiotepec Chinantec: a, e, i, o, u, á, é, ó, ú, ɨ, ʉ
+Consonants in Quiotepec Chinantec: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ
+Execution time: 0.0009 seconds
+
+Processing language: Chuvash (chv)
+Vowels in Chuvash: а, е, и, о, у, щ, ы, ь, э, ю, ӑ, ӗ, ӳ
+Consonants in Chuvash: б, в, г, д, з, й, к, л, м, н, п, р, с, т, ф, х, ч, ш, я, ҫ
+Execution time: 0.0085 seconds
+
+Processing language: Ozumacín Chinantec (chz)
+Vowels in Ozumacín Chinantec: a, e, i, o, u, w, á, ä, é, ë, ó, ø, ú, ɨ, ʉ
+Consonants in Ozumacín Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í, ñ
+Execution time: 0.0008 seconds
+
+Processing language: Cabécar (cjp)
+Vowels in Cabécar: a, e, h, i, o, u, à, á, ä, é, ë, ó, ö, ú
+Consonants in Cabécar: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ
+Execution time: 0.0026 seconds
+
+Processing language: Cakfem-Mushere (cki)
+Vowels in Cakfem-Mushere: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Cakfem-Mushere: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Execution time: 0.0055 seconds
+
+Processing language: Kakabe (ckk)
+Vowels in Kakabe: a, e, i, o, u
+Consonants in Kakabe: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+Execution time: 0.0061 seconds
+
+Processing language: Anufo (cko)
+Vowels in Anufo: a, e, i, o, u, á, é, í, ó, ú, ɔ, ɛ
+Consonants in Anufo: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0027 seconds
+
+Processing language: Cakchiquel-Quiché Mixed Language (ckw)
+Vowels in Cakchiquel-Quiché Mixed Language: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Cakchiquel-Quiché Mixed Language: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0062 seconds
+
+Processing language: Lealao Chinantec (cle)
+Vowels in Lealao Chinantec: a, e, i, o, u, á, é, ó, ú
+Consonants in Lealao Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í
+Execution time: 0.0007 seconds
+
+Processing language: Cerma (cme)
+Vowels in Cerma: a, e, o, u, v, ɔ, ɛ
+Consonants in Cerma: b, c, d, f, g, h, i, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0021 seconds
+
+Processing language: Haka Chin (cnh)
+Vowels in Haka Chin: a, e, g, i, o, u
+Consonants in Haka Chin: b, c, d, f, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0038 seconds
+
+Processing language: Asháninka (cni)
+Vowels in Asháninka: a, e, h, i, o, q
+Consonants in Asháninka: c, j, m, n, p, r, s, t, u, v, y
+Execution time: 0.0091 seconds
+
+Processing language: Khumi Chin (cnk)
+Vowels in Khumi Chin: a, e, g, i, o, u
+Consonants in Khumi Chin: b, c, d, f, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0039 seconds
+
+Processing language: Lalana Chinantec (cnl)
+Vowels in Lalana Chinantec: a, e, i, o, u, á, é, ó, ú
+Consonants in Lalana Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, y, z, í
+Execution time: 0.0006 seconds
+
+Processing language: Ixtatán Chuj (cnm)
+Vowels in Ixtatán Chuj: a, e, h, i, o, u, z, á, é, í, ó, ú
+Consonants in Ixtatán Chuj: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, x, y
+Execution time: 0.0045 seconds
+
+Processing language: Tepetotutla Chinantec (cnt)
+Vowels in Tepetotutla Chinantec: a, e, i, o, u, á, é, ó, ú
+Consonants in Tepetotutla Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, y, z, í
+Execution time: 0.0006 seconds
+
+Processing language: Koreguaje (coe)
+Vowels in Koreguaje: a, e, i, o, u, á, é, ó, õ, ú, ũ
+Consonants in Koreguaje: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ã, í, ñ
+Execution time: 0.0019 seconds
+
+Processing language: Cofán (con)
+Vowels in Cofán: a, d, e, i, o, u, x, á, é, ó, ú
+Consonants in Cofán: b, c, f, g, h, j, l, m, n, p, q, r, s, t, v, y, z, í, ñ
+Execution time: 0.0080 seconds
+
+Processing language: Palantla Chinantec (cpa)
+Vowels in Palantla Chinantec: a, e, i, o, u, á, é, ó, ø, ú
+Consonants in Palantla Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í
+Execution time: 0.0006 seconds
+
+Processing language: Crimean Tatar (crh)
+Vowels in Crimean Tatar: а, е, ж, и, о, у, ъ, ы, ь, э, ю, я, ё
+Consonants in Crimean Tatar: б, в, г, д, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш
+Execution time: 0.0100 seconds
+
+Processing language: El Nayar Cora (crn)
+Vowels in El Nayar Cora: a, e, i, o, u, á, é, í, ó, ú, ɨ
+Consonants in El Nayar Cora: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z
+Execution time: 0.0080 seconds
+
+Processing language: Jola-Kasa (csk)
+Vowels in Jola-Kasa: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Jola-Kasa: b, c, d, f, g, h, j, k, l, m, n, s, t, w, y, ñ
+Execution time: 0.0067 seconds
+
+Processing language: Sochiapam Chinantec (cso)
+Vowels in Sochiapam Chinantec: a, e, i, o, u, á, é, ó, ú
+Consonants in Sochiapam Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, y, z, í
+Execution time: 0.0005 seconds
+
+Processing language: Tedim Chin (ctd)
+Vowels in Tedim Chin: a, e, g, i, o, u, y
+Consonants in Tedim Chin: b, c, d, f, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z
+Execution time: 0.0047 seconds
+
+Processing language: Western Highland Chatino (ctp)
+Vowels in Western Highland Chatino: a, d, e, h, i, o, u, á, é, ó, ú, ě, ǎ, ǐ, ǔ
+Consonants in Western Highland Chatino: b, c, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ
+Execution time: 0.0025 seconds
+
+Processing language: Chol (ctu)
+Vowels in Chol: a, e, h, i, o, u, á, é, ó, ú, ʌ
+Consonants in Chol: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ
+Execution time: 0.0053 seconds
+
+Processing language: San Blas Kuna (cuk)
+Vowels in San Blas Kuna: a, e, i, o, u, á, é, ó, ú
+Consonants in San Blas Kuna: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0082 seconds
+
+Processing language: Kuwaataay (cwt)
+Vowels in Kuwaataay: a, e, i, o, u, á, í, ó, ú
+Consonants in Kuwaataay: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, é, ñ
+Execution time: 0.0060 seconds
+
+Processing language: Dan (daf)
+Vowels in Dan: a, e, h, i, o, u
+Consonants in Dan: b, d, f, g, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0024 seconds
+
+Processing language: Danish (dan)
+Vowels in Danish: a, c, e, i, o, u, y, å, æ, ø
+Consonants in Danish: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+Execution time: 0.0058 seconds
+
+Processing language: Desano (des)
+Vowels in Desano: a, b, c, d, f, g, h, k, l, n, p, r, s, u, v, ü
+Consonants in Desano: e, i, j, m, o, q, t, w, y, z, á, ã, é, í, ñ, ó, õ, ú, ĩ, ũ, ʉ, ẽ
+Execution time: 0.0077 seconds
+
+Processing language: German (deu)
+Vowels in German: a, c, e, i, o, p, u, y, ä, ö, ü
+Consonants in German: b, d, f, g, h, j, k, l, m, n, q, r, s, t, v, w, x, z
+Execution time: 0.0062 seconds
+
+Processing language: Northern Dagara (dgi)
+Vowels in Northern Dagara: a, e, i, o, u, à, á, ã, é, ì, í, õ, ù, ú, ĩ, ũ, ɔ, ɛ, ɩ, ʋ, ẽ
+Consonants in Northern Dagara: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z, ó
+Execution time: 0.0024 seconds
+
+Processing language: Digo (dig)
+Vowels in Digo: a, c, d, e, i, o, p, u, á, ó
+Consonants in Digo: b, f, g, h, j, k, l, m, n, r, s, t, v, w, y, z
+Execution time: 0.0065 seconds
+
+Processing language: Southwestern Dinka (dik)
+Vowels in Southwestern Dinka: a, e, h, i, o, u, ä, å, æ, ë, ï, ö, œ
+Consonants in Southwestern Dinka: b, c, d, g, j, k, l, m, n, p, r, t, w, y, ñ
+Execution time: 0.0032 seconds
+
+Processing language: Northeastern Dinka (dip)
+Vowels in Northeastern Dinka: a, e, h, i, o, u, ɔ, ɛ
+Consonants in Northeastern Dinka: b, c, d, g, j, k, l, m, n, p, r, t, w, y
+Execution time: 0.0035 seconds
+
+Processing language: Eastern Maroon Creole (djk)
+Vowels in Eastern Maroon Creole: a, e, i, o, u
+Consonants in Eastern Maroon Creole: b, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, z, á
+Execution time: 0.0021 seconds
+
+Processing language: Dan (dnj)
+Vowels in Dan: a, c, e, h, i, r, u
+Consonants in Dan: b, d, f, g, k, l, m, n, o, p, s, t, v, w, y, z
+Execution time: 0.0020 seconds
+
+Processing language: Lukpa (dop)
+Vowels in Lukpa: c, f, h, k, l, m, n, p, s, t, w, y
+Consonants in Lukpa: a, e, i, o, u, á, é, ɔ, ə, ɛ, ɩ, ʋ
+Execution time: 0.0029 seconds
+
+Processing language: Dogon (dts)
+Vowels in Dogon: a, e, i, o, u, ɔ, ɛ
+Consonants in Dogon: b, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0067 seconds
+
+Processing language: Chiduruma (dug)
+Vowels in Chiduruma: a, c, e, i, o, u
+Consonants in Chiduruma: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0077 seconds
+
+Processing language: Dawro (dwr)
+Vowels in Dawro: a, e, h, i, o, u
+Consonants in Dawro: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, w, x, y, z
+Execution time: 0.0081 seconds
+
+Processing language: Jola-Fonyi (dyo)
+Vowels in Jola-Fonyi: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Jola-Fonyi: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, ñ
+Execution time: 0.0069 seconds
+
+Processing language: Dyula (dyu)
+Vowels in Dyula: a, e, i, o, u, ɔ, ɛ
+Consonants in Dyula: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0034 seconds
+
+Processing language: Modern Greek (ell)
+Vowels in Modern Greek: a, α, ε, η, ο, υ, ω
+Consonants in Modern Greek: f, i, l, n, p, s, v, β, γ, δ, ζ, θ, ι, κ, λ, μ, ν, ξ, π, ρ, ς, σ, τ, φ, χ, ψ
+Execution time: 0.0073 seconds
+
+Processing language: Northern Emberá (emp)
+Vowels in Northern Emberá: a, e, h, i, o, u, á, ã, é, õ, ú, ĩ, ũ, ʌ, ẽ
+Consonants in Northern Emberá: b, c, d, g, j, l, m, n, p, q, r, s, t, v, w, y, z, í
+Execution time: 0.0042 seconds
+
+Processing language: Markweeta (enb)
+Vowels in Markweeta: a, c, e, g, i, o, u, ā, ē, ō
+Consonants in Markweeta: h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0073 seconds
+
+Processing language: English (eng)
+Vowels in English: a, e, i, o, u
+Consonants in English: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0103 seconds
+
+Processing language: Middle English (enm)
+Vowels in Middle English: a, e, i, o, u, y
+Consonants in Middle English: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z
+Execution time: 0.0056 seconds
+
+Processing language: Northwest Alaska Inupiatun (esk)
+Vowels in Northwest Alaska Inupiatun: a, c, e, i, o, u
+Consonants in Northwest Alaska Inupiatun: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0037 seconds
+
+Processing language: Estonian (est)
+Vowels in Estonian: a, e, i, o, u, ä, õ, ö, ü
+Consonants in Estonian: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v
+Execution time: 0.0078 seconds
+
+Processing language: Basque (eus)
+Vowels in Basque: a, e, i, o, u, á, æ, è, é, ó
+Consonants in Basque: b, c, d, f, g, h, k, l, m, n, p, q, r, s, t, v, x, y, z, ä
+Execution time: 0.0077 seconds
+
+Processing language: Ewe (ewe)
+Vowels in Ewe: a, e, i, o, p, u, å, œ, ɔ
+Consonants in Ewe: b, d, f, g, h, k, l, m, n, r, s, t, v, w, x, y, z, ɛ, ʋ
+Execution time: 0.0039 seconds
+
+Processing language: South Fali (fal)
+Vowels in South Fali: a, e, i, o, u, à, â, è, î, ò, û
+Consonants in South Fali: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0027 seconds
+
+Processing language: Fijian (fij)
+Vowels in Fijian: a, e, i, o, u
+Consonants in Fijian: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, y
+Execution time: 0.0039 seconds
+
+Processing language: Finnish (fin)
+Vowels in Finnish: a, e, i, o, u, y, ä, ö
+Consonants in Finnish: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v
+Execution time: 0.0078 seconds
+
+Processing language: French (fra)
+Vowels in French: a, e, i, o, u, â, è, é, ê, ë, î, ô, û, ü
+Consonants in French: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z, à, ï, ù
+Execution time: 0.0061 seconds
+
+Processing language: Nigerian Fulfulde (fuv)
+Vowels in Nigerian Fulfulde: a, e, i, o, u
+Consonants in Nigerian Fulfulde: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0037 seconds
+
+Processing language: Gagauz (gag)
+Vowels in Gagauz: а, е, и, о, у, ы, э, ӓ, ӧ, ӱ
+Consonants in Gagauz: б, в, г, д, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, ӂ
+Execution time: 0.0083 seconds
+
+Processing language: Northern Grebo (gbo)
+Vowels in Northern Grebo: a, g, h, i, l, n, o, u, è, ì, ò, ù
+Consonants in Northern Grebo: b, c, d, e, f, j, k, m, p, s, t, w, y, à, ä, ï, ü, ě, ǎ, ǐ, ǒ, ǔ, ɔ, ɛ
+Execution time: 0.0037 seconds
+
+Processing language: Gude (gde)
+Vowels in Gude: a, e, i, o, u, ə
+Consonants in Gude: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0044 seconds
+
+Processing language: Gen (gej)
+Vowels in Gen: a, e, i, o, u, à, ã, è, ì, ò, ù, ĩ, ũ, ɔ, ɛ
+Consonants in Gen: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0022 seconds
+
+Processing language: Gilbertese (gil)
+Vowels in Gilbertese: a, e, g, i, o, u
+Consonants in Gilbertese: b, h, k, m, n, r, s, t, v, w
+Execution time: 0.0045 seconds
+
+Processing language: Gokana (gkn)
+Vowels in Gokana: a, e, o, u, y
+Consonants in Gokana: b, d, f, g, i, k, l, m, n, p, s, t, v, z
+Execution time: 0.0005 seconds
+
+Processing language: Scottish Gaelic (gla)
+Vowels in Scottish Gaelic: a, h, i, o, u
+Consonants in Scottish Gaelic: b, c, d, e, f, g, l, m, n, p, r, s, t
+Execution time: 0.0010 seconds
+
+Processing language: Irish (gle)
+Vowels in Irish: a, h, i, o, u, á
+Consonants in Irish: b, c, d, e, f, g, l, m, n, p, r, s, t, é, í, ó, ú
+Execution time: 0.0013 seconds
+
+Processing language: Manx (glv)
+Vowels in Manx: a, e, h, i, o, q
+Consonants in Manx: b, c, d, f, g, j, k, l, m, n, p, r, s, t, u, v, w, y, z
+Execution time: 0.0029 seconds
+
+Processing language: Gamo (gmv)
+Vowels in Gamo: a, e, h, i, o, u
+Consonants in Gamo: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, w, x, y, z
+Execution time: 0.0072 seconds
+
+Processing language: Zulgo-Gemzek (gnd)
+Vowels in Zulgo-Gemzek: a, e, i, o, u, à, è, ì, ù, ə
+Consonants in Zulgo-Gemzek: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0021 seconds
+
+Processing language: Gogo (gog)
+Vowels in Gogo: a, e, i, o, u
+Consonants in Gogo: b, c, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, z
+Execution time: 0.0069 seconds
+
+Processing language: Gorontalo (gor)
+Vowels in Gorontalo: a, e, i, o, u
+Consonants in Gorontalo: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0066 seconds
+
+Processing language: Wayuu (guc)
+Vowels in Wayuu: a, e, i, o, u, á, é, ó, ú, ü
+Consonants in Wayuu: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0097 seconds
+
+Processing language: Guahibo (guh)
+Vowels in Guahibo: a, e, i, o, u, á, ã, é, ë, í, ó, ú
+Consonants in Guahibo: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+Execution time: 0.0157 seconds
+
+Processing language: Eastern Bolivian Guaraní (gui)
+Vowels in Eastern Bolivian Guaraní: a, e, i, k, o, u, x, á, é, í, ó, ú, ü, ɨ
+Consonants in Eastern Bolivian Guaraní: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, y, z, ñ
+Execution time: 0.0048 seconds
+
+Processing language: Guambiano (gum)
+Vowels in Guambiano: a, c, e, i, o, u, x, á, é, í, ó, ø, ú
+Consonants in Guambiano: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+Execution time: 0.0099 seconds
+
+Processing language: Mbyá Guaraní (gun)
+Vowels in Mbyá Guaraní: a, b, e, o, u, y, á, â, é, ê, í, ó, ô, ú, ü, ũ
+Consonants in Mbyá Guaraní: c, d, f, g, h, i, j, k, l, m, n, p, q, r, s, t, v, x, z, ã, õ, ĩ, ẽ
+Execution time: 0.0049 seconds
+
+Processing language: Gua (guo)
+Vowels in Gua: a, e, h, i, o, u, á, é, í, ó, ú, ʉ
+Consonants in Gua: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0101 seconds
+
+Processing language: Farefare (gur)
+Vowels in Farefare: b, d, f, g, h, k, l, m, n, p, r, s, t, v, y, z, õ
+Consonants in Farefare: a, e, i, o, u, w, ã, ɛ, ɩ, ʋ, ↄ
+Execution time: 0.0023 seconds
+
+Processing language: Gourmanchéma (gux)
+Vowels in Gourmanchéma: a, e, i, o, u
+Consonants in Gourmanchéma: b, c, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, ñ
+Execution time: 0.0032 seconds
+
+Processing language: Guanano (gvc)
+Vowels in Guanano: a, e, i, k, o, u, à, á, ã, é, í, ó, õ, ú
+Consonants in Guanano: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+Execution time: 0.0054 seconds
+
+Processing language: Ngäbere (gym)
+Vowels in Ngäbere: a, e, i, o, u, w, á, ä, é, ó, ö, ü
+Consonants in Ngäbere: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í, ñ, ú
+Execution time: 0.0049 seconds
+
+Processing language: Guarayu (gyr)
+Vowels in Guarayu: a, b, e, h, o, u, w, x, á, ä, é, ë, í, ï, ó, ö, ú, ü, ɨ
+Consonants in Guarayu: c, d, f, g, i, j, k, l, m, n, p, q, r, s, t, v, y, z, ñ
+Execution time: 0.0054 seconds
+
+Processing language: Hanga (hag)
+Vowels in Hanga: a, c, e, i, o, u
+Consonants in Hanga: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z
+Execution time: 0.0024 seconds
+
+Processing language: Haida (hai)
+Vowels in Haida: a, e, i, o, u
+Consonants in Haida: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0111 seconds
+
+Processing language: Hakka Chinese (hak)
+Vowels in Hakka Chinese: a, e, g, h, o, u
+Consonants in Hakka Chinese: c, f, i, k, l, m, n, p, s, t, v, y
+Execution time: 0.0007 seconds
+
+Processing language: Haitian Creole (hat)
+Vowels in Haitian Creole: a, c, e, i, o, è, ò
+Consonants in Haitian Creole: b, d, f, g, h, j, k, l, m, n, p, r, s, t, u, v, w, y, z
+Execution time: 0.0055 seconds
+
+Processing language: Haya (hay)
+Vowels in Haya: a, c, e, i, o, u
+Consonants in Haya: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0067 seconds
+
+Processing language: Serbo-Croatian (hbs)
+Vowels in Serbo-Croatian: a, e, i, o, u, â
+Consonants in Serbo-Croatian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z, ä, å
+Execution time: 0.0053 seconds
+
+Processing language: Hehe (heh)
+Vowels in Hehe: a, c, e, i, o, u, z
+Consonants in Hehe: b, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y
+Execution time: 0.0073 seconds
+
+Processing language: Fiji Hindi (hif)
+Vowels in Fiji Hindi: a, c, e, i, o, q, u
+Consonants in Fiji Hindi: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0032 seconds
+
+Processing language: Kamwe (hig)
+Vowels in Kamwe: a, e, i, o, u, á, í, ú, ə
+Consonants in Kamwe: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0031 seconds
+
+Processing language: Hiligaynon (hil)
+Vowels in Hiligaynon: a, e, i, o, u
+Consonants in Hiligaynon: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0058 seconds
+
+Processing language: Hanunoo (hnn)
+Vowels in Hanunoo: a, i, u
+Consonants in Hanunoo: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0053 seconds
+
+Processing language: Caribbean Hindustani (hns)
+Vowels in Caribbean Hindustani: a, e, j, o, y
+Consonants in Caribbean Hindustani: b, d, f, g, h, i, k, l, m, n, p, r, s, t, u, w, ɔ, ɛ
+Execution time: 0.0040 seconds
+
+Processing language: Minica Huitoto (hto)
+Vowels in Minica Huitoto: a, e, i, o, q, á, é, í, ó, ú, ü, ɨ
+Consonants in Minica Huitoto: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, u, v, x, y, z, ñ
+Execution time: 0.0076 seconds
+
+Processing language: Huambisa (hub)
+Vowels in Huambisa: a, c, e, i, o, u, á, é, í, ó, ú
+Consonants in Huambisa: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z
+Execution time: 0.0096 seconds
+
+Processing language: San Francisco Del Mar Huave (hue)
+Vowels in San Francisco Del Mar Huave: a, e, i, o, q, á, é, ó, ú, ü
+Consonants in San Francisco Del Mar Huave: b, c, d, f, g, h, j, l, m, n, p, r, s, t, u, v, w, x, y, z, í, ñ
+Execution time: 0.0059 seconds
+
+Processing language: Huli (hui)
+Vowels in Huli: a, e, i, o, u, á, é, í
+Consonants in Huli: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0062 seconds
+
+Processing language: Hungarian (hun)
+Vowels in Hungarian: a, c, e, i, o, u, y, á, é, í, ó, ö, ú, ü, ő, ű
+Consonants in Hungarian: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z
+Execution time: 0.0076 seconds
+
+Processing language: Huastec (hus)
+Vowels in Huastec: a, e, h, i, o, t, u
+Consonants in Huastec: b, c, d, f, g, j, k, l, m, n, p, r, s, w, x, y
+Execution time: 0.0049 seconds
+
+Processing language: San Mateo Del Mar Huave (huv)
+Vowels in San Mateo Del Mar Huave: a, e, i, o, q, á, é, ó, ú, ü
+Consonants in San Mateo Del Mar Huave: b, c, d, f, g, h, j, l, m, n, p, r, s, t, u, v, w, x, y, z, í, ñ
+Execution time: 0.0061 seconds
+
+Processing language: Iban (iba)
+Vowels in Iban: a, c, e, i, o, u
+Consonants in Iban: b, d, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0039 seconds
+
+Processing language: Batad Ifugao (ifb)
+Vowels in Batad Ifugao: a, e, i, o, u
+Consonants in Batad Ifugao: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0070 seconds
+
+Processing language: Tuwali Ifugao (ifk)
+Vowels in Tuwali Ifugao: a, e, i, o, u
+Consonants in Tuwali Ifugao: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0064 seconds
+
+Processing language: Mayoyao Ifugao (ifu)
+Vowels in Mayoyao Ifugao: a, c, e, g, i, o, u
+Consonants in Mayoyao Ifugao: b, d, f, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0059 seconds
+
+Processing language: Keley-I Kallahan (ify)
+Vowels in Keley-I Kallahan: a, e, i, o, u, x
+Consonants in Keley-I Kallahan: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0128 seconds
+
+Processing language: Ignaciano (ign)
+Vowels in Ignaciano: a, e, i, o, u, x, á, é, í, ó, ú
+Consonants in Ignaciano: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+Execution time: 0.0086 seconds
+
+Processing language: Ilocano (ilo)
+Vowels in Ilocano: a, e, i, o, u
+Consonants in Ilocano: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0064 seconds
+
+Processing language: Inga (inb)
+Vowels in Inga: a, c, e, i, o, u, x, á, é, í, ó, ú
+Consonants in Inga: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, z, ñ
+Execution time: 0.0093 seconds
+
+Processing language: Indonesian (ind)
+Vowels in Indonesian: a, e, i, o, u
+Consonants in Indonesian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0131 seconds
+
+Processing language: Ipili (ipi)
+Vowels in Ipili: a, b, d, e, g, i, j, o, u
+Consonants in Ipili: k, l, m, n, p, s, t, w, y
+Execution time: 0.0047 seconds
+
+Processing language: Iraya (iry)
+Vowels in Iraya: a, e, i, o
+Consonants in Iraya: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0044 seconds
+
+Processing language: Icelandic (isl)
+Vowels in Icelandic: a, e, i, o, u, y, á, æ, é, í, ó, ö, ú
+Consonants in Icelandic: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z, ð
+Execution time: 0.0265 seconds
+
+Processing language: Italian (ita)
+Vowels in Italian: a, e, i, o, u, á
+Consonants in Italian: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, z, à, è, é, ì, í, ò, ù, ú
+Execution time: 0.0170 seconds
+
+Processing language: Itonama (ito)
+Vowels in Itonama: a, e, i, o, u, y
+Consonants in Itonama: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+Execution time: 0.0181 seconds
+
+Processing language: Itawit (itv)
+Vowels in Itawit: a, e, i, o, u
+Consonants in Itawit: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0059 seconds
+
+Processing language: Nebaj Ixil (ixi)
+Vowels in Nebaj Ixil: a, e, h, i, o, u, z, á, é, í, ó, ú
+Consonants in Nebaj Ixil: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, x, y
+Execution time: 0.0051 seconds
+
+Processing language: Ixil San Juan Cotzal (ixl)
+Vowels in Ixil San Juan Cotzal: a, e, h, i, o, u, z, á, é, í, ó, ú
+Consonants in Ixil San Juan Cotzal: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, x, y
+Execution time: 0.0052 seconds
+
+Processing language: Izere (izr)
+Vowels in Izere: a, e, h, i, o, u
+Consonants in Izere: b, c, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0029 seconds
+
+Processing language: Popti' (formerly Jacalteco) (jac)
+Vowels in Popti' (formerly Jacalteco): a, e, i, o, u, z
+Consonants in Popti' (formerly Jacalteco): b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y
+Execution time: 0.0061 seconds
+
+Processing language: Javanese (jav)
+Vowels in Javanese: a, e, i, o, u
+Consonants in Javanese: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0060 seconds
+
+Processing language: Jukun Takum (jbu)
+Vowels in Jukun Takum: a, e, i, o, u, à, á, è, é, ì, í, ò, ó, ú, ā, ē, ō
+Consonants in Jukun Takum: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z, ù
+Execution time: 0.0036 seconds
+
+Processing language: Tol (jic)
+Vowels in Tol: a, e, i, o, u, á, í, ó, ú, ü
+Consonants in Tol: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, é, ñ
+Execution time: 0.0036 seconds
+
+Processing language: Machame (jmc)
+Vowels in Machame: a, e, g, i, o, u
+Consonants in Machame: b, d, f, h, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0057 seconds
+
+Processing language: Caribbean Javanese (jvn)
+Vowels in Caribbean Javanese: a, e, i, o, u, è, é
+Consonants in Caribbean Javanese: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0051 seconds
+
+Processing language: Kara-Kalpak (kaa)
+Vowels in Kara-Kalpak: а, е, и, о, у, ы, ь, ю, є, ѳ, ү, ә
+Consonants in Kara-Kalpak: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ш, я, ќ, ў, ғ, қ, ң, ҳ
+Execution time: 0.0095 seconds
+
+Processing language: Jingpho (kac)
+Vowels in Jingpho: a, e, h, i, o, u
+Consonants in Jingpho: b, c, d, g, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0028 seconds
+
+Processing language: Xaasongaxango (kao)
+Vowels in Xaasongaxango: a, e, i, o, u, é
+Consonants in Xaasongaxango: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, x, y, í
+Execution time: 0.0033 seconds
+
+Processing language: Kazakh (kaz)
+Vowels in Kazakh: а, е, и, о, у, ы, і, ү, ұ, ә, ө
+Consonants in Kazakh: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ш, щ, ю, я, ғ, қ, ң, һ
+Execution time: 0.0286 seconds
+
+Processing language: Camsá (kbh)
+Vowels in Camsá: a, e, g, h, i, o, q, t, x, á, é, ë, í, ó, ú
+Consonants in Camsá: b, c, d, f, j, l, m, n, p, r, s, u, v, y, z, ñ
+Execution time: 0.0077 seconds
+
+Processing language: Kabiyè (kbp)
+Vowels in Kabiyè: a, e, i, o, u, ɔ, ɛ, ɩ, ʋ
+Consonants in Kabiyè: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0037 seconds
+
+Processing language: K'ekchi' (kek)
+Vowels in K'ekchi': a, c, e, i, o, u, á, é, í, ó, ú
+Consonants in K'ekchi': b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0059 seconds
+
+Processing language: Kenyang (ken)
+Vowels in Kenyang: a, e, h, i, o, u, ɔ, ɛ, ɨ
+Consonants in Kenyang: b, c, d, f, g, j, k, l, m, n, p, r, s, t, w, y, ʉ
+Execution time: 0.0020 seconds
+
+Processing language: West Kewa (kew)
+Vowels in West Kewa: a, e, i, o, u
+Consonants in West Kewa: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0048 seconds
+
+Processing language: Halh Mongolian (khk)
+Vowels in Halh Mongolian: а, е, и, о, у, ш, ы, ь, ё, і, ӏ, ӧ, ӱ
+Consonants in Halh Mongolian: б, в, г, д, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, э, ю, я, ғ, ң, ҷ
+Execution time: 0.0084 seconds
+
+Processing language: Q'anjob'al (kjb)
+Vowels in Q'anjob'al: a, e, i, o, u, á, é, ó, ú
+Consonants in Q'anjob'al: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ
+Execution time: 0.0090 seconds
+
+Processing language: East Kewa (kjs)
+Vowels in East Kewa: a, e, i, o, u
+Consonants in East Kewa: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0048 seconds
+
+Processing language: Kagulu (kki)
+Vowels in Kagulu: a, c, e, i, o, u
+Consonants in Kagulu: b, d, f, g, h, j, k, l, m, n, p, s, t, w, y
+Execution time: 0.0066 seconds
+
+Processing language: Kako (kkj)
+Vowels in Kako: a, e, g, i, o, u, á, ï, ó
+Consonants in Kako: b, d, f, h, j, k, l, m, n, p, r, s, t, v, w, y, à, ã, ä, è, ê, ë, ì, î, ñ, õ, ù
+Execution time: 0.0037 seconds
+
+Processing language: Konni (kma)
+Vowels in Konni: a, c, e, i, o, u, ɔ, ɩ, ʊ
+Consonants in Konni: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0029 seconds
+
+Processing language: Western Kanjobal (knj)
+Vowels in Western Kanjobal: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Western Kanjobal: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0035 seconds
+
+Processing language: Kuranko (knk)
+Vowels in Kuranko: a, c, e, i, o, u, ɔ, ɛ
+Consonants in Kuranko: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0039 seconds
+
+Processing language: Kono (Sierra Leone) (kno)
+Vowels in Kono (Sierra Leone): a, c, e, g, i, o, u, ɔ, ɛ
+Consonants in Kono (Sierra Leone): b, d, f, h, k, m, n, p, s, t, w, y
+Execution time: 0.0022 seconds
+
+Processing language: Tabo (knv)
+Vowels in Tabo: a, e, i, o, u
+Consonants in Tabo: b, d, g, h, k, l, m, n, p, s, t, w, y
+Execution time: 0.0091 seconds
+
+Processing language: Korafe-Yegha (kpr)
+Vowels in Korafe-Yegha: a, e, h, i, o, u, w, á, ã, é, í, ó
+Consonants in Korafe-Yegha: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+Execution time: 0.0062 seconds
+
+Processing language: Komi-Zyrian (kpv)
+Vowels in Komi-Zyrian: i, ö, а, е, и, о, у, ъ, ы, ь, э, я, ё
+Consonants in Komi-Zyrian: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, ч, ш, ю
+Execution time: 0.0081 seconds
+
+Processing language: Kimré (kqp)
+Vowels in Kimré: a, e, i, o, r, u, à, é, ê, ô
+Consonants in Kimré: b, c, d, g, h, j, k, l, m, n, p, s, t, w, y, á
+Execution time: 0.0021 seconds
+
+Processing language: Karachay-Balkar (krc)
+Vowels in Karachay-Balkar: а, е, и, о, у, ъ, ы, ь, э, ю, я, ё
+Consonants in Karachay-Balkar: б, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ч, ш
+Execution time: 0.0085 seconds
+
+Processing language: Krio (kri)
+Vowels in Krio: a, c, e, i, o, u, ɔ, ɛ
+Consonants in Krio: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0019 seconds
+
+Processing language: Kinaray-A (krj)
+Vowels in Kinaray-A: a, e, i, o, u
+Consonants in Kinaray-A: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0059 seconds
+
+Processing language: Kutep (kub)
+Vowels in Kutep: a, e, i, o, u, x, á, é, í, ó, ù, ú, ā, ē, ō
+Consonants in Kutep: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z, à
+Execution time: 0.0019 seconds
+
+Processing language: Kuman (kue)
+Vowels in Kuman: d, f, g, h, j, k, m, n, p, r, s, t, v, w, y
+Consonants in Kuman: a, b, e, i, l, o, u
+Execution time: 0.0048 seconds
+
+Processing language: Kumyk (kum)
+Vowels in Kumyk: а, е, и, о, у, ъ, ы, ь, э, ю, ё
+Consonants in Kumyk: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ч, ш, я
+Execution time: 0.0111 seconds
+
+Processing language: Kusaal (kus)
+Vowels in Kusaal: a, e, i, o, u
+Consonants in Kusaal: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z, å
+Execution time: 0.0034 seconds
+
+Processing language: Kwara'ae (kwf)
+Vowels in Kwara'ae: a, c, e, g, i, o, u, y
+Consonants in Kwara'ae: b, d, f, h, j, k, l, m, n, p, r, s, t, v, w
+Execution time: 0.0032 seconds
+
+Processing language: Awa-Cuaiquer (kwi)
+Vowels in Awa-Cuaiquer: a, e, h, i, o, u, x, á, ã, é, ó, ú, ĩ, ɨ
+Consonants in Awa-Cuaiquer: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, y, z, í, ñ
+Execution time: 0.0078 seconds
+
+Processing language: Kyaka (kyc)
+Vowels in Kyaka: a, e, g, i, o, u
+Consonants in Kyaka: b, d, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0052 seconds
+
+Processing language: Kui (Indonesia) (kyq)
+Vowels in Kui (Indonesia): a, e, i, o, u, ɔ, ɛ
+Consonants in Kui (Indonesia): b, c, d, g, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0026 seconds
+
+Processing language: Kayabí (kyz)
+Vowels in Kayabí: a, e, i, o, u, y, ã, õ, ũ
+Consonants in Kayabí: b, c, d, f, g, j, k, l, m, n, p, r, s, t, v, w
+Execution time: 0.0070 seconds
+
+Processing language: Lacandon (lac)
+Vowels in Lacandon: a, e, h, i, o, u, á, é, í, ó, ú, ʌ
+Consonants in Lacandon: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0059 seconds
+
+Processing language: Lama (Togo) (las)
+Vowels in Lama (Togo): a, e, i, o, u, ɔ, ɛ, ɩ, ʋ
+Consonants in Lama (Togo): c, f, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0025 seconds
+
+Processing language: Latin (lat)
+Vowels in Latin: a, e, i, o, u, y
+Consonants in Latin: b, c, d, f, g, h, k, l, m, n, p, q, r, s, t, v, x, z
+Execution time: 0.0275 seconds
+
+Processing language: Laari (ldi)
+Vowels in Laari: a, e, i, o, u, â, ê, î, ô, û
+Consonants in Laari: b, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0056 seconds
+
+Processing language: Lyélé (lee)
+Vowels in Lyélé: a, e, h, i, o, u, ɔ, ə, ɛ
+Consonants in Lyélé: b, c, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0008 seconds
+
+Processing language: Lelemi (lef)
+Vowels in Lelemi: a, e, i, o, u, ɔ, ɛ
+Consonants in Lelemi: b, d, g, h, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0036 seconds
+
+Processing language: Nomaande (lem)
+Vowels in Nomaande: b, c, d, f, h, j, k, l, m, n, s, t, w, y
+Consonants in Nomaande: a, e, i, o, u, ɔ, ɛ
+Execution time: 0.0013 seconds
+
+Processing language: Lahu Shi (lhu)
+Vowels in Lahu Shi: a, e, o, u
+Consonants in Lahu Shi: b, c, d, f, g, h, i, j, k, l, m, n, p, s, t, v, w, y
+Execution time: 0.0004 seconds
+
+Processing language: West-Central Limba (lia)
+Vowels in West-Central Limba: a, e, g, i, o, u, ɔ, ɛ
+Consonants in West-Central Limba: b, d, f, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0038 seconds
+
+Processing language: Lithuanian (lit)
+Vowels in Lithuanian: a, e, i, o, u, y
+Consonants in Lithuanian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+Execution time: 0.0114 seconds
+
+Processing language: Lampung Api (ljp)
+Vowels in Lampung Api: a, e, i, o, u
+Consonants in Lampung Api: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0054 seconds
+
+Processing language: Latundê (ltn)
+Vowels in Latundê: a, e, i, o, u, y
+Consonants in Latundê: b, c, d, f, g, h, l, m, n, p, q, r, s, t, v, x, z
+Execution time: 0.0065 seconds
+
+Processing language: Luwo (lwo)
+Vowels in Luwo: a, e, h, i, o, u
+Consonants in Luwo: b, c, d, g, j, k, l, m, n, p, r, t, w, y
+Execution time: 0.0048 seconds
+
+Processing language: San Jerónimo Tecóatl Mazatec (maa)
+Vowels in San Jerónimo Tecóatl Mazatec: a, c, e, g, i, j, o, q, ì, í, ò, ó, ú
+Consonants in San Jerónimo Tecóatl Mazatec: b, d, f, h, k, l, m, n, p, r, s, t, u, v, x, y, z, à, á, è, é, ñ
+Execution time: 0.0034 seconds
+
+Processing language: Madurese (mad)
+Vowels in Madurese: a, e, i, o, u
+Consonants in Madurese: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0058 seconds
+
+Processing language: Makasar (mak)
+Vowels in Makasar: a, e, g, i, o, u
+Consonants in Makasar: b, c, d, f, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0079 seconds
+
+Processing language: Mam (mam)
+Vowels in Mam: a, e, h, i, o, u, y, z, á, é, í, ó, ú
+Consonants in Mam: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, ñ
+Execution time: 0.0051 seconds
+
+Processing language: Mampruli (maw)
+Vowels in Mampruli: a, e, i, o, u, ɛ, ↄ
+Consonants in Mampruli: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0035 seconds
+
+Processing language: Central Mazahua (maz)
+Vowels in Central Mazahua: b, c, d, g, j, k, l, p, r, t, u, v, x, y, z, á, é, ñ, ó, ú
+Consonants in Central Mazahua: a, e, f, h, i, m, n, o, q, s, ã, ä, ë, í, õ, ö, ü, ĩ, ũ, ẽ
+Execution time: 0.0054 seconds
+
+Processing language: Western Bukidnon Manobo (mbb)
+Vowels in Western Bukidnon Manobo: a, e, i, o, u, à, è, ì, ù
+Consonants in Western Bukidnon Manobo: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0054 seconds
+
+Processing language: Matigsalug Manobo (mbt)
+Vowels in Matigsalug Manobo: a, e, i, u
+Consonants in Matigsalug Manobo: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0055 seconds
+
+Processing language: Machiguenga (mcb)
+Vowels in Machiguenga: a, c, e, i, o, u
+Consonants in Machiguenga: g, h, j, k, m, n, p, r, s, t, v, y, ñ
+Execution time: 0.0116 seconds
+
+Processing language: Coatlán Mixe (mco)
+Vowels in Coatlán Mixe: a, e, i, o, u, x, z, á, ä, é, ë, í, ï, ó, ö, ú, ü, ɨ
+Consonants in Coatlán Mixe: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, y, ñ
+Execution time: 0.0074 seconds
+
+Processing language: Mambila (mcu)
+Vowels in Mambila: a, e, i, o, u, ɔ
+Consonants in Mambila: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0006 seconds
+
+Processing language: Mada (Nigeria) (mda)
+Vowels in Mada (Nigeria): a, e, g, i, o, p, u, à, â, è, ê, ì, î, ò, ô, ù, û, ā, ē, ō, ɔ, ə, ɛ
+Consonants in Mada (Nigeria): b, c, d, f, h, j, k, l, m, n, r, s, t, v, w, y, z, é
+Execution time: 0.0016 seconds
+
+Processing language: Mendankwe-Nkwen (men)
+Vowels in Mendankwe-Nkwen: a, d, e, o, s, u, z, ɔ, ɛ
+Consonants in Mendankwe-Nkwen: b, f, g, h, i, j, k, l, m, n, p, r, t, v, w, y
+Execution time: 0.0057 seconds
+
+Processing language: Matal (mfh)
+Vowels in Matal: a, e, i, o, u, ə
+Consonants in Matal: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0024 seconds
+
+Processing language: Wandala (mfi)
+Vowels in Wandala: a, e, i, u, z
+Consonants in Wandala: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0034 seconds
+
+Processing language: Moba (mfq)
+Vowels in Moba: e, i, o, u, ɑ, ɔ
+Consonants in Moba: a, b, c, d, f, g, h, j, k, l, m, n, p, s, t, w, y
+Execution time: 0.0033 seconds
+
+Processing language: Mabaan (mfz)
+Vowels in Mabaan: a, e, i, o, u, ɔ, ɛ
+Consonants in Mabaan: b, c, d, g, h, j, k, l, m, n, p, r, t, w, y, ñ
+Execution time: 0.0040 seconds
+
+Processing language: Makhuwa-Moniga (mhm)
+Vowels in Makhuwa-Moniga: a, e, i, o, u, ã, õ, ĩ, ɛ, ɩ, ʋ, ẽ
+Consonants in Makhuwa-Moniga: b, d, f, g, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0044 seconds
+
+Processing language: Lhaovo (mhx)
+Vowels in Lhaovo: a, e, h, i, u
+Consonants in Lhaovo: b, c, d, f, g, j, k, l, m, n, o, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0023 seconds
+
+Processing language: Ocotepec Mixtec (mie)
+Vowels in Ocotepec Mixtec: a, e, h, i, o, u, á, í, ó, ú, ā, ō
+Consonants in Ocotepec Mixtec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, x, y, z, é, ñ, ē
+Execution time: 0.0025 seconds
+
+Processing language: Mofu-Gudur (mif)
+Vowels in Mofu-Gudur: a, e, i, u, ə
+Consonants in Mofu-Gudur: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0031 seconds
+
+Processing language: Peñoles Mixtec (mil)
+Vowels in Peñoles Mixtec: b, d, f, g, h, l, m, p, r, s, t, u, v, x, z, à, ñ, ù, ü, ǒ, ǔ
+Consonants in Peñoles Mixtec: a, c, e, i, j, n, o, q, y, á, è, é, ì, í, ò, ó, ú, ě, ǎ, ǐ, ɨ
+Execution time: 0.0062 seconds
+
+Processing language: Minangkabau (min)
+Vowels in Minangkabau: a, e, i, o, u
+Consonants in Minangkabau: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0059 seconds
+
+Processing language: Isthmus Mixe (mir)
+Vowels in Isthmus Mixe: a, e, i, o, u, x, á, ä, é, í, ó, ø, ú, ü
+Consonants in Isthmus Mixe: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+Execution time: 0.0066 seconds
+
+Processing language: Coatzospan Mixtec (miz)
+Vowels in Coatzospan Mixtec: a, e, h, i, q, t, u, y, â, ê, î, ó, ô, ú, û, ā
+Consonants in Coatzospan Mixtec: b, c, d, f, g, j, k, l, m, n, o, p, r, s, v, x, z, á, é, í, ñ, ē, ō, ɨ
+Execution time: 0.0034 seconds
+
+Processing language: Macedonian (mkd)
+Vowels in Macedonian: а, е, и, о, у, ѕ
+Consonants in Macedonian: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, ѓ, ј, љ, њ, ќ
+Execution time: 0.0080 seconds
+
+Processing language: Silacayoapan Mixtec (mks)
+Vowels in Silacayoapan Mixtec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Silacayoapan Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Execution time: 0.0018 seconds
+
+Processing language: Malagasy (mlg)
+Vowels in Malagasy: a, d, e, i, o, y, à, ì, ò, ô
+Consonants in Malagasy: b, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+Execution time: 0.0063 seconds
+
+Processing language: Bargam (mlp)
+Vowels in Bargam: a, e, i, o, u
+Consonants in Bargam: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z
+Execution time: 0.0059 seconds
+
+Processing language: Southern Mam (mms)
+Vowels in Southern Mam: a, c, e, i, o, u, z
+Consonants in Southern Mam: b, d, h, j, k, l, m, n, p, q, r, s, t, w, x, y
+Execution time: 0.0060 seconds
+
+Processing language: Muna (mnb)
+Vowels in Muna: a, e, g, i, o, u, z
+Consonants in Muna: b, d, f, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0076 seconds
+
+Processing language: Mundani (mnf)
+Vowels in Mundani: b, d, f, g, h, j, k, l, m, t, v, w, y, z
+Consonants in Mundani: a, c, e, i, n, o, p, s, u, ɔ, ə, ɨ
+Execution time: 0.0008 seconds
+
+Processing language: Mongondow (mog)
+Vowels in Mongondow: a, e, i, o, u, é, í, ó, ú
+Consonants in Mongondow: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y, z, á
+Execution time: 0.0047 seconds
+
+Processing language: Mopei (mop)
+Vowels in Mopei: a, e, h, i, o, u, é, ü
+Consonants in Mopei: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0050 seconds
+
+Processing language: Yosondúa Mixtec (mpm)
+Vowels in Yosondúa Mixtec: a, e, i, o, u, á, é, ó, ú, ā, ɨ
+Consonants in Yosondúa Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í, ñ
+Execution time: 0.0024 seconds
+
+Processing language: Misima-Paneati (mpx)
+Vowels in Misima-Paneati: a, e, i, o, u
+Consonants in Misima-Paneati: b, d, g, h, k, l, m, n, p, s, t, v, w, y
+Execution time: 0.0045 seconds
+
+Processing language: Mbuko (mqb)
+Vowels in Mbuko: a, e, i, o, u, œ, ə
+Consonants in Mbuko: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0037 seconds
+
+Processing language: Māori (mri)
+Vowels in Māori: a, e, g, i, o, u, w
+Consonants in Māori: h, k, m, n, p, r, t
+Execution time: 0.0094 seconds
+
+Processing language: Aruamu (msy)
+Vowels in Aruamu: a, e, h, i, o, u, ɨ
+Consonants in Aruamu: b, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0067 seconds
+
+Processing language: Cotabato Manobo (mta)
+Vowels in Cotabato Manobo: a, e, i, o, u
+Consonants in Cotabato Manobo: b, d, g, h, k, l, m, n, p, s, t, w, y
+Execution time: 0.0041 seconds
+
+Processing language: Mündü (muh)
+Vowels in Mündü: a, e, i, o, u
+Consonants in Mündü: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0014 seconds
+
+Processing language: Murle (mur)
+Vowels in Murle: a, e, i, o, u, á, ã, ɔ, ɛ
+Consonants in Murle: b, c, d, g, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0048 seconds
+
+Processing language: Central Huasteca Nahuatl (mvc)
+Vowels in Central Huasteca Nahuatl: a, c, e, i, o, u, y, z, á, é, í, ó, ú
+Consonants in Central Huasteca Nahuatl: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x
+Execution time: 0.0057 seconds
+
+Processing language: Miso Mixtec (mvj)
+Vowels in Miso Mixtec: a, e, h, i, o, u, y, z, á, é, ó, ú
+Consonants in Miso Mixtec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, í, ñ
+Execution time: 0.0062 seconds
+
+Processing language: Duri (mvp)
+Vowels in Duri: a, e, g, i, o, u
+Consonants in Duri: b, c, d, f, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0070 seconds
+
+Processing language: Mün Chin (mwq)
+Vowels in Mün Chin: a, e, g, h, o, u, ä, ü
+Consonants in Mün Chin: b, c, d, f, i, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0036 seconds
+
+Processing language: Mentawai (mwv)
+Vowels in Mentawai: a, e, i, o, u
+Consonants in Mentawai: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0064 seconds
+
+Processing language: Tezoatlán Mixtec (mxb)
+Vowels in Tezoatlán Mixtec: a, e, h, i, o, u, á, é, ó, ú
+Consonants in Tezoatlán Mixtec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í, ñ
+Execution time: 0.0020 seconds
+
+Processing language: Juquila Mixe (mxq)
+Vowels in Juquila Mixe: a, e, i, o, u, x, á, é, í, ó, ú, ʉ
+Consonants in Juquila Mixe: b, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y, z, ñ
+Execution time: 0.0060 seconds
+
+Processing language: Jamiltepec Mixtec (mxt)
+Vowels in Jamiltepec Mixtec: a, e, i, o, u, á, é, ó, ú, ɨ
+Consonants in Jamiltepec Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í, ñ
+Execution time: 0.0028 seconds
+
+Processing language: Mamara Senoufo (myk)
+Vowels in Mamara Senoufo: a, e, i, o, u, à, á, è, é, ì, í, ò, ù, ɔ, ɛ
+Consonants in Mamara Senoufo: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0028 seconds
+
+Processing language: Santa María Zacatepec Mixtec (mza)
+Vowels in Santa María Zacatepec Mixtec: a, e, h, i, o, u, á, é, ë, í, ó, ú
+Consonants in Santa María Zacatepec Mixtec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0041 seconds
+
+Processing language: Nigeria Mambila (mzk)
+Vowels in Nigeria Mambila: a, e, i, o, u, à, á, è, é, ì, í, ò, ó, ù, ú
+Consonants in Nigeria Mambila: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0021 seconds
+
+Processing language: Mumuye (mzm)
+Vowels in Mumuye: a, e, i, o, u, à, ã, è, ì, ò, ù, ũ, ǎ, ɔ, ɛ
+Consonants in Mumuye: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0018 seconds
+
+Processing language: Deg (mzw)
+Vowels in Deg: a, c, e, i, o, u, ɔ, ɛ
+Consonants in Deg: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0029 seconds
+
+Processing language: Nahuatl languages (nah)
+Vowels in Nahuatl languages: a, e, h, i, o, q, z, á, é, í, ó, ú
+Consonants in Nahuatl languages: b, c, d, f, g, j, l, m, n, p, r, s, t, u, v, x, y, ñ
+Execution time: 0.0075 seconds
+
+Processing language: Min Nan Chinese (nan)
+Vowels in Min Nan Chinese: a, e, g, h, j
+Consonants in Min Nan Chinese: b, c, i, k, l, m, n, o, p, s, t, u
+Execution time: 0.0006 seconds
+
+Processing language: Naasioi (nas)
+Vowels in Naasioi: a, e, g, i, o, u
+Consonants in Naasioi: b, d, j, k, l, m, n, p, r, s, t, v
+Execution time: 0.0074 seconds
+
+Processing language: Central Huasteca Nahuatl (nch)
+Vowels in Central Huasteca Nahuatl: a, e, f, h, i, k, o, q, z, á, é, ó, ú
+Consonants in Central Huasteca Nahuatl: b, c, d, g, j, l, m, n, p, r, s, t, u, v, x, y, í
+Execution time: 0.0089 seconds
+
+Processing language: Michoacán Nahuatl (ncl)
+Vowels in Michoacán Nahuatl: a, e, g, h, i, o, q, z, á, é, ó, ú
+Consonants in Michoacán Nahuatl: b, c, d, f, j, l, m, n, p, r, s, t, u, v, x, y, í
+Execution time: 0.0097 seconds
+
+Processing language: Chumburung (ncu)
+Vowels in Chumburung: a, e, i, o, u, ɔ, ɛ
+Consonants in Chumburung: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0012 seconds
+
+Processing language: North Ndebele (nde)
+Vowels in North Ndebele: a, c, e, i, o, p, t, u
+Consonants in North Ndebele: b, d, f, g, h, j, k, l, m, n, q, r, s, v, w, x, y, z
+Execution time: 0.0282 seconds
+
+Processing language: Ndogo (ndz)
+Vowels in Ndogo: b, c, d, f, j, k, l, m, n, p, r, s, t, v, w, y, z
+Consonants in Ndogo: a, e, g, i, o, u, à, á, â, è, é, ê, ì, í, î, ò, ó, ô, ù, ú, û
+Execution time: 0.0018 seconds
+
+Processing language: Toura (Côte d'Ivoire) (neb)
+Vowels in Toura (Côte d'Ivoire): b, d, f, h, l, m, n, p, s, t, v, w, y, z, â
+Consonants in Toura (Côte d'Ivoire): a, e, g, i, k, o, u, à, á, è, é, ê, ì, í, î, ò, ó, ù, ú, ɔ, ɛ, ɩ, ʋ
+Execution time: 0.0039 seconds
+
+Processing language: Nafaanra (nfr)
+Vowels in Nafaanra: a, c, e, i, o, u, ɛ, ↄ
+Consonants in Nafaanra: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0048 seconds
+
+Processing language: Guerrero Nahuatl (ngu)
+Vowels in Guerrero Nahuatl: a, e, h, i, o, q, z, á, é, í, ó, ú
+Consonants in Guerrero Nahuatl: b, c, d, f, g, j, l, m, n, p, r, s, t, u, v, x, y, ñ
+Execution time: 0.0138 seconds
+
+Processing language: Eastern Huasteca Nahuatl (nhe)
+Vowels in Eastern Huasteca Nahuatl: a, e, f, h, i, k, o, q, z, á, é, ó, ú
+Consonants in Eastern Huasteca Nahuatl: b, c, d, g, j, l, m, n, p, r, s, t, u, v, x, y, í
+Execution time: 0.0152 seconds
+
+Processing language: Zacatlán-Ahuacatlán-Tepetzintla Nahuatl (nhi)
+Vowels in Zacatlán-Ahuacatlán-Tepetzintla Nahuatl: a, e, i, o, q, z, á, é, í, ó, ú
+Consonants in Zacatlán-Ahuacatlán-Tepetzintla Nahuatl: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, u, v, x, y, ñ
+Execution time: 0.0091 seconds
+
+Processing language: Noone (nhu)
+Vowels in Noone: a, e, h, i, o, p, u, v, ɛ
+Consonants in Noone: b, c, d, f, g, j, k, l, m, n, s, t, w, y
+Execution time: 0.0034 seconds
+
+Processing language: Western Huasteca Nahuatl (nhw)
+Vowels in Western Huasteca Nahuatl: a, e, f, h, i, k, o, q, z, á, é, ó, ú
+Consonants in Western Huasteca Nahuatl: b, c, d, g, j, l, m, n, p, r, s, t, u, v, x, y, í
+Execution time: 0.0110 seconds
+
+Processing language: Northern Oaxaca Nahuatl (nhy)
+Vowels in Northern Oaxaca Nahuatl: a, e, h, i, o, u, z, á, é, í, ó, ú
+Consonants in Northern Oaxaca Nahuatl: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, ñ
+Execution time: 0.0081 seconds
+
+Processing language: Nias (nia)
+Vowels in Nias: a, e, i, o, u, ö
+Consonants in Nias: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0053 seconds
+
+Processing language: Ngaju (nij)
+Vowels in Ngaju: a, e, i, o, u
+Consonants in Ngaju: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0044 seconds
+
+Processing language: Nilamba (nim)
+Vowels in Nilamba: a, e, i, o, u, ĩ, ũ
+Consonants in Nilamba: b, d, f, g, h, j, k, l, m, n, p, s, t, w, y, z
+Execution time: 0.0070 seconds
+
+Processing language: Dutch (nld)
+Vowels in Dutch: a, c, e, i, o, u, y
+Consonants in Dutch: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z
+Execution time: 0.0058 seconds
+
+Processing language: Southern Nuni (nnw)
+Vowels in Southern Nuni: a, e, i, o, u, ɑ, ɔ, ə, ɛ, ɩ, ʋ
+Consonants in Southern Nuni: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0019 seconds
+
+Processing language: Woun Meu (noa)
+Vowels in Woun Meu: a, c, e, i, o, u, á, ã, ä, é, ë, ó, õ, ö, ĩ, ũ, ʌ, ẽ
+Consonants in Woun Meu: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ, ú
+Execution time: 0.0090 seconds
+
+Processing language: Norwegian (nor)
+Vowels in Norwegian: a, e, i, o, u, y, å, æ, é, ó, ø
+Consonants in Norwegian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v
+Execution time: 0.0048 seconds
+
+Processing language: Southeastern Puebla Nahuatl (npl)
+Vowels in Southeastern Puebla Nahuatl: a, c, e, i, o, u, á, é, í, ó, ú
+Consonants in Southeastern Puebla Nahuatl: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0073 seconds
+
+Processing language: Napu (npy)
+Vowels in Napu: a, e, g, i, o, u
+Consonants in Napu: b, c, d, f, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0070 seconds
+
+Processing language: Northern Tepehuan (ntp)
+Vowels in Northern Tepehuan: a, e, h, i, o, u, á, é, í, ú, ʌ
+Consonants in Northern Tepehuan: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, y, z, ñ
+Execution time: 0.0087 seconds
+
+Processing language: Delo (ntr)
+Vowels in Delo: a, e, i, o, u, ɛ, ↄ
+Consonants in Delo: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0024 seconds
+
+Processing language: Nuer (nus)
+Vowels in Nuer: a, e, h, i, o, u, ä, ë, ö, ɔ, ɛ
+Consonants in Nuer: b, c, d, g, j, k, l, m, n, p, r, t, w, y
+Execution time: 0.0026 seconds
+
+Processing language: Giryama (nyf)
+Vowels in Giryama: a, c, d, e, i, o, u
+Consonants in Giryama: b, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0066 seconds
+
+Processing language: Nyakyusa-Ngonde (nyy)
+Vowels in Nyakyusa-Ngonde: a, d, e, f, i, o, u, ā, ē, ō
+Consonants in Nyakyusa-Ngonde: b, g, h, j, k, l, m, n, p, s, t, w, y
+Execution time: 0.0034 seconds
+
+Processing language: Mochica (old)
+Vowels in Mochica: a, c, e, i, j, o, u, z
+Consonants in Mochica: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0053 seconds
+
+Processing language: Tohono O'odham (ood)
+Vowels in Tohono O'odham: a, e, h, i, o, u, y
+Consonants in Tohono O'odham: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, z
+Execution time: 0.0037 seconds
+
+Processing language: Oksapmin (opm)
+Vowels in Oksapmin: a, e, i, o, u
+Consonants in Oksapmin: b, d, g, h, j, k, m, n, p, r, s, t, w, y
+Execution time: 0.0078 seconds
+
+Processing language: Ossetian (oss)
+Vowels in Ossetian: а, е, ж, и, о, ъ, ы, э, ӕ
+Consonants in Ossetian: б, в, г, д, з, й, к, л, м, н, п, р, с, т, у, ф, х, ц, ч
+Execution time: 0.0102 seconds
+
+Processing language: Mezquital Otomi (ote)
+Vowels in Mezquital Otomi: a, e, i, o, u, á, ë, ö, ú
+Consonants in Mezquital Otomi: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, x, y, z, ñ
+Execution time: 0.0022 seconds
+
+Processing language: Querétaro Otomi (otq)
+Vowels in Querétaro Otomi: a, e, i, o, u, á, ë, ö, ú
+Consonants in Querétaro Otomi: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, x, y, z, ñ
+Execution time: 0.0022 seconds
+
+Processing language: Koonzime (ozm)
+Vowels in Koonzime: b, d, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y
+Consonants in Koonzime: a, c, e, g, i, o, u, z, ø, œ, ɑ, ɔ, ɛ, ɨ, ʉ
+Execution time: 0.0012 seconds
+
+Processing language: Parecís (pab)
+Vowels in Parecís: a, e, i, o, u, á, â, é, ê, í, ó, ô, ú
+Consonants in Parecís: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ã
+Execution time: 0.0105 seconds
+
+Processing language: Paumarí (pad)
+Vowels in Paumarí: a, e, i, o, u, á, â, é, ê, í, î, ó, ô, ú
+Consonants in Paumarí: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, z, ã
+Execution time: 0.0181 seconds
+
+Processing language: Pangasinan (pag)
+Vowels in Pangasinan: a, e, i, o, u
+Consonants in Pangasinan: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0108 seconds
+
+Processing language: Tenango Otomi (pah)
+Vowels in Tenango Otomi: a, e, i, n, o, u, w, y, á, â, ã, é, ê, í, ó, ô, õ, ú, ĩ, ũ, ẽ
+Consonants in Tenango Otomi: b, c, d, f, g, h, j, k, l, m, p, q, r, s, t, v, x, z
+Execution time: 0.0141 seconds
+
+Processing language: Pampanga (pam)
+Vowels in Pampanga: a, e, i, o, u
+Consonants in Pampanga: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0098 seconds
+
+Processing language: Northern Paiute (pao)
+Vowels in Northern Paiute: a, e, f, i, o, u, x
+Consonants in Northern Paiute: b, c, d, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z
+Execution time: 0.0080 seconds
+
+Processing language: Páez (pbb)
+Vowels in Páez: a, e, i, o, u, z, á, ã, é, ó, ĩ, ũ, ẽ
+Consonants in Páez: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, í, ñ
+Execution time: 0.0100 seconds
+
+Processing language: Patamona (pbc)
+Vowels in Patamona: a, e, i, o, u, à, ù
+Consonants in Patamona: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0060 seconds
+
+Processing language: Parkwa (pbi)
+Vowels in Parkwa: a, e, i, u, z, ə, ɨ
+Consonants in Parkwa: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0035 seconds
+
+Processing language: Plautdietsch (pdt)
+Vowels in Plautdietsch: a, c, e, i, o, u
+Consonants in Plautdietsch: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0047 seconds
+
+Processing language: Pijin (pis)
+Vowels in Pijin: a, e, i, o, u
+Consonants in Pijin: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0021 seconds
+
+Processing language: Pokomo (pkb)
+Vowels in Pokomo: a, c, d, e, i, o, u
+Consonants in Pokomo: b, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0058 seconds
+
+Processing language: Pamona (pmf)
+Vowels in Pamona: a, e, g, i, o, u
+Consonants in Pamona: b, d, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0055 seconds
+
+Processing language: Pocoman (pob)
+Vowels in Pocoman: a, e, i, o, u, z
+Consonants in Pocoman: b, c, d, h, j, k, l, m, n, p, q, r, s, t, w, x, y
+Execution time: 0.0056 seconds
+
+Processing language: Pogoro (poh)
+Vowels in Pogoro: a, e, i, o, u, á, é, ó, ú
+Consonants in Pogoro: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0114 seconds
+
+Processing language: Polish (pol)
+Vowels in Polish: a, e, i, o, u, y, ó
+Consonants in Polish: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, z
+Execution time: 0.0098 seconds
+
+Processing language: Portuguese (por)
+Vowels in Portuguese: a, e, i, o, u, á, â, é, ê, í, ó, ô, ú
+Consonants in Portuguese: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, z, à, ã, õ
+Execution time: 0.0155 seconds
+
+Processing language: Potawatomi (pot)
+Vowels in Potawatomi: a, e, h, i, o, u
+Consonants in Potawatomi: c, k, m, n, p, s, t, w, y
+Execution time: 0.0015 seconds
+
+Processing language: Uma (ppk)
+Vowels in Uma: a, c, e, i, o, u
+Consonants in Uma: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0049 seconds
+
+Processing language: Bambam (ptu)
+Vowels in Bambam: a, e, g, i, o, u, ä
+Consonants in Bambam: b, d, f, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0071 seconds
+
+Processing language: K'iche' (quc)
+Vowels in K'iche': a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in K'iche': b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0061 seconds
+
+Processing language: Lambayeque Quechua (quf)
+Vowels in Lambayeque Quechua: a, c, e, i, o, u, x
+Consonants in Lambayeque Quechua: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z
+Execution time: 0.0114 seconds
+
+Processing language: South Bolivian Quechua (quh)
+Vowels in South Bolivian Quechua: a, c, e, i, o, u, á, é, í, ó, ú
+Consonants in South Bolivian Quechua: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0093 seconds
+
+Processing language: San Juan Sacatepéquez Kaqchikel (quj)
+Vowels in San Juan Sacatepéquez Kaqchikel: a, e, h, i, o, u, z, á, é, ó, ú
+Consonants in San Juan Sacatepéquez Kaqchikel: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, í
+Execution time: 0.0054 seconds
+
+Processing language: North Bolivian Quechua (qul)
+Vowels in North Bolivian Quechua: a, c, e, i, o, u, á, ä, é, ï, ó, ú
+Consonants in North Bolivian Quechua: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ
+Execution time: 0.0099 seconds
+
+Processing language: Southern Pastaza Quechua (qup)
+Vowels in Southern Pastaza Quechua: a, e, h, i, o, u, x, á, é, í, ó, ú
+Consonants in Southern Pastaza Quechua: b, c, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y, ñ
+Execution time: 0.0130 seconds
+
+Processing language: Guatemala K'iche' (qut)
+Vowels in Guatemala K'iche': a, e, h, i, o, u, á, ä, é, í, ó, ú
+Consonants in Guatemala K'iche': b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0051 seconds
+
+Processing language: Ayacucho Quechua (quy)
+Vowels in Ayacucho Quechua: a, c, e, i, o, u, á, é, í
+Consonants in Ayacucho Quechua: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0084 seconds
+
+Processing language: Cusco Quechua (quz)
+Vowels in Cusco Quechua: a, c, e, i, o, u, á, é, í, ó, ú
+Consonants in Cusco Quechua: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+Execution time: 0.0091 seconds
+
+Processing language: Cajamarca Quechua (qvc)
+Vowels in Cajamarca Quechua: a, e, h, i, o, u, á, í
+Consonants in Cajamarca Quechua: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, w, y, ñ
+Execution time: 0.0108 seconds
+
+Processing language: Huamalíes-Dos de Mayo Huánuco Quechua (qvh)
+Vowels in Huamalíes-Dos de Mayo Huánuco Quechua: a, e, h, i, o, u, á, ä, é, ë, í, ï, ó, ö, ú, ü
+Consonants in Huamalíes-Dos de Mayo Huánuco Quechua: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0102 seconds
+
+Processing language: Margos-Yarowilca-Lauricocha Quechua (qvm)
+Vowels in Margos-Yarowilca-Lauricocha Quechua: a, e, h, i, o, u, á, ä, é, ë, í, ï, ó, ö, ú, ü
+Consonants in Margos-Yarowilca-Lauricocha Quechua: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0107 seconds
+
+Processing language: San Martín Quechua (qvs)
+Vowels in San Martín Quechua: a, e, h, i, o, u, á, í
+Consonants in San Martín Quechua: b, c, d, f, g, j, k, l, m, n, p, r, s, t, v, w, x, y, ñ
+Execution time: 0.0119 seconds
+
+Processing language: Huaylla Wanca Quechua (qvw)
+Vowels in Huaylla Wanca Quechua: a, e, h, i, o, u, á, ä, ë, ï, ó, ú, ü
+Consonants in Huaylla Wanca Quechua: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y, z, é, í, ñ
+Execution time: 0.0069 seconds
+
+Processing language: Northern Pastaza Quichua (qvz)
+Vowels in Northern Pastaza Quichua: a, e, i, o, u, z, á, í, ó, ú, ü
+Consonants in Northern Pastaza Quichua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, ñ
+Execution time: 0.0102 seconds
+
+Processing language: Huaylas Ancash Quechua (qwh)
+Vowels in Huaylas Ancash Quechua: a, e, h, i, o, u, ä, ë, ï, ö, ü
+Consonants in Huaylas Ancash Quechua: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0095 seconds
+
+Processing language: Panao Huánuco Quechua (qxh)
+Vowels in Panao Huánuco Quechua: a, e, h, i, o, u, á, ä, é, í, ï, ó, ú, ü
+Consonants in Panao Huánuco Quechua: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0092 seconds
+
+Processing language: Northern Conchucos Ancash Quechua (qxn)
+Vowels in Northern Conchucos Ancash Quechua: a, e, h, i, o, u, á, ä, é, ë, ï, ó, ú, ü
+Consonants in Northern Conchucos Ancash Quechua: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ñ, ö
+Execution time: 0.0113 seconds
+
+Processing language: Southern Conchucos Ancash Quechua (qxo)
+Vowels in Southern Conchucos Ancash Quechua: a, e, h, i, o, u, ä, ë, ï, ü
+Consonants in Southern Conchucos Ancash Quechua: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ, ö
+Execution time: 0.0107 seconds
+
+Processing language: Nyaturu (rim)
+Vowels in Nyaturu: a, c, e, i, o, p, u, ë, ü
+Consonants in Nyaturu: b, d, f, g, h, j, k, l, m, n, r, s, t, v, w, y
+Execution time: 0.0058 seconds
+
+Processing language: Vlax Romani (rmy)
+Vowels in Vlax Romani: a, c, e, i, o, u
+Consonants in Vlax Romani: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z, ñ
+Execution time: 0.0047 seconds
+
+Processing language: Romany (rom)
+Vowels in Romany: a, e, i, o, u, â, î
+Consonants in Romany: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z
+Execution time: 0.0083 seconds
+
+Processing language: Romanian (ron)
+Vowels in Romanian: a, e, i, o, u, î
+Consonants in Romanian: b, c, d, f, g, h, j, l, m, n, p, r, s, t, v, x, z
+Execution time: 0.0097 seconds
+
+Processing language: Russian (rus)
+Vowels in Russian: а, е, и, о, у, ъ, ы, ь, э, я, ё
+Consonants in Russian: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, щ, ю
+Execution time: 0.0267 seconds
+
+Processing language: Buglere (sab)
+Vowels in Buglere: a, c, e, i, j, o, u, x, á, é, í, ó, ú
+Consonants in Buglere: b, d, f, g, h, k, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+Execution time: 0.0040 seconds
+
+Processing language: Safaliba (saf)
+Vowels in Safaliba: a, e, i, o, u, ɔ, ɛ
+Consonants in Safaliba: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0068 seconds
+
+Processing language: Sasak (sas)
+Vowels in Sasak: a, e, i, o, u
+Consonants in Sasak: b, c, d, g, h, j, k, l, m, n, p, q, r, s, t, w, y, z
+Execution time: 0.0045 seconds
+
+Processing language: Southern Samo (sbd)
+Vowels in Southern Samo: a, e, i, o, u, à, á, è, é, ì, í, ò, ó, ù, ú, ǎ, ɔ, ə, ɛ
+Consonants in Southern Samo: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z, ã, ĩ, ũ
+Execution time: 0.0024 seconds
+
+Processing language: Botolan Sambal (sbl)
+Vowels in Botolan Sambal: a, e, i, o
+Consonants in Botolan Sambal: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0053 seconds
+
+Processing language: Toraja-Sa'dan (sda)
+Vowels in Toraja-Sa'dan: a, e, g, i, o, u
+Consonants in Toraja-Sa'dan: b, c, d, f, h, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0062 seconds
+
+Processing language: Mag-antsi Ayta (sgb)
+Vowels in Mag-antsi Ayta: a, e, i, o, u, á, ê, í, ú
+Consonants in Mag-antsi Ayta: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0053 seconds
+
+Processing language: Tachelhit (shi)
+Vowels in Tachelhit: a, e, h, i, u, ɛ
+Consonants in Tachelhit: b, d, f, g, j, k, l, m, n, q, r, s, t, w, y, z
+Execution time: 0.0032 seconds
+
+Processing language: Shilluk (shk)
+Vowels in Shilluk: b, d, g, j, l, m, n, r, s, t, w, y
+Consonants in Shilluk: a, c, e, h, i, k, o, p, u, á, è, é, ë, ì, í, ï, ó, ö, ø, ù, ɑ
+Execution time: 0.0037 seconds
+
+Processing language: Paasaal (sig)
+Vowels in Paasaal: a, e, i, o, u, ɔ, ɛ, ɩ, ʋ
+Consonants in Paasaal: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z, á
+Execution time: 0.0026 seconds
+
+Processing language: Tumulung Sisaala (sil)
+Vowels in Tumulung Sisaala: a, c, e, i, o, u, á, í, ɛ, ↄ
+Consonants in Tumulung Sisaala: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0022 seconds
+
+Processing language: Epena (sja)
+Vowels in Epena: a, c, e, i, o, u, x, á, ã, é, ë, í, ó, õ, ú, ĩ, ũ, ɨ, ẽ
+Consonants in Epena: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+Execution time: 0.0066 seconds
+
+Processing language: Sissala (sld)
+Vowels in Sissala: a, e, i, o, u, ɔ, ɛ, ɩ, ʋ
+Consonants in Sissala: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0013 seconds
+
+Processing language: Slovenian (slv)
+Vowels in Slovenian: a, e, i, o, u, y, á, ä, é, í, ó, ô, ú
+Consonants in Slovenian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z
+Execution time: 0.0047 seconds
+
+Processing language: Samoan (smo)
+Vowels in Samoan: a, e, i, o, u, ā
+Consonants in Samoan: f, g, h, k, l, m, n, p, r, s, t, v, ē, ō
+Execution time: 0.0032 seconds
+
+Processing language: Shona (sna)
+Vowels in Shona: a, c, e, i, l, o, u, z
+Consonants in Shona: b, d, f, g, h, j, k, m, n, p, r, s, t, v, w, y
+Execution time: 0.0252 seconds
+
+Processing language: Somali (som)
+Vowels in Somali: a, e, i, o, u
+Consonants in Somali: b, c, d, f, g, h, j, k, l, m, n, q, r, s, t, w, x, y
+Execution time: 0.0186 seconds
+
+Processing language: Miyobe (soy)
+Vowels in Miyobe: a, c, e, i, o, u, ɔ
+Consonants in Miyobe: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0031 seconds
+
+Processing language: Spanish (spa)
+Vowels in Spanish: a, e, i, o, u, á, é, í, ú, ü
+Consonants in Spanish: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ, ó
+Execution time: 0.0162 seconds
+
+Processing language: Supyire Senoufo (spp)
+Vowels in Supyire Senoufo: a, e, i, o, u, à, á, â, è, é, ê, ì, í, î, ò, ó, ô, ù, ú, û, ɔ, ɛ
+Consonants in Supyire Senoufo: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0030 seconds
+
+Processing language: Sabaot (spy)
+Vowels in Sabaot: a, c, e, g, i, o, u, ā, ē, ō
+Consonants in Sabaot: b, f, h, k, l, m, n, r, s, t, w, y
+Execution time: 0.0075 seconds
+
+Processing language: Albanian (sqi)
+Vowels in Albanian: a, e, h, i, o, r, u, y, é, ë
+Consonants in Albanian: b, c, d, f, g, j, k, l, m, n, p, q, s, t, v, x, z
+Execution time: 0.0193 seconds
+
+Processing language: Siriano (sri)
+Vowels in Siriano: a, o, r, u, v, x, á, é, í, ó, õ, ú, ü, ʉ
+Consonants in Siriano: b, c, d, e, f, g, h, i, j, k, l, m, n, p, q, s, t, w, y, z, ã, ñ
+Execution time: 0.0047 seconds
+
+Processing language: Saramaccan (srm)
+Vowels in Saramaccan: a, e, i, o, u, ë, ö
+Consonants in Saramaccan: b, d, f, g, h, j, k, l, m, n, p, s, t, v, w, z, ú
+Execution time: 0.0023 seconds
+
+Processing language: Sranan Tongo (srn)
+Vowels in Sranan Tongo: a, e, i, j, o, u, á, è, ê, ô
+Consonants in Sranan Tongo: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0021 seconds
+
+Processing language: Serbian (srp)
+Vowels in Serbian: o, а, е, и, о, у
+Consonants in Serbian: a, б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, ђ, ј, љ, њ, ћ
+Execution time: 0.0062 seconds
+
+Processing language: Owa (stn)
+Vowels in Owa: a, e, i, o, u
+Consonants in Owa: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w
+Execution time: 0.0042 seconds
+
+Processing language: Southeastern Tepehuan (stp)
+Vowels in Southeastern Tepehuan: a, c, e, i, o, u, ɨ
+Consonants in Southeastern Tepehuan: b, d, g, h, j, k, l, m, n, p, r, s, t, x, y, ñ
+Execution time: 0.0049 seconds
+
+Processing language: Sulka (sua)
+Vowels in Sulka: a, c, e, i, o, u
+Consonants in Sulka: b, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, z
+Execution time: 0.0057 seconds
+
+Processing language: Sukuma (suk)
+Vowels in Sukuma: a, e, i, o, u
+Consonants in Sukuma: b, d, g, h, k, l, m, n, p, r, s, t, v, y
+Execution time: 0.0038 seconds
+
+Processing language: Sundanese (sun)
+Vowels in Sundanese: a, e, i, o, u
+Consonants in Sundanese: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0072 seconds
+
+Processing language: Mwaghavul (sur)
+Vowels in Mwaghavul: a, e, g, i, o, u, é, í, ú
+Consonants in Mwaghavul: b, c, d, f, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0020 seconds
+
+Processing language: Susu (sus)
+Vowels in Susu: a, e, i, o, u, ɔ, ɛ
+Consonants in Susu: b, d, f, g, h, k, l, m, n, p, r, s, t, w, x, y
+Execution time: 0.0035 seconds
+
+Processing language: Swahili (swa)
+Vowels in Swahili: a, c, e, i, o, u
+Consonants in Swahili: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0058 seconds
+
+Processing language: Swedish (swe)
+Vowels in Swedish: a, e, i, o, u, y, ä, å, ö
+Consonants in Swedish: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, é
+Execution time: 0.0143 seconds
+
+Processing language: Swahili (macrolanguage) (swh)
+Vowels in Swahili (macrolanguage): a, c, e, i, o, u
+Consonants in Swahili (macrolanguage): b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0058 seconds
+
+Processing language: Tabassaran (tab)
+Vowels in Tabassaran: а, е, и, о, у, ъ, ь, э, ю, я, і
+Consonants in Tabassaran: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш
+Execution time: 0.0088 seconds
+
+Processing language: Lowland Tarahumara (tac)
+Vowels in Lowland Tarahumara: a, c, e, i, o, u, á, é, í, ó, ú
+Consonants in Lowland Tarahumara: b, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0070 seconds
+
+Processing language: Tamasheq (taq)
+Vowels in Tamasheq: a, e, i, o, u, ǝ
+Consonants in Tamasheq: b, d, f, g, h, j, k, l, m, n, q, r, s, t, w, x, y, z
+Execution time: 0.0009 seconds
+
+Processing language: Tatar (tat)
+Vowels in Tatar: а, е, и, о, у, ъ, ы, ь, э, ѳ, ү, ә
+Consonants in Tatar: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ч, ш, ю, я, җ, ң, һ
+Execution time: 0.0086 seconds
+
+Processing language: Takia (tbc)
+Vowels in Takia: a, e, i, o, u
+Consonants in Takia: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0035 seconds
+
+Processing language: Tabaru (tby)
+Vowels in Tabaru: a, e, i, o, u
+Consonants in Tabaru: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0066 seconds
+
+Processing language: Ticuna (tca)
+Vowels in Ticuna: a, c, e, g, k, o, q, r, s, x, á, é, ó
+Consonants in Ticuna: b, d, f, h, i, l, m, n, p, t, u, w, y, z, ã, í, ñ, õ, ú, ü, ĩ, ũ, ẽ
+Execution time: 0.0041 seconds
+
+Processing language: Datooga (tcc)
+Vowels in Datooga: a, c, e, g, i, o, u
+Consonants in Datooga: b, d, f, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0086 seconds
+
+Processing language: Huehuetla Tepehua (tee)
+Vowels in Huehuetla Tepehua: a, e, h, i, o, u, á, é, ó, ú
+Consonants in Huehuetla Tepehua: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í
+Execution time: 0.0085 seconds
+
+Processing language: Timne (tem)
+Vowels in Timne: a, c, e, g, i, o, u, ǝ, ȧ, ɔ, ə, ɛ
+Consonants in Timne: b, d, f, h, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0034 seconds
+
+Processing language: Teribe (tfr)
+Vowels in Teribe: a, e, h, i, j, o, u, à, á, ã, ä, è, é, ê, ë, î, ò, ó, õ, ö, ú, û
+Consonants in Teribe: b, c, d, f, g, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í, ð
+Execution time: 0.0030 seconds
+
+Processing language: Tagalog (tgl)
+Vowels in Tagalog: a, e, i, o, u, á, â
+Consonants in Tagalog: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0064 seconds
+
+Processing language: Tharaka (thk)
+Vowels in Tharaka: a, d, e, f, h, i, j, o, u, î, û
+Consonants in Tharaka: b, c, g, k, m, n, p, r, s, t, w, y
+Execution time: 0.0066 seconds
+
+Processing language: Tikopia (tik)
+Vowels in Tikopia: e, i, o, r, v, w, æ, ɔ, ɛ
+Consonants in Tikopia: a, b, c, d, f, g, h, j, k, l, m, n, p, s, t, u, y, z
+Execution time: 0.0011 seconds
+
+Processing language: Coyutla Totonac (toc)
+Vowels in Coyutla Totonac: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Coyutla Totonac: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Execution time: 0.0030 seconds
+
+Processing language: Gitonga (toh)
+Vowels in Gitonga: a, e, i, o, u
+Consonants in Gitonga: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+Execution time: 0.0057 seconds
+
+Processing language: Highland Totonac (tos)
+Vowels in Highland Totonac: a, e, i, o, u
+Consonants in Highland Totonac: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+Execution time: 0.0019 seconds
+
+Processing language: Tok Pisin (tpi)
+Vowels in Tok Pisin: a, e, i, o, u
+Consonants in Tok Pisin: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0034 seconds
+
+Processing language: Tampulma (tpm)
+Vowels in Tampulma: a, c, e, i, o, u, ɔ, ɛ
+Consonants in Tampulma: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0055 seconds
+
+Processing language: Tlachichilco Tepehua (tpt)
+Vowels in Tlachichilco Tepehua: a, c, e, i, o, u, á, é, í, ó, ú
+Consonants in Tlachichilco Tepehua: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+Execution time: 0.0075 seconds
+
+Processing language: Tektiteko (ttc)
+Vowels in Tektiteko: a, c, e, i, o, u, z, á, é, í, ó, ú
+Consonants in Tektiteko: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, w, x, y
+Execution time: 0.0052 seconds
+
+Processing language: Tupuri (tue)
+Vowels in Tupuri: a, e, i, o, r, u, ã, ú, ĩ, ũ
+Consonants in Tupuri: b, c, d, f, g, h, j, l, m, n, p, q, s, t, v, w, x, y, z, á, é, í, ñ, ó, õ, ẽ
+Execution time: 0.0048 seconds
+
+Processing language: Central Tunebo (tuf)
+Vowels in Central Tunebo: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Central Tunebo: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0061 seconds
+
+Processing language: Turkmen (tuk)
+Vowels in Turkmen: a, e, i, o, u, y, ä, ö, ü
+Consonants in Turkmen: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, z
+Execution time: 0.0036 seconds
+
+Processing language: Tucano (tuo)
+Vowels in Tucano: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z
+Consonants in Tucano: a, e, i, o, u, á, â, ã, é, ê, í, î, ó, ô, õ, ú, û, ĩ, ũ, ɨ, ẽ
+Execution time: 0.0073 seconds
+
+Processing language: Termanu (twu)
+Vowels in Termanu: a, e, i, o, u
+Consonants in Termanu: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0049 seconds
+
+Processing language: Kayapó (txu)
+Vowels in Kayapó: a, d, e, h, i, o, u, y
+Consonants in Kayapó: b, g, j, k, m, n, p, r, t, w, x
+Execution time: 0.0018 seconds
+
+Processing language: Tuvinian (tyv)
+Vowels in Tuvinian: a, а, е, и, о, у, ъ, ы, ь, э, ю, ё, ү, ө
+Consonants in Tuvinian: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, я, ң
+Execution time: 0.0097 seconds
+
+Processing language: Tz'utujil (tzj)
+Vowels in Tz'utujil: a, e, h, i, o, u, z, á, é, í, ó, ú
+Consonants in Tz'utujil: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, ñ
+Execution time: 0.0066 seconds
+
+Processing language: Tzotzil (tzo)
+Vowels in Tzotzil: a, e, h, i, o, u, á, é, ó, ú
+Consonants in Tzotzil: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, x, y, z, í, ñ
+Execution time: 0.0071 seconds
+
+Processing language: Tz'utujil (tzt)
+Vowels in Tz'utujil: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Tz'utujil: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+Execution time: 0.0064 seconds
+
+Processing language: Ubu (ubu)
+Vowels in Ubu: b, d, g, j, k, l, m, n, p, r, s, t, w, y
+Consonants in Ubu: a, e, i, o, u, á, é, í, ó, ú
+Execution time: 0.0070 seconds
+
+Processing language: Uduk (udu)
+Vowels in Uduk: a, e, i, o, u
+Consonants in Uduk: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0032 seconds
+
+Processing language: Ukrainian (ukr)
+Vowels in Ukrainian: а, е, и, о, у, ь, я, і
+Consonants in Ukrainian: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, щ, ю, є, ї, ґ
+Execution time: 0.0253 seconds
+
+Processing language: Ura (Papua New Guinea) (ura)
+Vowels in Ura (Papua New Guinea): a, e, i, o, u
+Consonants in Ura (Papua New Guinea): b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, y
+Execution time: 0.0092 seconds
+
+Processing language: Orya (ury)
+Vowels in Orya: a, e, i, o, u, ë, ï
+Consonants in Orya: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0064 seconds
+
+Processing language: Uspanteco (usp)
+Vowels in Uspanteco: a, e, h, i, o, u, z, á, é, ó, ú
+Consonants in Uspanteco: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, í
+Execution time: 0.0056 seconds
+
+Processing language: Uzbek (uzb)
+Vowels in Uzbek: а, е, и, о, у, ъ, ь, э, я, ў
+Consonants in Uzbek: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ч, ш, ю, ё, ғ, қ, ҳ
+Execution time: 0.0230 seconds
+
+Processing language: Northern Uzbek (uzn)
+Vowels in Northern Uzbek: а, е, и, о, у, ъ, я, ё, ў
+Consonants in Northern Uzbek: б, в, г, д, ж, з, й, к, л, м, н, п, р, с, т, ф, х, ч, ш, э, ю, ғ, қ, ҳ
+Execution time: 0.0109 seconds
+
+Processing language: Vagla (vag)
+Vowels in Vagla: a, c, e, i, o, u, à, é, í, ú, ɔ, ɛ
+Consonants in Vagla: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z, á
+Execution time: 0.0025 seconds
+
+Processing language: Vietnamese (vie)
+Vowels in Vietnamese: h, i, j, n, r, u, á, â, ã, é, í, ò, ó, ù, ũ, ư, ạ, ấ, ậ
+Consonants in Vietnamese: a, b, c, d, e, g, k, l, m, o, p, q, s, t, v, x, y, à, è, ê, ì, ô, õ, ú, ĩ, ơ, ả, ầ, ẽ, ế, ề, ể, ệ, ỏ, ố, ồ, ộ, ớ, ờ, ở, ỡ, ợ, ủ
+Execution time: 0.0023 seconds
+
+Processing language: Iduna (viv)
+Vowels in Iduna: a, e, i, o, u
+Consonants in Iduna: b, d, f, g, h, k, l, m, n, s, t, v, w, y
+Execution time: 0.0094 seconds
+
+Processing language: Ayautla Mazatec (vmy)
+Vowels in Ayautla Mazatec: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Ayautla Mazatec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Execution time: 0.0048 seconds
+
+Processing language: Wunai Bunu (vun)
+Vowels in Wunai Bunu: a, c, e, g, i, j, o, u, z
+Consonants in Wunai Bunu: b, d, f, h, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0043 seconds
+
+Processing language: Wolaytta (wal)
+Vowels in Wolaytta: a, e, h, i, o, u
+Consonants in Wolaytta: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, w, x, y, z
+Execution time: 0.0082 seconds
+
+Processing language: Waray (Philippines) (war)
+Vowels in Waray (Philippines): a, e, i, o, u
+Consonants in Waray (Philippines): b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0058 seconds
+
+Processing language: Wayana (way)
+Vowels in Wayana: a, e, i, o, u, ë, ï
+Consonants in Wayana: h, j, k, l, m, n, p, s, t, w
+Execution time: 0.0092 seconds
+
+Processing language: Sorbian languages (wen)
+Vowels in Sorbian languages: a, e, i, o, u, y, á, é, í, ó, ú, ü, ě
+Consonants in Sorbian languages: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+Execution time: 0.0056 seconds
+
+Processing language: Wè Northern (wob)
+Vowels in Wè Northern: a, g, l, r, u, y, ɔ, ɛ, ʋ
+Consonants in Wè Northern: b, c, d, e, f, i, j, k, m, n, o, p, s, t, w, ɩ
+Execution time: 0.0041 seconds
+
+Processing language: Kalmyk (xal)
+Vowels in Kalmyk: а, е, и, о, у, ъ, ы, ь, ё, ѳ, ң, ү, ә
+Consonants in Kalmyk: б, в, г, д, з, й, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, э, ю, я, җ, һ
+Execution time: 0.0082 seconds
+
+Processing language: Xavante (xav)
+Vowels in Xavante: a, e, i, o, u, y, â, ã, é, ô, õ
+Consonants in Xavante: b, c, d, h, m, n, p, r, s, t, w, z
+Execution time: 0.0042 seconds
+
+Processing language: Konkomba (xon)
+Vowels in Konkomba: a, c, e, i, o, u, ɔ
+Consonants in Konkomba: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+Execution time: 0.0031 seconds
+
+Processing language: Eastern Karaboro (xrb)
+Vowels in Eastern Karaboro: a, e, i, o, u, ã, ĩ, ũ, ɔ, ɛ, ẽ
+Consonants in Eastern Karaboro: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+Execution time: 0.0025 seconds
+
+Processing language: Kasem (xsm)
+Vowels in Kasem: a, e, i, o, u, ɔ, ə, ɛ, ɩ, ʋ
+Consonants in Kasem: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0023 seconds
+
+Processing language: Sanumá (xsu)
+Vowels in Sanumá: a, b, e, i, o, u, á, â, ã, ä, é, ê, í, ó, ô, õ, ö, ĩ, ũ, ẽ
+Consonants in Sanumá: c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, ú
+Execution time: 0.0054 seconds
+
+Processing language: Diuxi-Tilantongo Mixtec (xtd)
+Vowels in Diuxi-Tilantongo Mixtec: a, e, i, o, u, á, í, ó, ɨ
+Consonants in Diuxi-Tilantongo Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, é, ñ, ú
+Execution time: 0.0048 seconds
+
+Processing language: Yalunka (yal)
+Vowels in Yalunka: a, e, i, o, u, ɔ, ɛ
+Consonants in Yalunka: b, d, f, g, h, k, l, m, n, p, r, s, t, w, x, y
+Execution time: 0.0052 seconds
+
+Processing language: Yamba (yam)
+Vowels in Yamba: a, e, i, o, u, à, è, ì, ò, ù, ə, ɛ, ʉ
+Consonants in Yamba: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Execution time: 0.0014 seconds
+
+Processing language: West Yugur (yby)
+Vowels in West Yugur: a, e, i, o, u
+Consonants in West Yugur: b, d, g, h, j, k, l, m, n, p, s, t, v, w, y
+Execution time: 0.0102 seconds
+
+Processing language: Angguruk Yali (yli)
+Vowels in Angguruk Yali: a, e, i, o, u
+Consonants in Angguruk Yali: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0061 seconds
+
+Processing language: Western Tlacolula Valley Zapotec (zab)
+Vowels in Western Tlacolula Valley Zapotec: a, e, h, i, o, u, á, é, í, ó, ú, ü, ɨ
+Consonants in Western Tlacolula Valley Zapotec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+Execution time: 0.0067 seconds
+
+Processing language: Ocotlán Zapotec (zac)
+Vowels in Ocotlán Zapotec: a, e, i, o, u, á, é, ë, í, ó, ú, ü
+Consonants in Ocotlán Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Execution time: 0.0054 seconds
+
+Processing language: Cajonos Zapotec (zad)
+Vowels in Cajonos Zapotec: a, e, h, i, o, u, á, é, í, ó, ú, ə
+Consonants in Cajonos Zapotec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0059 seconds
+
+Processing language: Isthmus Zapotec (zai)
+Vowels in Isthmus Zapotec: a, e, i, o, u, ó, ú, ü
+Consonants in Isthmus Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, á, é, í, ñ
+Execution time: 0.0043 seconds
+
+Processing language: Miahuatlán Zapotec (zam)
+Vowels in Miahuatlán Zapotec: a, e, i, o, u, à, á, è, é, ì, í, ò, ó, ù, ú, ü
+Consonants in Miahuatlán Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Execution time: 0.0051 seconds
+
+Processing language: Ozolotepec Zapotec (zao)
+Vowels in Ozolotepec Zapotec: a, e, h, i, o, u, á, é, ó, ú
+Consonants in Ozolotepec Zapotec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0039 seconds
+
+Processing language: Santo Domingo Albarradas Zapotec (zas)
+Vowels in Santo Domingo Albarradas Zapotec: a, e, i, o, u, á, é, ë, ó, ú, ü
+Consonants in Santo Domingo Albarradas Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0061 seconds
+
+Processing language: Mitla Zapotec (zaw)
+Vowels in Mitla Zapotec: a, e, i, o, u, w, x, z, á, ä, é, í, ó, ú
+Consonants in Mitla Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, y
+Execution time: 0.0063 seconds
+
+Processing language: Mixtepec Zapotec (zpm)
+Vowels in Mixtepec Zapotec: a, e, h, i, o, q, á, é, ë, í, ó, ú, ü
+Consonants in Mixtepec Zapotec: b, c, d, f, g, j, l, m, n, p, r, s, t, u, v, w, x, y, z, ñ
+Execution time: 0.0045 seconds
+
+Processing language: Amatlán Zapotec (zpo)
+Vowels in Amatlán Zapotec: a, e, h, i, o, u, á, é, ó, ú
+Consonants in Amatlán Zapotec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, í
+Execution time: 0.0033 seconds
+
+Processing language: Zoogocho Zapotec (zpq)
+Vowels in Zoogocho Zapotec: a, e, h, i, o, u, w, á, é, ó, ú, ü
+Consonants in Zoogocho Zapotec: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, x, y, z, í, ñ
+Execution time: 0.0047 seconds
+
+Processing language: Yalálag Zapotec (zpu)
+Vowels in Yalálag Zapotec: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Yalálag Zapotec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+Execution time: 0.0060 seconds
+
+Processing language: Chichicapan Zapotec (zpv)
+Vowels in Chichicapan Zapotec: a, e, i, o, u, x, á, é, ó, ú
+Consonants in Chichicapan Zapotec: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, y, z, í, ñ
+Execution time: 0.0058 seconds
+
+Processing language: Texmelucan Zapotec (zpz)
+Vowels in Texmelucan Zapotec: a, e, h, i, o, u, á, é, ó, ü
+Consonants in Texmelucan Zapotec: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, y, z, í, ñ
+Execution time: 0.0031 seconds
+
+Processing language: Standard Malay (zsm)
+Vowels in Standard Malay: a, e, i, o, u
+Consonants in Standard Malay: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0063 seconds
+
+Processing language: Southern Rincon Zapotec (zsr)
+Vowels in Southern Rincon Zapotec: a, e, i, o, u, x, á, é, í, ó, ö, ú, ü
+Consonants in Southern Rincon Zapotec: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, y, z, ë
+Execution time: 0.0062 seconds
+
+Processing language: Quioquitani-Quierí Zapotec (ztq)
+Vowels in Quioquitani-Quierí Zapotec: a, c, e, i, o, t, u, w, z, á, é, ë, ó, ú
+Consonants in Quioquitani-Quierí Zapotec: b, d, f, g, h, j, k, l, m, n, p, q, r, s, v, x, y, í, ñ
+Execution time: 0.0041 seconds
+
+Processing language: Yatee Zapotec (zty)
+Vowels in Yatee Zapotec: a, c, e, i, o, u, x, á, é, í, ó, ú
+Consonants in Yatee Zapotec: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+Execution time: 0.0029 seconds

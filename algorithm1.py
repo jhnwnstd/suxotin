@@ -17,7 +17,7 @@ def vowel_consonant_classification(V, letters, most_freq_letter):
     - consonants: List of letters classified as consonants.
     """
 
-    # Get the second right singular vector from matrix V
+    # Get the second right singular vector (V1) from matrix V
     # This vector captures the second most significant pattern in the data
     V1 = V[:, 1]
 
@@ -105,6 +105,10 @@ def algorithm1(corpus, max_words):
     # Number of unique p-frames encountered
     num_p_frames = len(p_frame_indices)
 
+    # If there are no entries in A_entries, return empty lists
+    if not A_entries:
+        return [], []
+
     # Build the binary matrix A of shape (num_p_frames x num_letters)
     # Each row corresponds to a p-frame, and each column corresponds to a letter
     # A[i, j] = 1 if letter j occurs in p-frame i
@@ -139,8 +143,16 @@ def algorithm1(corpus, max_words):
 def preprocess_text(text):
     """
     Preprocess the text by lowercasing and removing non-alphabetic characters.
+
+    Parameters:
+    - text: The original text string.
+
+    Returns:
+    - corpus: List of cleaned words.
     """
+    # Convert text to lowercase and split into words
     words = text.lower().split()
+    # Remove non-alphabetic characters from each word and filter out empty words
     corpus = [
         ''.join(char for char in word if char.isalpha())
         for word in words
@@ -148,50 +160,82 @@ def preprocess_text(text):
     ]
     return corpus
 
-def run_algorithm_for_language(language_code, language_name, max_words, test_folder):
-    print(f"\nProcessing language: {language_name} ({language_code})")
-    # Construct the filename without extension
+def run_algorithm_for_language(language_code, language_name, max_words, test_folder, output_file):
+    """
+    Run the algorithm for a specific language and write the results to the output file.
+
+    Parameters:
+    - language_code: The code of the language (e.g., 'eng' for English).
+    - language_name: The full name of the language.
+    - max_words: Maximum number of words to process.
+    - test_folder: The folder where the language text files are located.
+    - output_file: The file object where results will be written.
+    """
+    # Initialize a list to collect output lines
+    output_lines = []
+    output_lines.append(f"\nProcessing language: {language_name} ({language_code})")
+
+    # Construct the filename for the language text file
     filename = os.path.join(test_folder, f"{language_code}")
     if not os.path.isfile(filename):
-        print(f"Error: File not found for language {language_name} at {filename}")
+        # If the file does not exist, log an error and return
+        output_lines.append(f"Error: File not found for language {language_name} at {filename}")
+        output_file.write('\n'.join(output_lines))
         return
-    # Read the text data
+
+    # Read the text data from the file
     try:
         with open(filename, 'r', encoding='utf-8') as f:
             text = f.read()
     except UnicodeDecodeError:
-        # Try a different encoding if utf-8 fails
+        # If there's an encoding issue with utf-8, try 'latin-1' encoding
         with open(filename, 'r', encoding='latin-1') as f:
             text = f.read()
     except Exception as e:
-        print(f"Error reading file {filename}: {e}")
+        # Log any other exceptions that occur during file reading
+        output_lines.append(f"Error reading file {filename}: {e}")
+        output_file.write('\n'.join(output_lines))
         return
-    # Preprocess the text
+
+    # Preprocess the text to clean and tokenize it
     corpus = preprocess_text(text)
     if not corpus:
-        print(f"No valid words found in {language_name}. Skipping this language.")
+        # If no valid words are found after preprocessing, log and return
+        output_lines.append(f"No valid words found in {language_name}. Skipping this language.")
+        output_file.write('\n'.join(output_lines))
         return
-    # Run Algorithm 1
+
+    # Run the main algorithm to classify vowels and consonants
     vowels, consonants = algorithm1(corpus, max_words)
-    # Sort and print the results
+    if not vowels and not consonants:
+        # If no vowels or consonants are identified, log and return
+        output_lines.append(f"No vowels or consonants identified in {language_name}.")
+        output_file.write('\n'.join(output_lines))
+        return
+
+    # Sort and prepare the results
     vowels = sorted(set(vowels))
     consonants = sorted(set(consonants))
-    print(f"Vowels in {language_name}: {', '.join(vowels)}")
-    print(f"Consonants in {language_name}: {', '.join(consonants)}")
+    output_lines.append(f"Vowels in {language_name}: {', '.join(vowels)}")
+    output_lines.append(f"Consonants in {language_name}: {', '.join(consonants)}")
+
+    # Write the output lines to the file
+    output_file.write('\n'.join(output_lines))
+    output_file.write('\n')  # Add an extra newline for readability
 
 # Read the lang_code.csv to get the list of languages
-lang_code_df = pd.read_csv('lang_code.csv')
+lang_code_df = pd.read_csv('lang_code.csv')  # Ensure 'lang_code.csv' is in the same directory
 
-# Clean up column names and data
+# Clean up column names and data by stripping whitespace
 lang_code_df.columns = lang_code_df.columns.str.strip()
 lang_code_df['code'] = lang_code_df['code'].astype(str).str.strip()
 lang_code_df['language'] = lang_code_df['language'].astype(str).str.strip()
 
-# Drop rows with missing 'code' or 'language'
+# Drop rows with missing 'code' or 'language' values
 lang_code_df = lang_code_df.dropna(subset=['code', 'language'])
 
-# Set the path to the Test folder
-test_folder = 'Test'
+# Set the path to the Test folder containing the language data files
+test_folder = 'Test/data'
 
 # Get list of files in the Test folder (filenames without extension)
 files_in_test_folder = os.listdir(test_folder)
@@ -204,11 +248,17 @@ available_codes = files_in_test_folder
 # Keep only the rows where 'code' is in the list of available codes
 lang_code_df = lang_code_df[lang_code_df['code'].isin(available_codes)]
 
-# Set the maximum number of words to process
+# Set the maximum number of words to process for each language
 max_words = 100000  # Adjust this value as needed
 
-# Run the algorithm for each language
-for idx, row in lang_code_df.iterrows():
-    language_code = row['code']
-    language_name = row['language']
-    run_algorithm_for_language(language_code, language_name, max_words, test_folder)
+# Open the output file for writing results
+output_filename = 'algorithm1_output.txt'
+with open(output_filename, 'w', encoding='utf-8') as output_file:
+    # Run the algorithm for each language in the DataFrame
+    for idx, row in lang_code_df.iterrows():
+        language_code = row['code']
+        language_name = row['language']
+        # Call the function to process the language and write results
+        run_algorithm_for_language(language_code, language_name, max_words, test_folder, output_file)
+
+print(f"Processing complete. Results saved to {output_filename}")
