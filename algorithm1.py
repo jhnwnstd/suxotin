@@ -249,7 +249,7 @@ available_codes = files_in_test_folder
 lang_code_df = lang_code_df[lang_code_df['code'].isin(available_codes)]
 
 # Set the maximum number of words to process for each language
-max_words = 100000  # Adjust this value as needed
+max_words = None  # Adjust this value as needed
 
 # Open the output file for writing results
 output_filename = 'algorithm1_output.txt'
