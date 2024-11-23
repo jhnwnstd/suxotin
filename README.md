@@ -1,3 +1,7 @@
+Understood! Here's the updated README reflecting that there is only one Sukhotin's Algorithm, which is the modified one:
+
+---
+
 # Vowel Identification Algorithms
 
 ## Overview
@@ -6,7 +10,7 @@ This repository contains implementations of algorithms designed to identify vowe
 
 The repository includes:
 
-1. **Sukhotin's Algorithm**: An implementation based on the work of B.V. Sukhotin, which iteratively classifies letters as vowels or consonants based on adjacency sums.
+1. **Sukhotin's Algorithm**: An implementation based on the work of B.V. Sukhotin, which iteratively classifies letters as vowels or consonants based on adjacency sums. This script has been modified to process the same dataset as Algorithm 1 and outputs its results to a separate file. It includes detailed in-line comments explaining the logic of the algorithm, making it easier to understand and modify.
 
 2. **Spectral Decomposition Algorithm (Algorithm 1)**: An implementation of Algorithm 1 from the paper:
 
@@ -21,6 +25,8 @@ Both algorithms operate independently of any specific language, making them appl
 - **Language-Agnostic**: Process texts in any language and identify vowel patterns, regardless of orthography.
 - **Unsupervised Learning**: No training data or labeled examples are required; the algorithms discover patterns inherent in the text data itself.
 - **Efficient Computation**: Utilize NumPy for matrix operations and efficient algorithms optimized for performance.
+- **Detailed Explanations**: Sukhotin's algorithm script includes comprehensive in-line comments, aiding in understanding the implementation.
+- **File Output**: Both algorithms output results to their own files for easy analysis and record-keeping.
 - **High Accuracy**: Demonstrated strong performance in correctly classifying vowels and consonants across multiple languages.
 - **Alphabetical Output**: Results are sorted alphabetically for easy interpretation.
 
@@ -48,29 +54,41 @@ The spectral decomposition algorithm is based on the observation that vowels and
 
 ### Sukhotin's Algorithm Workflow
 
-#### 1. Preprocessing the Text
+#### 1. Reading the Dataset
+
+- The script reads from the dataset, ensuring consistency in data processing with Algorithm 1.
+- Language text files are read from the `Test/data/` directory, named according to their language codes.
+
+#### 2. Preprocessing the Text
 
 - Convert text to lowercase and remove non-alphabetic characters, standardizing the input for analysis.
 
-#### 2. Creating the Frequency Matrix
+#### 3. Creating the Frequency Matrix
 
 - Create a symmetric matrix where each cell `(i, j)` represents the number of times character `i` is adjacent to character `j` in the text.
+- Exclude self-adjacency (e.g., repeated characters like 'aa') to focus on interactions between different characters.
 
-#### 3. Calculating Adjacency Sums
+#### 4. Calculating Adjacency Sums
 
 - Sum each character’s adjacency counts, highlighting characters with high connectivity to others, often vowels.
 
-#### 4. Iterative Classification of Vowels and Consonants
+#### 5. Iterative Classification of Vowels and Consonants
 
 - Iteratively classify characters with the highest remaining adjacency sums as vowels, adjusting the counts to minimize the influence of previously classified vowels.
+- Adjustments involve subtracting twice the adjacency counts of the classified character from the remaining sums.
 
-#### 5. Threshold-Based Reclassification
+#### 6. Threshold-Based Reclassification
 
 - Use an adjustable threshold to ensure that vowels with slightly lower adjacency sums are not misclassified.
+- Reclassify consonants with adjusted sums above the threshold as vowels.
 
-#### 6. Sorting the Results
+#### 7. Sorting the Results
 
 - Sort classified vowels and consonants alphabetically for clarity.
+
+#### 8. Outputting Results to File
+
+- The script writes the classification results to its own output file (`suxotin_algorithm_output.txt`), including execution time and any errors encountered.
 
 ### Spectral Decomposition Algorithm Workflow (Algorithm 1)
 
@@ -97,6 +115,7 @@ The spectral decomposition algorithm is based on the observation that vowels and
 #### 5. Output Results
 
 - Present the classified vowels and consonants in alphabetical order.
+- Results are written to `algorithm1_output.txt`.
 
 ## Performance and Evaluation
 
@@ -125,50 +144,30 @@ The algorithm was tested across multiple languages with distinct vowel and conso
 
 ### Spectral Decomposition Algorithm (Algorithm 1)
 
-The algorithm was tested using the NLTK Brown corpus and demonstrated high accuracy in classifying vowels and consonants in English text.
+The algorithm was tested using the same dataset as Sukhotin's algorithm and demonstrated high accuracy in classifying vowels and consonants across multiple languages.
 
 #### Example Results
 
 ```python
-Vowels: ['a', 'e', 'i', 'o', 'u']
-Consonants: ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n',
-             'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
+Processing language: English (eng)
+Vowels in English: a, e, i, o, u
+Consonants in English: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
 ```
 
 - **Accuracy**: The algorithm correctly identified all standard English vowels and classified consonants accurately.
 - **Handling Ambiguous Letters**: The letter `'y'` was classified based on its predominant usage in the corpus.
 
-## Example Results
-
-### Using the NLTK Gutenberg Corpus (Sukhotin's Algorithm)
-
-```
-Classified Characters:
-Vowels:      a, e, i, o, u, æ, è, é, î
-Consonants:  b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
-
-Execution time: 2.8717 seconds
-```
-
-### Using `sherlock_holmes.txt` (Sukhotin's Algorithm)
-
-```
-Classified Characters:
-Vowels:      a, e, i, o, u, à, â, æ, è, é, œ
-Consonants:  b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
-
-Execution time: 0.1365 seconds
-```
-
 ## Repository Contents
 
-- **`sukhotin.py`**: Python script implementing Sukhotin's algorithm.
+- **`suxotin_algorithm.py`**: Python script implementing Sukhotin's algorithm, modified to read from the same dataset as Algorithm 1 and output results to its own file. Includes detailed in-line comments.
 - **`algorithm1.py`**: Python script implementing Algorithm 1 from the paper.
-- **`sherlock_holmes.txt`**: Sample text used for testing.
+- **`lang_code.csv`**: CSV file containing language codes and names used for processing.
+- **`Test/data/`**: Directory containing language text files named according to their language codes.
 - **Documentation Files**:
   - **`Decipherment_Models_1973.pdf`**: Original version of Sukhotin's algorithm.
   - **`guySuxotin.pdf`**: An alternative version of the algorithm.
   - **`vowel-algorithm.txt`**: Text version of the algorithm for further exploration.
+- **`Vowel and Consonant Classification through Spectral Decomposition.pdf`**: Paper detailing Algorithm 1.
 - **`README.md`**: This file, summarizing the algorithms and instructions.
 
 ## Installation
@@ -216,18 +215,24 @@ Execution time: 0.1365 seconds
    **Note**: If `requirements.txt` is not provided, install the necessary packages manually:
 
    ```bash
-   pip install numpy nltk
+   pip install numpy pandas
    ```
 
-5. **Download NLTK Data**
+5. **Prepare the Data**
 
-   In a Python shell or script, download the required data:
+   - Place your language text files in the `Test/data/` directory.
+   - Ensure that each file is named exactly as the language code specified in `lang_code.csv`, without any file extension.
+   - Example:
+     ```
+     Test/data/eng
+     Test/data/deu
+     Test/data/fra
+     ```
 
-   ```python
-   import nltk
-   nltk.download('brown')
-   nltk.download('gutenberg')
-   ```
+6. **Prepare the `lang_code.csv` File**
+
+   - Ensure that `lang_code.csv` is in the same directory as the scripts.
+   - The CSV should have at least two columns: `code` and `language`.
 
 ## Usage
 
@@ -236,20 +241,13 @@ Execution time: 0.1365 seconds
 1. **Execute the Script**
 
    ```bash
-   python sukhotin.py
+   python suxotin_algorithm.py
    ```
 
-2. **Select Languages**
+2. **View the Results**
 
-   - Choose a specific language or select "0" to analyze all available languages.
-
-3. **Preprocess the Text**
-
-   - When prompted, choosing 'yes' for preprocessing is recommended to remove non-alphabetic characters and standardize input.
-
-4. **View the Results**
-
-   - The classified vowels and consonants are displayed alphabetically, alongside precision, recall, and F1 scores for each language.
+   - Results will be saved to `suxotin_algorithm_output.txt`.
+   - The file will contain the classified vowels and consonants for each language, including execution times and any errors.
 
 ### Running the Spectral Decomposition Algorithm (Algorithm 1)
 
@@ -259,38 +257,42 @@ Execution time: 0.1365 seconds
    python algorithm1.py
    ```
 
-2. **Adjust Parameters (Optional)**
+2. **View the Results**
 
-   - Modify the `max_words` parameter in the script to change the number of words processed.
-
-3. **View the Results**
-
-   - The script will process the corpus and output the classified vowels and consonants.
+   - Results will be saved to `algorithm1_output.txt`.
+   - The file will contain the classified vowels and consonants for each language.
 
 ## Understanding the Code
 
-### Sukhotin's Algorithm (`sukhotin.py`)
+### Sukhotin's Algorithm (`suxotin_algorithm.py`)
 
-- **Algorithm Steps**:
-  - Constructs an adjacency matrix of letter co-occurrences.
-  - Iteratively classifies letters as vowels or consonants based on adjacency sums.
-  - Adjusts counts to minimize the influence of previously classified vowels.
-- **Adjustable Threshold**: Allows for fine-tuning the classification to achieve higher accuracy across different datasets.
+- **Reading the Dataset**: The script reads language text files from the `Test/data/` directory, ensuring it processes the same dataset as Algorithm 1.
+- **Detailed In-Line Comments**: The script includes comprehensive comments explaining each step, making it easier to understand and modify.
+- **Functions**:
+  - `get_language_data`: Reads text data for a specified language code.
+  - `preprocess_text`: Cleans the text by converting to lowercase and removing non-alphabetic characters.
+  - `create_frequency_matrix`: Constructs a symmetric adjacency matrix of character pairs.
+  - `classify_vowels`: Implements the core of Sukhotin's algorithm, classifying characters based on adjacency sums.
+  - `run_analysis_for_language`: Orchestrates the processing for each language and collects results.
+- **Output**: Results are written to `suxotin_algorithm_output.txt`, including execution times for performance insights.
 
 ### Spectral Decomposition Algorithm (`algorithm1.py`)
 
 - **Functions**:
   - `vowel_consonant_classification`: Classifies letters based on the signs of the components in the second right singular vector obtained from SVD.
   - `algorithm1`: Prepares the corpus, constructs the p-frame matrix, performs SVD, and calls the classification function.
+  - `run_algorithm_for_language`: Processes each language and writes results to an output file.
 - **Key Libraries**:
   - **NumPy**: Used for numerical computations and performing SVD.
-  - **NLTK**: Provides access to corpora and utilities for text processing.
+  - **Pandas**: For handling CSV data and data manipulation.
+- **File Output**: Results are saved to `algorithm1_output.txt`.
 
 ## Extending the Algorithms
 
-- **Different Corpora**: Modify the scripts to use other corpora available in NLTK or your own text data.
+- **Different Corpora**: Modify the scripts to use other corpora or your own text data by adjusting the `test_folder` variable and ensuring your text files are properly formatted.
 - **Language Adaptation**: Apply the algorithms to texts in other languages. Validate assumptions (e.g., most frequent letter being a vowel) for each language.
-- **Threshold Adjustment** (Sukhotin's Algorithm): Experiment with different threshold values to optimize performance for specific languages or datasets.
+- **Threshold Adjustment** (Sukhotin's Algorithm): Experiment with different threshold values in the `classify_vowels` function to optimize performance for specific languages or datasets.
+- **Detailed Analysis**: Use the execution times and logging to analyze performance bottlenecks or to compare algorithm efficiency across languages.
 
 ## References
 
@@ -301,7 +303,7 @@ Execution time: 0.1365 seconds
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -312,4 +314,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-*This README was updated to include implementations of Sukhotin's algorithm and Algorithm 1 from the paper "Vowel and Consonant Classification through Spectral Decomposition" by Patricia Thaine and Gerald Penn.*
+*This README was updated to include a modified implementation of Sukhotin's algorithm that reads from the same dataset as Algorithm 1 and outputs its results to a separate file. The script includes detailed in-line comments explaining the logic of the algorithm, enhancing the project's educational value and usability.*
