@@ -1,0 +1,2008 @@
+
+Processing language: Achí Cubulco (acc)
+Vowels in Achí Cubulco: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Achí Cubulco: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Gikyode (acd)
+Vowels in Gikyode: a, e, i, o, u, ɔ, ɛ
+Consonants in Gikyode: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Achinese (ace)
+Vowels in Achinese: a, e, i, o, u
+Consonants in Achinese: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, w, y, z
+
+Processing language: Achang (acn)
+Vowels in Achang: a, e, h, i, n, o, u, v
+Consonants in Achang: b, c, d, f, g, j, k, l, m, p, q, r, s, t, w, x, y, z
+
+Processing language: Achi Rabinal (acr)
+Vowels in Achi Rabinal: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Achi Rabinal: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Achuar-Shiwiar (acu)
+Vowels in Achuar-Shiwiar: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Achuar-Shiwiar: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Adele (ade)
+Vowels in Adele: a, e, i, o, u, à, â, ã, å, æ, è, ì, î, ò, ô, õ, ù, û, ü
+Consonants in Adele: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Adioukrou (adj)
+Vowels in Adioukrou: a, e, i, o, u, à, á, è, é, ê, ì, í, ò, ó, ù, ú, ɔ, ɛ
+Consonants in Adioukrou: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Adyghe (ady)
+Vowels in Adyghe: а, и, й, о, ы, ь, э
+Consonants in Adyghe: б, в, г, д, е, ж, з, к, л, м, н, п, р, с, т, у, ф, х, ц, ч, ш, щ, ъ, ю, я, і
+
+Processing language: Afrikaans (afr)
+Vowels in Afrikaans: a, e, i, o, u, y, á, ä, é, ê, ë, í, ï, ò, ó, ô, ú, ü
+Consonants in Afrikaans: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x
+
+Processing language: Agutaynen (agn)
+Vowels in Agutaynen: a, e, i, o, u
+Consonants in Agutaynen: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Aguaruna (agr)
+Vowels in Aguaruna: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Aguaruna: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Awakateko (agu)
+Vowels in Awakateko: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Awakateko: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Aghul (agx)
+Vowels in Aghul: а, е, и, й, о, у, ю
+Consonants in Aghul: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, ъ, ь, э, я, і
+
+Processing language: Akha (ahk)
+Vowels in Akha: a, e, i, o, u
+Consonants in Akha: b, c, d, g, h, j, k, l, m, n, p, s, t, w, y, z
+
+Processing language: Akawaio (ake)
+Vowels in Akawaio: a, e, i, o, u, ɨ, ʉ
+Consonants in Akawaio: k, m, n, p, r, s, t, w, y
+
+Processing language: Tosk Albanian (als)
+Vowels in Tosk Albanian: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, z
+Consonants in Tosk Albanian: a, e, i, o, u, x, y, é, ë
+
+Processing language: Guerrero Amuzgo (amu)
+Vowels in Guerrero Amuzgo: a, e, i, o, u, á, â, é, ê, í, î, ó, ú
+Consonants in Guerrero Amuzgo: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Obolo (ann)
+Vowels in Obolo: a, e, i, o, u, â, è, ê, ì, î, ò, ô, ù
+Consonants in Obolo: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Denya (anv)
+Vowels in Denya: a, e, i, o, u, ɔ, ɛ
+Consonants in Denya: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Mapudungun (arn)
+Vowels in Mapudungun: a, c, e, i, o, u, ü
+Consonants in Mapudungun: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, ñ
+
+Processing language: Avaric (ava)
+Vowels in Avaric: а, е, и, й, о, у, э, ё
+Consonants in Avaric: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, щ, ъ, ь, ю, я, і
+
+Processing language: Avokaya (avu)
+Vowels in Avokaya: á, â, ã, é, ê, í, î, ó, ô, õ, ú, û, ĩ, ũ
+Consonants in Avokaya: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Awa (Papua New Guinea) (awb)
+Vowels in Awa (Papua New Guinea): a, e, i, o, u, á, é, í, ó, ú
+Consonants in Awa (Papua New Guinea): b, g, h, k, m, n, p, q, r, s, t, w, y
+
+Processing language: Central Aymara (ayr)
+Vowels in Central Aymara: a, e, i, o, u, á, ä, é, í, ï, ó, ú, ü
+Consonants in Central Aymara: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Azerbaijani (aze)
+Vowels in Azerbaijani: a, e, i, o, u, ö, ü, ı, ә
+Consonants in Azerbaijani: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Highland Puebla Nahuatl (azz)
+Vowels in Highland Puebla Nahuatl: a, e, i, o, á, é, í, ó
+Consonants in Highland Puebla Nahuatl: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, u, v, x, y, z, ñ, ú
+
+Processing language: Bambara (bam)
+Vowels in Bambara: a, e, i, o, u, ɔ, ɛ
+Consonants in Bambara: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Balinese (ban)
+Vowels in Balinese: a, e, i, o, u
+Consonants in Balinese: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Waimaha (bao)
+Vowels in Waimaha: a, e, i, o, u, á, ã, é, í, ó, õ, ú, ĩ, ũ, ʉ, ẽ
+Consonants in Waimaha: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Vengo (bav)
+Vowels in Vengo: a, e, i, o, u, ɔ, ə, ɨ
+Consonants in Vengo: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Bariba (bba)
+Vowels in Bariba: a, e, i, o, u, ɔ, ɛ
+Consonants in Bariba: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Central Bikol (bcl)
+Vowels in Central Bikol: a, e, i, o, u
+Consonants in Central Bikol: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Bana (bcw)
+Vowels in Bana: a, e, i, ə
+Consonants in Bana: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Jur Modo (bex)
+Vowels in Jur Modo: a, e, i, k, o, u, å, ë, ï, ò, ó, ô, õ, ö
+Consonants in Jur Modo: b, c, d, g, h, j, l, m, n, p, r, s, t, w, y, z, ñ, ø
+
+Processing language: Bafut (bfd)
+Vowels in Bafut: a, e, i, o, u, ɔ, ə, ɛ, ɨ
+Consonants in Bafut: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Bawm Chin (bgr)
+Vowels in Bawm Chin: a, c, e, g, i, o, u, â, ê, î, û
+Consonants in Bawm Chin: b, d, f, h, j, k, l, m, n, p, r, s, t, v, w, z
+
+Processing language: Bisa (Burkina Faso) (bib)
+Vowels in Bisa (Burkina Faso): a, b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+Consonants in Bisa (Burkina Faso): e, i, o, u, ɔ, ə, ɛ, ɩ, ʋ
+
+Processing language: Bimoba (bim)
+Vowels in Bimoba: a, c, e, i, o, u, ɔ
+Consonants in Bimoba: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Bislama (bis)
+Vowels in Bislama: a, e, i, o, u
+Consonants in Bislama: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Southern Birifor (biv)
+Vowels in Southern Birifor: a, e, i, o, u, ã, õ, ĩ, ũ, ɔ, ɛ, ɩ, ʋ
+Consonants in Southern Birifor: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Bukusu (bku)
+Vowels in Bukusu: a, i, o
+Consonants in Bukusu: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Kuwaa (blh)
+Vowels in Kuwaa: a, e, g, i, o, u, à, á, è, é, ì, í, ò, ó, ù, ú, ǎ, ǐ, ǔ, ɔ, ɛ
+Consonants in Kuwaa: b, d, f, j, k, l, m, n, p, s, t, v, w, y
+
+Processing language: Balantak (blz)
+Vowels in Balantak: a, e, i, o, u
+Consonants in Balantak: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Kejom (bmh)
+Vowels in Kejom: a, e, i, o, u
+Consonants in Kejom: b, c, d, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Bora (boa)
+Vowels in Bora: a, e, i, l, o, s, u, á, é, í, ó, ú, ɨ
+Consonants in Bora: b, c, d, g, h, j, k, m, n, p, r, t, v, w, y, ñ
+
+Processing language: Anjam (boj)
+Vowels in Anjam: a, e, i, o, u
+Consonants in Anjam: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, ñ
+
+Processing language: Bosnian (bos)
+Vowels in Bosnian: a, e, i, o, u
+Consonants in Bosnian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z, ð
+
+Processing language: Koronadal Blaan (bpr)
+Vowels in Koronadal Blaan: a, e, i, o, u, à, è, é, ê, ì, ò, ù
+Consonants in Koronadal Blaan: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Sarangani Blaan (bps)
+Vowels in Sarangani Blaan: a, e, i, o, u, à, è, é, ê, ì, ò, ù
+Consonants in Sarangani Blaan: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Eastern Bru (bru)
+Vowels in Eastern Bru: a, e, g, i, o, u, á, â, é, ê, í, ó, ô, ú, ĩ, ō, ũ, ơ, ư, ế, ố, ớ, ỡ
+Consonants in Eastern Bru: b, c, d, h, k, l, m, n, p, q, r, s, t, v, y
+
+Processing language: Barasana-Eduria (bsn)
+Vowels in Barasana-Eduria: a, e, i, o, u, á, ã, é, ó, õ, ú, ü
+Consonants in Barasana-Eduria: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Akoose (bss)
+Vowels in Akoose: a, c, e, i, o, u, á, â, é, ê, í, î, ó, ô, ú, û, ā, ē, ě, ō, ǎ, ǐ, ǒ, ǔ, ɔ, ə, ɛ
+Consonants in Akoose: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Batak Dairi (btd)
+Vowels in Batak Dairi: a, e, i, o, u, è
+Consonants in Batak Dairi: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Batak Simalungun (bts)
+Vowels in Batak Simalungun: a, e, i, o, u
+Consonants in Batak Simalungun: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Batak Karo (btx)
+Vowels in Batak Karo: a, e, i, o, u
+Consonants in Batak Karo: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Ntcham (bud)
+Vowels in Ntcham: a, i, u, ɔ
+Consonants in Ntcham: b, c, d, e, f, g, j, k, l, m, n, o, p, r, s, t, w, y
+
+Processing language: Buginese (bug)
+Vowels in Buginese: a, e, i, o, u
+Consonants in Buginese: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Bulgarian (bul)
+Vowels in Bulgarian: а, е, и, й, о, у, ъ, ю, я
+Consonants in Bulgarian: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, щ, ь
+
+Processing language: Bauzi (bvz)
+Vowels in Bauzi: a, e, i, o, u, à
+Consonants in Bauzi: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Southern Bobo Madaré (bwq)
+Vowels in Southern Bobo Madaré: a, e, i, o, u, à, ì, ɔ, ɛ
+Consonants in Southern Bobo Madaré: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Buli (Ghana) (bwu)
+Vowels in Buli (Ghana): a, e, i, o, u
+Consonants in Buli (Ghana): b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Russia Buriat (bxr)
+Vowels in Russia Buriat: а, и, й, о, у, ы, ь, э, ү
+Consonants in Russia Buriat: б, в, г, д, е, ж, з, к, л, м, н, п, р, с, т, ф, х, ш, ю, я, ё, ѳ, һ
+
+Processing language: Chortí (caa)
+Vowels in Chortí: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Chortí: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Chuj (cac)
+Vowels in Chuj: a, e, i, o, u, z, á, é, í, ó, ú
+Consonants in Chuj: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y
+
+Processing language: Kaqchikel (cak)
+Vowels in Kaqchikel: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Kaqchikel: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Chipaya (cap)
+Vowels in Chipaya: a, e, h, i, o, u, á, ä, é, ë, í, ï, ó, ö, ú, ü
+Consonants in Chipaya: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Galibi Carib (car)
+Vowels in Galibi Carib: a, e, i, o, u, y
+Consonants in Galibi Carib: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w
+
+Processing language: Chiquitano (cax)
+Vowels in Chiquitano: a, e, i, o, u, á, é, í, ó, ú, ɨ
+Consonants in Chiquitano: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Carapana (cbc)
+Vowels in Carapana: a, e, i, o, u, á, ã, é, í, ó, õ, ú
+Consonants in Carapana: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Cashinahua (cbs)
+Vowels in Cashinahua: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Cashinahua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Chayahuita (cbt)
+Vowels in Chayahuita: a, e, i, o, u, á, ë, í, ó
+Consonants in Chayahuita: b, c, d, h, m, n, p, q, r, s, t, y
+
+Processing language: Cacua (cbv)
+Vowels in Cacua: a, e, i, o, u, á, ã, é, í, ó, õ, ú, ĩ, ʉ, ẽ
+Consonants in Cacua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Chopi (cce)
+Vowels in Chopi: a, e, i, o, u
+Consonants in Chopi: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Comaltepec Chinantec (cco)
+Vowels in Comaltepec Chinantec: a, e, i, o, u, á, é, í, ó, ú, ɨ, ʉ
+Consonants in Comaltepec Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Cebuano (ceb)
+Vowels in Cebuano: a, e, i, o, u
+Consonants in Cebuano: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Czech (ces)
+Vowels in Czech: a, e, i, o, u, y, á, é, í, ó, ú, ě
+Consonants in Czech: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z
+
+Processing language: Falam Chin (cfm)
+Vowels in Falam Chin: a, e, i, o, u, ò
+Consonants in Falam Chin: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Chamorro (cha)
+Vowels in Chamorro: a, e, i, o, u, á, â, é, ó, ü
+Consonants in Chamorro: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, ñ
+
+Processing language: Highland Oaxaca Chontal (chd)
+Vowels in Highland Oaxaca Chontal: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Highland Oaxaca Chontal: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Chechen (che)
+Vowels in Chechen: а, е, и, й, о, у, э, я
+Consonants in Chechen: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, х, ц, ч, ш, ъ, ь, ю, і
+
+Processing language: Quiotepec Chinantec (chq)
+Vowels in Quiotepec Chinantec: a, e, i, o, u, á, é, í, ó, ú, ɨ, ʉ
+Consonants in Quiotepec Chinantec: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Chuvash (chv)
+Vowels in Chuvash: а, г, е, и, й, о, т, у, ы, ь, э, ю, я, ӑ, ӗ, ӳ
+Consonants in Chuvash: б, в, д, з, к, л, м, н, п, р, с, ф, х, ч, ш, ҫ
+
+Processing language: Ozumacín Chinantec (chz)
+Vowels in Ozumacín Chinantec: a, e, i, o, u, á, ä, é, ë, í, ó, ú
+Consonants in Ozumacín Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ, ø, ɨ
+
+Processing language: Cabécar (cjp)
+Vowels in Cabécar: a, e, i, o, u, à, á, ä, é, ë, í, ó, ö, ú
+Consonants in Cabécar: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Cakfem-Mushere (cki)
+Vowels in Cakfem-Mushere: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Cakfem-Mushere: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Kakabe (ckk)
+Vowels in Kakabe: a, e, i, o, u
+Consonants in Kakabe: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Anufo (cko)
+Vowels in Anufo: a, e, i, o, u, á, é, í, ó, ú, ɔ, ɛ
+Consonants in Anufo: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Cakchiquel-Quiché Mixed Language (ckw)
+Vowels in Cakchiquel-Quiché Mixed Language: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Cakchiquel-Quiché Mixed Language: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Lealao Chinantec (cle)
+Vowels in Lealao Chinantec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Lealao Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Cerma (cme)
+Vowels in Cerma: a, e, i, o, u, ɔ, ɛ
+Consonants in Cerma: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Haka Chin (cnh)
+Vowels in Haka Chin: a, e, i, o, u
+Consonants in Haka Chin: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Asháninka (cni)
+Vowels in Asháninka: a, e, h, i, o, q
+Consonants in Asháninka: c, j, m, n, p, r, s, t, v, y
+
+Processing language: Khumi Chin (cnk)
+Vowels in Khumi Chin: a, e, g, i, o, u
+Consonants in Khumi Chin: b, c, d, f, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Lalana Chinantec (cnl)
+Vowels in Lalana Chinantec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Lalana Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, y, z
+
+Processing language: Ixtatán Chuj (cnm)
+Vowels in Ixtatán Chuj: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Ixtatán Chuj: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Tepetotutla Chinantec (cnt)
+Vowels in Tepetotutla Chinantec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Tepetotutla Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, y, z
+
+Processing language: Koreguaje (coe)
+Vowels in Koreguaje: a, e, i, o, u, á, ã, é, í, ó, õ, ú, ũ
+Consonants in Koreguaje: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Cofán (con)
+Vowels in Cofán: a, e, o, u, á, é, ó, ú
+Consonants in Cofán: b, c, d, f, g, h, i, j, l, m, n, p, q, r, s, t, v, x, y, z, í, ñ
+
+Processing language: Palantla Chinantec (cpa)
+Vowels in Palantla Chinantec: a, e, i, o, u, x, á, é, í, ó, ø, ú
+Consonants in Palantla Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, y, z
+
+Processing language: Crimean Tatar (crh)
+Vowels in Crimean Tatar: а, е, ж, и, й, о, у, ъ, ы, ь, э, ю, я, ё
+Consonants in Crimean Tatar: б, в, г, д, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш
+
+Processing language: El Nayar Cora (crn)
+Vowels in El Nayar Cora: a, e, i, o, u, á, é, í, ó, ú, ɨ
+Consonants in El Nayar Cora: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Jola-Kasa (csk)
+Vowels in Jola-Kasa: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Jola-Kasa: b, c, d, f, g, h, j, k, l, m, n, s, t, w, y, ñ
+
+Processing language: Sochiapam Chinantec (cso)
+Vowels in Sochiapam Chinantec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Sochiapam Chinantec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, y, z
+
+Processing language: Tedim Chin (ctd)
+Vowels in Tedim Chin: a, e, i, o, u, y
+Consonants in Tedim Chin: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z
+
+Processing language: Western Highland Chatino (ctp)
+Vowels in Western Highland Chatino: a, e, i, o, u, á, é, í, ó, ú, ě, ǎ, ǐ, ǔ
+Consonants in Western Highland Chatino: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Chol (ctu)
+Vowels in Chol: a, e, i, o, u, á, é, í, ó, ú, ʌ
+Consonants in Chol: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: San Blas Kuna (cuk)
+Vowels in San Blas Kuna: a, e, i, o, u, á, é, í, ó, ú
+Consonants in San Blas Kuna: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Kuwaataay (cwt)
+Vowels in Kuwaataay: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Kuwaataay: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, ñ
+
+Processing language: Dan (daf)
+Vowels in Dan: a, e, h, i, o, r, u
+Consonants in Dan: b, d, f, g, k, l, m, n, p, s, t, v, w, y, z
+
+Processing language: Danish (dan)
+Vowels in Danish: a, e, i, o, u, y, å, æ, ø
+Consonants in Danish: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+
+Processing language: Desano (des)
+Vowels in Desano: a, e, i, o, r, u, á, ã, é, í, ó, õ, ú, ü, ĩ, ũ, ʉ, ẽ
+Consonants in Desano: b, c, d, f, g, h, j, k, l, m, n, p, q, s, t, v, w, y, z, ñ
+
+Processing language: German (deu)
+Vowels in German: a, e, i, o, u, y, ä, ö, ü
+Consonants in German: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z
+
+Processing language: Northern Dagara (dgi)
+Vowels in Northern Dagara: a, e, i, o, u, à, á, ã, é, ì, í, ó, õ, ù, ú, ĩ, ũ, ɔ, ɛ, ɩ, ʋ, ẽ
+Consonants in Northern Dagara: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Digo (dig)
+Vowels in Digo: a, e, i, o, u, á, ó
+Consonants in Digo: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Southwestern Dinka (dik)
+Vowels in Southwestern Dinka: a, e, h, i, o, u, ä, å, æ, ë, ï, ö, œ
+Consonants in Southwestern Dinka: b, c, d, g, j, k, l, m, n, p, r, t, w, y, ñ
+
+Processing language: Northeastern Dinka (dip)
+Vowels in Northeastern Dinka: a, e, h, i, o, u, ɔ, ɛ
+Consonants in Northeastern Dinka: b, c, d, g, j, k, l, m, n, p, r, t, w, y
+
+Processing language: Eastern Maroon Creole (djk)
+Vowels in Eastern Maroon Creole: a, e, i, o, u, á
+Consonants in Eastern Maroon Creole: b, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, z
+
+Processing language: Dan (dnj)
+Vowels in Dan: a, c, e, h, i, o, r, u
+Consonants in Dan: b, d, f, g, k, l, m, n, p, s, t, v, w, y, z
+
+Processing language: Lukpa (dop)
+Vowels in Lukpa: a, e, i, o, u, á, é, ɔ, ə, ɛ, ɩ, ʋ
+Consonants in Lukpa: c, f, h, k, l, m, n, p, s, t, w, y
+
+Processing language: Dogon (dts)
+Vowels in Dogon: a, e, i, o, u, ɔ, ɛ
+Consonants in Dogon: b, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Chiduruma (dug)
+Vowels in Chiduruma: a, e, i, o, u
+Consonants in Chiduruma: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Dawro (dwr)
+Vowels in Dawro: a, e, i, o, u
+Consonants in Dawro: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, w, x, y, z
+
+Processing language: Jola-Fonyi (dyo)
+Vowels in Jola-Fonyi: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Jola-Fonyi: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, ñ
+
+Processing language: Dyula (dyu)
+Vowels in Dyula: a, e, i, o, u, ɔ, ɛ
+Consonants in Dyula: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Modern Greek (ell)
+Vowels in Modern Greek: a, α, ε, η, ι, ο, υ, ω
+Consonants in Modern Greek: f, i, l, n, p, s, v, β, γ, δ, ζ, θ, κ, λ, μ, ν, ξ, π, ρ, ς, σ, τ, φ, χ, ψ
+
+Processing language: Northern Emberá (emp)
+Vowels in Northern Emberá: a, e, i, o, u, á, ã, é, í, õ, ú, ĩ, ũ, ʌ, ẽ
+Consonants in Northern Emberá: b, c, d, g, h, j, l, m, n, p, q, r, s, t, v, w, y, z
+
+Processing language: Markweeta (enb)
+Vowels in Markweeta: a, e, g, i, o, u, ā, ē, ō
+Consonants in Markweeta: k, l, m, n, p, r, s, t, w, y
+
+Processing language: English (eng)
+Vowels in English: a, e, i, o, u
+Consonants in English: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Middle English (enm)
+Vowels in Middle English: a, e, i, o, u, y
+Consonants in Middle English: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z
+
+Processing language: Northwest Alaska Inupiatun (esk)
+Vowels in Northwest Alaska Inupiatun: a, e, i, o, u
+Consonants in Northwest Alaska Inupiatun: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Estonian (est)
+Vowels in Estonian: a, e, i, o, u, ä, õ, ö, ü
+Consonants in Estonian: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v
+
+Processing language: Basque (eus)
+Vowels in Basque: a, e, i, o, u, á, ä, æ, è, é, ó
+Consonants in Basque: b, c, d, f, g, h, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Ewe (ewe)
+Vowels in Ewe: a, e, i, o, u, å, œ, ɔ, ɛ
+Consonants in Ewe: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, x, y, z, ʋ
+
+Processing language: South Fali (fal)
+Vowels in South Fali: a, e, i, o, u, à, â, è, î, ò, û
+Consonants in South Fali: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Fijian (fij)
+Vowels in Fijian: a, e, i, o, u
+Consonants in Fijian: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, y
+
+Processing language: Finnish (fin)
+Vowels in Finnish: a, e, i, o, u, y, ä, ö
+Consonants in Finnish: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v
+
+Processing language: French (fra)
+Vowels in French: a, e, i, o, u, à, â, è, é, ê, ë, î, ï, ô, ù, û, ü
+Consonants in French: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Nigerian Fulfulde (fuv)
+Vowels in Nigerian Fulfulde: a, e, i, o, u
+Consonants in Nigerian Fulfulde: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Gagauz (gag)
+Vowels in Gagauz: а, е, и, й, о, у, ы, э, ӓ, ӧ, ӱ
+Consonants in Gagauz: б, в, г, д, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, ӂ
+
+Processing language: Northern Grebo (gbo)
+Vowels in Northern Grebo: a, b, c, d, f, h, j, k, l, m, n, p, s, t, w, y, à, ä, ï, ü, ǎ
+Consonants in Northern Grebo: e, g, i, o, u, è, ì, ò, ù, ě, ǐ, ǒ, ǔ, ɔ, ɛ
+
+Processing language: Gude (gde)
+Vowels in Gude: a, i, u, ə
+Consonants in Gude: b, c, d, e, f, g, h, j, k, l, m, n, o, p, r, s, t, v, w, y, z
+
+Processing language: Gen (gej)
+Vowels in Gen: a, e, i, o, u, à, ã, è, ì, ò, ù, ĩ, ũ, ɔ, ɛ
+Consonants in Gen: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Gilbertese (gil)
+Vowels in Gilbertese: a, e, g, i, o, u
+Consonants in Gilbertese: b, h, k, m, n, r, s, t, v, w
+
+Processing language: Gokana (gkn)
+Vowels in Gokana: a, e, i, o, u
+Consonants in Gokana: b, d, f, g, k, l, m, n, p, s, t, v, y, z
+
+Processing language: Scottish Gaelic (gla)
+Vowels in Scottish Gaelic: a, e, h, i, o, u
+Consonants in Scottish Gaelic: b, c, d, f, g, l, m, n, p, r, s, t
+
+Processing language: Irish (gle)
+Vowels in Irish: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Irish: b, c, d, f, g, l, m, n, p, r, s, t
+
+Processing language: Manx (glv)
+Vowels in Manx: a, e, i, o, u, y
+Consonants in Manx: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, z
+
+Processing language: Gamo (gmv)
+Vowels in Gamo: a, e, i, o, u
+Consonants in Gamo: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, w, x, y, z
+
+Processing language: Zulgo-Gemzek (gnd)
+Vowels in Zulgo-Gemzek: a, e, i, o, u, à, è, ì, ù, ə
+Consonants in Zulgo-Gemzek: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Gogo (gog)
+Vowels in Gogo: a, e, i, o, u
+Consonants in Gogo: b, c, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, z
+
+Processing language: Gorontalo (gor)
+Vowels in Gorontalo: a, e, i, o, u
+Consonants in Gorontalo: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Wayuu (guc)
+Vowels in Wayuu: a, e, i, o, u, á, é, í, ó, ú, ü
+Consonants in Wayuu: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Guahibo (guh)
+Vowels in Guahibo: a, e, i, o, u, á, ã, é, ë, í, ó, ú
+Consonants in Guahibo: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Eastern Bolivian Guaraní (gui)
+Vowels in Eastern Bolivian Guaraní: a, e, i, o, u, á, é, í, ó, ú, ü, ɨ
+Consonants in Eastern Bolivian Guaraní: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Guambiano (gum)
+Vowels in Guambiano: a, e, i, o, u, á, é, í, ó, ø, ú
+Consonants in Guambiano: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Mbyá Guaraní (gun)
+Vowels in Mbyá Guaraní: a, e, i, o, u, y, á, â, ã, é, ê, í, ó, ô, õ, ú, ü, ĩ, ũ, ẽ
+Consonants in Mbyá Guaraní: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, z
+
+Processing language: Gua (guo)
+Vowels in Gua: a, e, i, o, u, á, é, í, ó, ú, ʉ
+Consonants in Gua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Farefare (gur)
+Vowels in Farefare: a, e, i, o, u, ã, õ, ɛ, ɩ, ʋ, ↄ
+Consonants in Farefare: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Gourmanchéma (gux)
+Vowels in Gourmanchéma: a, e, i, o, u
+Consonants in Gourmanchéma: b, c, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, ñ
+
+Processing language: Guanano (gvc)
+Vowels in Guanano: a, e, i, o, u, à, á, ã, é, í, ó, õ, ú
+Consonants in Guanano: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+
+Processing language: Ngäbere (gym)
+Vowels in Ngäbere: a, e, i, o, u, á, ä, é, í, ó, ö, ú, ü
+Consonants in Ngäbere: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Guarayu (gyr)
+Vowels in Guarayu: a, e, i, o, u, w, á, ä, é, ë, í, ï, ó, ö, ú, ü, ɨ
+Consonants in Guarayu: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Hanga (hag)
+Vowels in Hanga: a, c, e, i, o, u
+Consonants in Hanga: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z
+
+Processing language: Haida (hai)
+Vowels in Haida: a, e, i, o, u
+Consonants in Haida: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Hakka Chinese (hak)
+Vowels in Hakka Chinese: c, f, h, i, k, l, m, n, p, s, t, v, y
+Consonants in Hakka Chinese: a, e, g, o, u
+
+Processing language: Haitian Creole (hat)
+Vowels in Haitian Creole: a, e, i, o, è, ò
+Consonants in Haitian Creole: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, u, v, w, y, z
+
+Processing language: Haya (hay)
+Vowels in Haya: a, e, i, o, u
+Consonants in Haya: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Serbo-Croatian (hbs)
+Vowels in Serbo-Croatian: a, e, i, o, u, â, ä, å
+Consonants in Serbo-Croatian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+
+Processing language: Hehe (heh)
+Vowels in Hehe: a, c, e, i, o, u
+Consonants in Hehe: b, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, z
+
+Processing language: Fiji Hindi (hif)
+Vowels in Fiji Hindi: a, e, i, o, u
+Consonants in Fiji Hindi: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Kamwe (hig)
+Vowels in Kamwe: a, e, i, o, u, á, í, ú, ə
+Consonants in Kamwe: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Hiligaynon (hil)
+Vowels in Hiligaynon: a, e, i, o, u
+Consonants in Hiligaynon: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Hanunoo (hnn)
+Vowels in Hanunoo: a, i, u
+Consonants in Hanunoo: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Caribbean Hindustani (hns)
+Vowels in Caribbean Hindustani: a, e, o, ɔ, ɛ
+Consonants in Caribbean Hindustani: b, d, f, g, h, i, j, k, l, m, n, p, r, s, t, u, w, y
+
+Processing language: Minica Huitoto (hto)
+Vowels in Minica Huitoto: a, e, i, o, u, á, é, í, ó, ú, ü, ɨ
+Consonants in Minica Huitoto: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Huambisa (hub)
+Vowels in Huambisa: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Huambisa: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, y, z
+
+Processing language: San Francisco Del Mar Huave (hue)
+Vowels in San Francisco Del Mar Huave: a, e, i, o, u, á, é, í, ó, ú, ü
+Consonants in San Francisco Del Mar Huave: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Huli (hui)
+Vowels in Huli: a, e, i, o, u, á, é, í
+Consonants in Huli: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Hungarian (hun)
+Vowels in Hungarian: a, c, e, i, o, u, y, á, é, í, ó, ö, ú, ü, ő, ű
+Consonants in Hungarian: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z
+
+Processing language: Huastec (hus)
+Vowels in Huastec: a, e, h, i, o, u
+Consonants in Huastec: b, c, d, f, g, j, k, l, m, n, p, r, s, t, w, x, y
+
+Processing language: San Mateo Del Mar Huave (huv)
+Vowels in San Mateo Del Mar Huave: a, e, i, o, u, á, é, í, ó, ú, ü
+Consonants in San Mateo Del Mar Huave: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Iban (iba)
+Vowels in Iban: a, e, i, o, u
+Consonants in Iban: b, c, d, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Batad Ifugao (ifb)
+Vowels in Batad Ifugao: a, e, i, o, u
+Consonants in Batad Ifugao: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Tuwali Ifugao (ifk)
+Vowels in Tuwali Ifugao: a, e, i, o, u
+Consonants in Tuwali Ifugao: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Mayoyao Ifugao (ifu)
+Vowels in Mayoyao Ifugao: a, e, i, o, u
+Consonants in Mayoyao Ifugao: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Keley-I Kallahan (ify)
+Vowels in Keley-I Kallahan: a, e, i, o, u, x
+Consonants in Keley-I Kallahan: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Ignaciano (ign)
+Vowels in Ignaciano: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Ignaciano: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Ilocano (ilo)
+Vowels in Ilocano: a, e, i, o, u
+Consonants in Ilocano: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Inga (inb)
+Vowels in Inga: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Inga: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, z, ñ
+
+Processing language: Indonesian (ind)
+Vowels in Indonesian: a, e, i, o, u
+Consonants in Indonesian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Ipili (ipi)
+Vowels in Ipili: a, e, i, o, u
+Consonants in Ipili: b, d, g, j, k, l, m, n, p, s, t, w, y
+
+Processing language: Iraya (iry)
+Vowels in Iraya: a, e, i, o
+Consonants in Iraya: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Icelandic (isl)
+Vowels in Icelandic: a, e, i, o, u, y, á, æ, é, í, ó, ö, ú
+Consonants in Icelandic: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z, ð
+
+Processing language: Italian (ita)
+Vowels in Italian: a, e, i, o, u, à, á, è, é, ì, í, ò, ù, ú
+Consonants in Italian: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, z
+
+Processing language: Itonama (ito)
+Vowels in Itonama: a, e, i, o, u, y
+Consonants in Itonama: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+
+Processing language: Itawit (itv)
+Vowels in Itawit: a, e, i, o, u
+Consonants in Itawit: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Nebaj Ixil (ixi)
+Vowels in Nebaj Ixil: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Nebaj Ixil: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Ixil San Juan Cotzal (ixl)
+Vowels in Ixil San Juan Cotzal: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Ixil San Juan Cotzal: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Izere (izr)
+Vowels in Izere: a, e, i, o, u
+Consonants in Izere: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Popti' (formerly Jacalteco) (jac)
+Vowels in Popti' (formerly Jacalteco): a, e, i, o, u
+Consonants in Popti' (formerly Jacalteco): b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Javanese (jav)
+Vowels in Javanese: a, e, i, o, u
+Consonants in Javanese: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Jukun Takum (jbu)
+Vowels in Jukun Takum: a, e, i, o, u, à, á, è, é, ì, í, ò, ó, ù, ú, ā, ē, ō
+Consonants in Jukun Takum: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Tol (jic)
+Vowels in Tol: a, e, i, o, u, á, é, í, ó, ú, ü
+Consonants in Tol: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Machame (jmc)
+Vowels in Machame: a, e, i, o, u
+Consonants in Machame: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Caribbean Javanese (jvn)
+Vowels in Caribbean Javanese: a, e, i, o, u, è, é
+Consonants in Caribbean Javanese: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Kara-Kalpak (kaa)
+Vowels in Kara-Kalpak: а, е, и, й, о, у, ы, ю, є, ў, ѳ, ү, ә
+Consonants in Kara-Kalpak: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ш, ь, я, ќ, ғ, қ, ң, ҳ
+
+Processing language: Jingpho (kac)
+Vowels in Jingpho: a, e, i, o, u
+Consonants in Jingpho: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Xaasongaxango (kao)
+Vowels in Xaasongaxango: a, e, i, o, u, é, í
+Consonants in Xaasongaxango: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, x, y
+
+Processing language: Kazakh (kaz)
+Vowels in Kazakh: а, е, и, й, о, у, ы, і, ү, ұ, ә, ө
+Consonants in Kazakh: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ш, щ, ю, я, ғ, қ, ң, һ
+
+Processing language: Camsá (kbh)
+Vowels in Camsá: a, e, i, o, á, é, ë, í, ó, ú
+Consonants in Camsá: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, u, v, x, y, z, ñ
+
+Processing language: Kabiyè (kbp)
+Vowels in Kabiyè: a, e, i, o, u, ɔ, ɛ, ɩ, ʋ
+Consonants in Kabiyè: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: K'ekchi' (kek)
+Vowels in K'ekchi': a, e, i, o, u, á, é, í, ó, ú
+Consonants in K'ekchi': b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Kenyang (ken)
+Vowels in Kenyang: a, e, i, o, u, ɔ, ɛ, ɨ, ʉ
+Consonants in Kenyang: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: West Kewa (kew)
+Vowels in West Kewa: a, e, i, o, u
+Consonants in West Kewa: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Halh Mongolian (khk)
+Vowels in Halh Mongolian: а, е, и, й, о, у, ы, ь, э, ё, і, ӏ, ӧ, ӱ
+Consonants in Halh Mongolian: б, в, г, д, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ю, я, ғ, ң, ҷ
+
+Processing language: Q'anjob'al (kjb)
+Vowels in Q'anjob'al: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Q'anjob'al: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: East Kewa (kjs)
+Vowels in East Kewa: a, e, i, o, u
+Consonants in East Kewa: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Kagulu (kki)
+Vowels in Kagulu: a, e, i, o, u
+Consonants in Kagulu: b, c, d, f, g, h, j, k, l, m, n, p, s, t, w, y
+
+Processing language: Kako (kkj)
+Vowels in Kako: a, e, i, o, u, à, á, ã, ä, è, ê, ë, ì, î, ó, õ, ù
+Consonants in Kako: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, ñ
+
+Processing language: Konni (kma)
+Vowels in Konni: a, c, e, i, o, u, ɔ, ɩ, ʊ
+Consonants in Konni: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Western Kanjobal (knj)
+Vowels in Western Kanjobal: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Western Kanjobal: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Kuranko (knk)
+Vowels in Kuranko: a, c, e, i, o, u, ɔ, ɛ
+Consonants in Kuranko: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Kono (Sierra Leone) (kno)
+Vowels in Kono (Sierra Leone): a, e, i, o, u, ɔ, ɛ
+Consonants in Kono (Sierra Leone): b, c, d, f, g, h, k, m, n, p, s, t, w, y
+
+Processing language: Tabo (knv)
+Vowels in Tabo: a, e, i, o, u
+Consonants in Tabo: b, d, g, h, k, l, m, n, p, s, t, w, y
+
+Processing language: Korafe-Yegha (kpr)
+Vowels in Korafe-Yegha: a, e, i, o, u, á, ã, é, í, ó
+Consonants in Korafe-Yegha: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Komi-Zyrian (kpv)
+Vowels in Komi-Zyrian: i, ö, а, е, и, й, о, с, у, ъ, ы, ь, э, ю, я, ё
+Consonants in Komi-Zyrian: б, в, г, д, ж, з, к, л, м, н, п, р, т, ф, ч, ш
+
+Processing language: Kimré (kqp)
+Vowels in Kimré: a, e, i, o, u, à, á, é, ê, ô
+Consonants in Kimré: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Karachay-Balkar (krc)
+Vowels in Karachay-Balkar: а, е, и, й, о, у, ъ, ы, ь, э, ю, ё
+Consonants in Karachay-Balkar: б, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ч, ш, я
+
+Processing language: Krio (kri)
+Vowels in Krio: a, e, i, o, u, ɔ, ɛ
+Consonants in Krio: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Kinaray-A (krj)
+Vowels in Kinaray-A: a, e, i, o, u
+Consonants in Kinaray-A: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Kutep (kub)
+Vowels in Kutep: a, e, i, o, u, à, á, é, í, ó, ù, ú, ā, ē, ō
+Consonants in Kutep: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, x, y, z
+
+Processing language: Kuman (kue)
+Vowels in Kuman: a, e, i, o, u
+Consonants in Kuman: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Kumyk (kum)
+Vowels in Kumyk: а, е, и, й, о, у, ъ, ы, ь, э, ю, ё
+Consonants in Kumyk: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ч, ш, я
+
+Processing language: Kusaal (kus)
+Vowels in Kusaal: a, e, i, o, u, å
+Consonants in Kusaal: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Kwara'ae (kwf)
+Vowels in Kwara'ae: a, e, i, o, u, y
+Consonants in Kwara'ae: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w
+
+Processing language: Awa-Cuaiquer (kwi)
+Vowels in Awa-Cuaiquer: a, e, i, o, u, á, ã, é, í, ó, ú, ĩ, ɨ
+Consonants in Awa-Cuaiquer: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Kyaka (kyc)
+Vowels in Kyaka: a, e, i, o, u
+Consonants in Kyaka: b, d, g, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Kui (Indonesia) (kyq)
+Vowels in Kui (Indonesia): a, e, i, o, u, ɔ, ɛ
+Consonants in Kui (Indonesia): b, c, d, g, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Kayabí (kyz)
+Vowels in Kayabí: a, e, i, o, u, y, ã, õ, ũ
+Consonants in Kayabí: b, c, d, f, g, j, k, l, m, n, p, r, s, t, v, w
+
+Processing language: Lacandon (lac)
+Vowels in Lacandon: a, e, i, o, u, á, é, í, ó, ú, ʌ
+Consonants in Lacandon: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Lama (Togo) (las)
+Vowels in Lama (Togo): a, e, i, o, u, ɔ, ɛ, ɩ, ʋ
+Consonants in Lama (Togo): c, f, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Latin (lat)
+Vowels in Latin: a, e, i, o, u, y
+Consonants in Latin: b, c, d, f, g, h, k, l, m, n, p, q, r, s, t, v, x, z
+
+Processing language: Laari (ldi)
+Vowels in Laari: a, e, i, o, u, â, ê, î, ô, û
+Consonants in Laari: b, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Lyélé (lee)
+Vowels in Lyélé: a, e, i, o, u, ɔ, ə, ɛ
+Consonants in Lyélé: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Lelemi (lef)
+Vowels in Lelemi: a, e, i, o, u, ɔ, ɛ
+Consonants in Lelemi: b, d, g, h, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Nomaande (lem)
+Vowels in Nomaande: a, e, i, o, u, ɔ, ɛ
+Consonants in Nomaande: b, c, d, f, h, j, k, l, m, n, s, t, w, y
+
+Processing language: Lahu Shi (lhu)
+Vowels in Lahu Shi: a, e, i, o, u
+Consonants in Lahu Shi: b, c, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y
+
+Processing language: West-Central Limba (lia)
+Vowels in West-Central Limba: a, e, i, o, u, ɔ, ɛ
+Consonants in West-Central Limba: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Lithuanian (lit)
+Vowels in Lithuanian: a, e, i, o, u, y
+Consonants in Lithuanian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+
+Processing language: Lampung Api (ljp)
+Vowels in Lampung Api: a, e, i, o, u
+Consonants in Lampung Api: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Latundê (ltn)
+Vowels in Latundê: a, e, i, o, u, y
+Consonants in Latundê: b, c, d, f, g, h, l, m, n, p, q, r, s, t, v, x, z
+
+Processing language: Luwo (lwo)
+Vowels in Luwo: a, e, h, i, o, u
+Consonants in Luwo: b, c, d, g, j, k, l, m, n, p, r, t, w, y
+
+Processing language: San Jerónimo Tecóatl Mazatec (maa)
+Vowels in San Jerónimo Tecóatl Mazatec: a, e, i, o, u, à, á, è, é, ì, í, ò, ó, ú
+Consonants in San Jerónimo Tecóatl Mazatec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Madurese (mad)
+Vowels in Madurese: a, e, i, o, u
+Consonants in Madurese: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Makasar (mak)
+Vowels in Makasar: a, e, i, o, u
+Consonants in Makasar: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Mam (mam)
+Vowels in Mam: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Mam: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Mampruli (maw)
+Vowels in Mampruli: a, i, u, ɛ, ↄ
+Consonants in Mampruli: b, d, e, f, g, h, k, l, m, n, o, p, r, s, t, v, w, y, z
+
+Processing language: Central Mazahua (maz)
+Vowels in Central Mazahua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, í, ñ
+Consonants in Central Mazahua: a, e, i, o, u, á, ã, ä, é, ë, ó, õ, ö, ú, ü, ĩ, ũ, ẽ
+
+Processing language: Western Bukidnon Manobo (mbb)
+Vowels in Western Bukidnon Manobo: a, e, i, u, à, è, ì, ù
+Consonants in Western Bukidnon Manobo: b, c, d, f, g, h, j, k, l, m, n, o, p, r, s, t, v, w, x, y, z
+
+Processing language: Matigsalug Manobo (mbt)
+Vowels in Matigsalug Manobo: a, e, i, u
+Consonants in Matigsalug Manobo: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Machiguenga (mcb)
+Vowels in Machiguenga: a, e, h, i, o, u
+Consonants in Machiguenga: c, g, j, k, m, n, p, r, s, t, v, y, ñ
+
+Processing language: Coatlán Mixe (mco)
+Vowels in Coatlán Mixe: a, e, i, o, u, z, á, ä, é, ë, í, ï, ó, ö, ú, ü, ɨ
+Consonants in Coatlán Mixe: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, ñ
+
+Processing language: Mambila (mcu)
+Vowels in Mambila: a, e, i, o, u, ɔ
+Consonants in Mambila: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Mada (Nigeria) (mda)
+Vowels in Mada (Nigeria): a, e, i, o, u, à, â, è, é, ê, ì, î, ò, ô, ù, û, ā, ē, ō, ɔ, ə, ɛ
+Consonants in Mada (Nigeria): b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Mendankwe-Nkwen (men)
+Vowels in Mendankwe-Nkwen: a, e, i, o, u, ɔ, ɛ
+Consonants in Mendankwe-Nkwen: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Matal (mfh)
+Vowels in Matal: a, e, i, o, u, ə
+Consonants in Matal: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Wandala (mfi)
+Vowels in Wandala: a, e, i, u
+Consonants in Wandala: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Moba (mfq)
+Vowels in Moba: e, i, o, u, ɑ, ɔ
+Consonants in Moba: a, b, c, d, f, g, h, j, k, l, m, n, p, s, t, w, y
+
+Processing language: Mabaan (mfz)
+Vowels in Mabaan: a, e, i, o, u, ɔ, ɛ
+Consonants in Mabaan: b, c, d, g, h, j, k, l, m, n, p, r, t, w, y, ñ
+
+Processing language: Makhuwa-Moniga (mhm)
+Vowels in Makhuwa-Moniga: a, e, i, o, u, ã, õ, ĩ, ɛ, ɩ, ʋ, ẽ
+Consonants in Makhuwa-Moniga: b, d, f, g, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Lhaovo (mhx)
+Vowels in Lhaovo: a, e, i, o, u
+Consonants in Lhaovo: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Ocotepec Mixtec (mie)
+Vowels in Ocotepec Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Consonants in Ocotepec Mixtec: a, e, i, o, u, á, é, í, ó, ú, ā, ē, ō
+
+Processing language: Mofu-Gudur (mif)
+Vowels in Mofu-Gudur: a, e, i, u, ə
+Consonants in Mofu-Gudur: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Peñoles Mixtec (mil)
+Vowels in Peñoles Mixtec: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Consonants in Peñoles Mixtec: a, e, i, o, u, à, á, è, é, ì, í, ò, ó, ù, ú, ü, ě, ǎ, ǐ, ǒ, ǔ, ɨ
+
+Processing language: Minangkabau (min)
+Vowels in Minangkabau: a, e, i, o, u
+Consonants in Minangkabau: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Isthmus Mixe (mir)
+Vowels in Isthmus Mixe: a, e, i, o, u, á, ä, é, í, ó, ø, ú, ü
+Consonants in Isthmus Mixe: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Coatzospan Mixtec (miz)
+Vowels in Coatzospan Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+Consonants in Coatzospan Mixtec: a, e, i, o, u, á, â, é, ê, í, î, ó, ô, ú, û, ā, ē, ō, ɨ
+
+Processing language: Macedonian (mkd)
+Vowels in Macedonian: а, е, и, о, у, ѕ
+Consonants in Macedonian: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, ѓ, ј, љ, њ, ќ
+
+Processing language: Silacayoapan Mixtec (mks)
+Vowels in Silacayoapan Mixtec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Silacayoapan Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Malagasy (mlg)
+Vowels in Malagasy: a, e, i, o, y, à, ì, ò, ô
+Consonants in Malagasy: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z
+
+Processing language: Bargam (mlp)
+Vowels in Bargam: a, e, i, o, u
+Consonants in Bargam: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z
+
+Processing language: Southern Mam (mms)
+Vowels in Southern Mam: a, e, h, i, o, u, z
+Consonants in Southern Mam: b, c, d, j, k, l, m, n, p, q, r, s, t, w, x, y
+
+Processing language: Muna (mnb)
+Vowels in Muna: a, e, i, o, u
+Consonants in Muna: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Mundani (mnf)
+Vowels in Mundani: a, e, i, o, u, ɔ, ə, ɨ
+Consonants in Mundani: b, c, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, z
+
+Processing language: Mongondow (mog)
+Vowels in Mongondow: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Mongondow: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Mopei (mop)
+Vowels in Mopei: a, e, i, o, u, é, ü
+Consonants in Mopei: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Yosondúa Mixtec (mpm)
+Vowels in Yosondúa Mixtec: a, e, i, o, u, á, é, í, ó, ú, ā, ɨ
+Consonants in Yosondúa Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Misima-Paneati (mpx)
+Vowels in Misima-Paneati: a, e, i, o, u
+Consonants in Misima-Paneati: b, d, g, h, k, l, m, n, p, s, t, v, w, y
+
+Processing language: Mbuko (mqb)
+Vowels in Mbuko: a, e, i, o, u, œ, ə
+Consonants in Mbuko: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Māori (mri)
+Vowels in Māori: a, e, i, o, u
+Consonants in Māori: g, h, k, m, n, p, r, t, w
+
+Processing language: Aruamu (msy)
+Vowels in Aruamu: a, e, i, o, u, ɨ
+Consonants in Aruamu: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Cotabato Manobo (mta)
+Vowels in Cotabato Manobo: a, e, i, o, u
+Consonants in Cotabato Manobo: b, d, g, h, k, l, m, n, p, s, t, w, y
+
+Processing language: Mündü (muh)
+Vowels in Mündü: a, e, i, o, u
+Consonants in Mündü: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Murle (mur)
+Vowels in Murle: a, e, i, o, u, á, ã, ɔ, ɛ
+Consonants in Murle: b, c, d, g, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Central Huasteca Nahuatl (mvc)
+Vowels in Central Huasteca Nahuatl: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Central Huasteca Nahuatl: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Miso Mixtec (mvj)
+Vowels in Miso Mixtec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Miso Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Duri (mvp)
+Vowels in Duri: a, e, i, o, u
+Consonants in Duri: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Mün Chin (mwq)
+Vowels in Mün Chin: a, e, i, o, u, ä, ü
+Consonants in Mün Chin: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Mentawai (mwv)
+Vowels in Mentawai: a, e, i, o, u
+Consonants in Mentawai: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Tezoatlán Mixtec (mxb)
+Vowels in Tezoatlán Mixtec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Tezoatlán Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Juquila Mixe (mxq)
+Vowels in Juquila Mixe: a, e, i, o, u, á, é, í, ó, ú, ʉ
+Consonants in Juquila Mixe: b, d, f, g, j, k, l, m, n, p, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Jamiltepec Mixtec (mxt)
+Vowels in Jamiltepec Mixtec: a, e, i, o, u, á, é, í, ó, ú, ɨ
+Consonants in Jamiltepec Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Mamara Senoufo (myk)
+Vowels in Mamara Senoufo: a, e, i, o, u, à, á, è, é, ì, í, ò, ù, ɔ, ɛ
+Consonants in Mamara Senoufo: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Santa María Zacatepec Mixtec (mza)
+Vowels in Santa María Zacatepec Mixtec: a, e, h, i, o, u, á, é, ë, í, ó
+Consonants in Santa María Zacatepec Mixtec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Nigeria Mambila (mzk)
+Vowels in Nigeria Mambila: a, e, i, o, u, à, á, è, é, ì, í, ò, ó, ù, ú
+Consonants in Nigeria Mambila: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Mumuye (mzm)
+Vowels in Mumuye: a, e, i, o, u, à, ã, è, ì, ò, ù, ũ, ǎ, ɔ, ɛ
+Consonants in Mumuye: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Deg (mzw)
+Vowels in Deg: a, c, e, i, o, u, ɔ, ɛ
+Consonants in Deg: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Nahuatl languages (nah)
+Vowels in Nahuatl languages: a, e, i, o, á, é, í, ó, ú
+Consonants in Nahuatl languages: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, u, v, x, y, z, ñ
+
+Processing language: Naasioi (nas)
+Vowels in Naasioi: a, e, g, i, o, u
+Consonants in Naasioi: b, d, j, k, l, m, n, p, r, s, t, v
+
+Processing language: Central Huasteca Nahuatl (nch)
+Vowels in Central Huasteca Nahuatl: a, e, i, o, á, é, í, ó
+Consonants in Central Huasteca Nahuatl: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, u, v, x, y, z, ú
+
+Processing language: Michoacán Nahuatl (ncl)
+Vowels in Michoacán Nahuatl: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Michoacán Nahuatl: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Chumburung (ncu)
+Vowels in Chumburung: a, e, i, o, u, ɔ, ɛ
+Consonants in Chumburung: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: North Ndebele (nde)
+Vowels in North Ndebele: a, e, i, o, u
+Consonants in North Ndebele: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Ndogo (ndz)
+Vowels in Ndogo: b, c, d, f, g, j, k, l, m, n, p, r, s, t, v, w, y, z
+Consonants in Ndogo: a, e, i, o, u, à, á, â, è, é, ê, ì, í, î, ò, ó, ô, ù, ú, û
+
+Processing language: Toura (Côte d'Ivoire) (neb)
+Vowels in Toura (Côte d'Ivoire): b, d, f, g, i, k, l, m, n, p, s, t, v, w, y, z, ì, í, î, ʋ
+Consonants in Toura (Côte d'Ivoire): a, e, h, o, u, à, á, â, è, é, ê, ò, ó, ù, ú, ɔ, ɛ, ɩ
+
+Processing language: Nafaanra (nfr)
+Vowels in Nafaanra: a, e, i, o, u, ɛ, ↄ
+Consonants in Nafaanra: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Guerrero Nahuatl (ngu)
+Vowels in Guerrero Nahuatl: a, e, i, o, á, é, í, ó, ú
+Consonants in Guerrero Nahuatl: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, u, v, x, y, z, ñ
+
+Processing language: Eastern Huasteca Nahuatl (nhe)
+Vowels in Eastern Huasteca Nahuatl: a, e, i, o, á, é, í, ó
+Consonants in Eastern Huasteca Nahuatl: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, u, v, x, y, z, ú
+
+Processing language: Zacatlán-Ahuacatlán-Tepetzintla Nahuatl (nhi)
+Vowels in Zacatlán-Ahuacatlán-Tepetzintla Nahuatl: a, e, i, o, q, á, é, í, ó, ú
+Consonants in Zacatlán-Ahuacatlán-Tepetzintla Nahuatl: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, u, v, x, y, z, ñ
+
+Processing language: Noone (nhu)
+Vowels in Noone: a, e, h, i, o, p, u, v, ɛ
+Consonants in Noone: b, c, d, f, g, j, k, l, m, n, s, t, w, y
+
+Processing language: Western Huasteca Nahuatl (nhw)
+Vowels in Western Huasteca Nahuatl: a, e, i, o, á, é, í, ó
+Consonants in Western Huasteca Nahuatl: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, u, v, x, y, z, ú
+
+Processing language: Northern Oaxaca Nahuatl (nhy)
+Vowels in Northern Oaxaca Nahuatl: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Northern Oaxaca Nahuatl: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Nias (nia)
+Vowels in Nias: a, e, i, o, u, ö
+Consonants in Nias: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Ngaju (nij)
+Vowels in Ngaju: a, e, i, o, u
+Consonants in Ngaju: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Nilamba (nim)
+Vowels in Nilamba: a, e, i, o, u, ĩ, ũ
+Consonants in Nilamba: b, d, f, g, h, j, k, l, m, n, p, s, t, w, y, z
+
+Processing language: Dutch (nld)
+Vowels in Dutch: a, e, i, o, u, y
+Consonants in Dutch: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, z
+
+Processing language: Southern Nuni (nnw)
+Vowels in Southern Nuni: a, e, i, o, u, ɑ, ɔ, ə, ɛ, ɩ, ʋ
+Consonants in Southern Nuni: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Woun Meu (noa)
+Vowels in Woun Meu: a, e, i, o, u, á, ã, ä, é, ë, í, ó, õ, ö, ú, ĩ, ũ, ʌ, ẽ
+Consonants in Woun Meu: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Norwegian (nor)
+Vowels in Norwegian: a, e, i, o, u, y, å, æ, é, ó, ø
+Consonants in Norwegian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v
+
+Processing language: Southeastern Puebla Nahuatl (npl)
+Vowels in Southeastern Puebla Nahuatl: a, e, i, o, á, é, í, ó, ú
+Consonants in Southeastern Puebla Nahuatl: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, u, v, w, x, y, z, ñ
+
+Processing language: Napu (npy)
+Vowels in Napu: a, e, i, o, u
+Consonants in Napu: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Northern Tepehuan (ntp)
+Vowels in Northern Tepehuan: a, e, i, o, u, á, é, í, ú, ʌ
+Consonants in Northern Tepehuan: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, y, z, ñ
+
+Processing language: Delo (ntr)
+Vowels in Delo: a, e, i, o, u, ɛ, ↄ
+Consonants in Delo: b, d, f, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Nuer (nus)
+Vowels in Nuer: a, e, h, i, o, u, ä, ë, ö, ɔ, ɛ
+Consonants in Nuer: b, c, d, g, j, k, l, m, n, p, r, t, w, y
+
+Processing language: Giryama (nyf)
+Vowels in Giryama: a, e, i, o, u
+Consonants in Giryama: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Nyakyusa-Ngonde (nyy)
+Vowels in Nyakyusa-Ngonde: a, e, i, o, u, ā, ē, ō
+Consonants in Nyakyusa-Ngonde: b, d, f, g, h, j, k, l, m, n, p, s, t, w, y
+
+Processing language: Mochica (old)
+Vowels in Mochica: a, e, i, o, u
+Consonants in Mochica: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Tohono O'odham (ood)
+Vowels in Tohono O'odham: a, e, h, i, o, u, y
+Consonants in Tohono O'odham: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, z
+
+Processing language: Oksapmin (opm)
+Vowels in Oksapmin: a, e, i, o, u
+Consonants in Oksapmin: b, d, g, h, j, k, m, n, p, r, s, t, w, y
+
+Processing language: Ossetian (oss)
+Vowels in Ossetian: а, е, и, й, о, у, ъ, ы, э, ӕ
+Consonants in Ossetian: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч
+
+Processing language: Mezquital Otomi (ote)
+Vowels in Mezquital Otomi: a, e, i, o, u, á, ë, ö, ú
+Consonants in Mezquital Otomi: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, x, y, z, ñ
+
+Processing language: Querétaro Otomi (otq)
+Vowels in Querétaro Otomi: a, e, i, o, u, á, ë, ö, ú
+Consonants in Querétaro Otomi: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, x, y, z, ñ
+
+Processing language: Koonzime (ozm)
+Vowels in Koonzime: a, e, i, o, u, w, ø, œ, ɑ, ɔ, ɛ, ɨ, ʉ
+Consonants in Koonzime: b, c, d, g, h, j, k, l, m, n, p, r, s, t, v, x, y, z
+
+Processing language: Parecís (pab)
+Vowels in Parecís: a, e, i, o, á, â, ã, é, í, ó, ô, ú
+Consonants in Parecís: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, u, v, w, x, y, z
+
+Processing language: Paumarí (pad)
+Vowels in Paumarí: a, e, i, o, á, â, ã, é, ê, í, î, ó, ô
+Consonants in Paumarí: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, u, v, x, z
+
+Processing language: Pangasinan (pag)
+Vowels in Pangasinan: a, e, i, o, u
+Consonants in Pangasinan: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Tenango Otomi (pah)
+Vowels in Tenango Otomi: a, e, o, u, w, y, á, â, ã, é, ê, ó, ô, õ, ú, ĩ, ũ, ẽ
+Consonants in Tenango Otomi: b, c, d, f, g, h, i, j, k, l, m, n, p, q, r, s, t, v, x, z, í
+
+Processing language: Pampanga (pam)
+Vowels in Pampanga: a, e, i, o, u
+Consonants in Pampanga: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Northern Paiute (pao)
+Vowels in Northern Paiute: a, e, i, o, u
+Consonants in Northern Paiute: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Páez (pbb)
+Vowels in Páez: a, e, i, o, u, á, ã, é, í, ó, ĩ, ũ, ẽ
+Consonants in Páez: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Patamona (pbc)
+Vowels in Patamona: a, e, i, o, u, à, ù
+Consonants in Patamona: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Parkwa (pbi)
+Vowels in Parkwa: a, e, i, ə, ɨ
+Consonants in Parkwa: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, u, v, w, y, z
+
+Processing language: Plautdietsch (pdt)
+Vowels in Plautdietsch: a, c, e, i, o, u
+Consonants in Plautdietsch: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Pijin (pis)
+Vowels in Pijin: a, e, i, o, u
+Consonants in Pijin: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Pokomo (pkb)
+Vowels in Pokomo: a, e, i, o, u
+Consonants in Pokomo: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Pamona (pmf)
+Vowels in Pamona: a, e, i, o, u
+Consonants in Pamona: b, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Pocoman (pob)
+Vowels in Pocoman: a, e, i, o, u
+Consonants in Pocoman: b, c, d, h, j, k, l, m, n, p, q, r, s, t, w, x, y, z
+
+Processing language: Pogoro (poh)
+Vowels in Pogoro: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Pogoro: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Polish (pol)
+Vowels in Polish: a, e, i, o, u, y, ó
+Consonants in Polish: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, z
+
+Processing language: Portuguese (por)
+Vowels in Portuguese: a, e, i, o, u, à, á, â, ã, é, ê, í, ó, ô, õ, ú
+Consonants in Portuguese: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, z
+
+Processing language: Potawatomi (pot)
+Vowels in Potawatomi: a, e, i, o, u
+Consonants in Potawatomi: c, h, k, m, n, p, s, t, w, y
+
+Processing language: Uma (ppk)
+Vowels in Uma: a, e, i, o, u
+Consonants in Uma: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Bambam (ptu)
+Vowels in Bambam: a, e, i, o, u, ä
+Consonants in Bambam: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: K'iche' (quc)
+Vowels in K'iche': a, e, i, o, u, á, é, í, ó, ú
+Consonants in K'iche': b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Lambayeque Quechua (quf)
+Vowels in Lambayeque Quechua: a, e, i, o, u
+Consonants in Lambayeque Quechua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: South Bolivian Quechua (quh)
+Vowels in South Bolivian Quechua: a, e, i, o, u, á, é, í, ó, ú
+Consonants in South Bolivian Quechua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: San Juan Sacatepéquez Kaqchikel (quj)
+Vowels in San Juan Sacatepéquez Kaqchikel: a, e, i, o, u, á, é, í, ó, ú
+Consonants in San Juan Sacatepéquez Kaqchikel: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: North Bolivian Quechua (qul)
+Vowels in North Bolivian Quechua: a, e, i, o, u, á, ä, é, í, ï, ó, ú
+Consonants in North Bolivian Quechua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Southern Pastaza Quechua (qup)
+Vowels in Southern Pastaza Quechua: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Southern Pastaza Quechua: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, ñ
+
+Processing language: Guatemala K'iche' (qut)
+Vowels in Guatemala K'iche': a, e, i, o, u, á, ä, é, í, ó, ú
+Consonants in Guatemala K'iche': b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Ayacucho Quechua (quy)
+Vowels in Ayacucho Quechua: a, e, i, o, u, á, é, í
+Consonants in Ayacucho Quechua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Cusco Quechua (quz)
+Vowels in Cusco Quechua: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Cusco Quechua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+
+Processing language: Cajamarca Quechua (qvc)
+Vowels in Cajamarca Quechua: a, e, i, o, u, á, í
+Consonants in Cajamarca Quechua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, w, y, ñ
+
+Processing language: Huamalíes-Dos de Mayo Huánuco Quechua (qvh)
+Vowels in Huamalíes-Dos de Mayo Huánuco Quechua: a, e, i, o, u, á, ä, é, ë, í, ï, ó, ö, ú, ü
+Consonants in Huamalíes-Dos de Mayo Huánuco Quechua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Margos-Yarowilca-Lauricocha Quechua (qvm)
+Vowels in Margos-Yarowilca-Lauricocha Quechua: a, e, i, o, u, á, ä, é, ë, í, ï, ó, ö, ú, ü
+Consonants in Margos-Yarowilca-Lauricocha Quechua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: San Martín Quechua (qvs)
+Vowels in San Martín Quechua: a, e, i, o, u, á, í
+Consonants in San Martín Quechua: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, ñ
+
+Processing language: Huaylla Wanca Quechua (qvw)
+Vowels in Huaylla Wanca Quechua: a, e, i, o, u, á, ä, é, ë, í, ï, ó, ú, ü
+Consonants in Huaylla Wanca Quechua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Northern Pastaza Quichua (qvz)
+Vowels in Northern Pastaza Quichua: a, e, i, o, u, á, í, ó, ú, ü
+Consonants in Northern Pastaza Quichua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Huaylas Ancash Quechua (qwh)
+Vowels in Huaylas Ancash Quechua: a, e, i, o, u, ä, ë, ï, ö, ü
+Consonants in Huaylas Ancash Quechua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Panao Huánuco Quechua (qxh)
+Vowels in Panao Huánuco Quechua: a, e, i, o, u, á, ä, é, í, ï, ó, ú, ü
+Consonants in Panao Huánuco Quechua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Northern Conchucos Ancash Quechua (qxn)
+Vowels in Northern Conchucos Ancash Quechua: a, e, i, o, u, á, ä, é, ë, í, ï, ó, ö, ú, ü
+Consonants in Northern Conchucos Ancash Quechua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Southern Conchucos Ancash Quechua (qxo)
+Vowels in Southern Conchucos Ancash Quechua: a, e, i, o, u, ä, ë, ï, ö, ü
+Consonants in Southern Conchucos Ancash Quechua: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Nyaturu (rim)
+Vowels in Nyaturu: a, e, i, o, u, ë, ü
+Consonants in Nyaturu: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Vlax Romani (rmy)
+Vowels in Vlax Romani: a, c, e, i, o, u
+Consonants in Vlax Romani: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, z, ñ
+
+Processing language: Romany (rom)
+Vowels in Romany: a, e, i, o, u, â, î
+Consonants in Romany: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z
+
+Processing language: Romanian (ron)
+Vowels in Romanian: a, e, i, o, u, î
+Consonants in Romanian: b, c, d, f, g, h, j, l, m, n, p, r, s, t, v, x, z
+
+Processing language: Russian (rus)
+Vowels in Russian: а, е, и, й, о, у, ы, ь, ю, я, ё
+Consonants in Russian: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, щ, ъ, э
+
+Processing language: Buglere (sab)
+Vowels in Buglere: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Buglere: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Safaliba (saf)
+Vowels in Safaliba: a, e, i, o, u, ɔ, ɛ
+Consonants in Safaliba: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Sasak (sas)
+Vowels in Sasak: a, e, i, o, u
+Consonants in Sasak: b, c, d, g, h, j, k, l, m, n, p, q, r, s, t, w, y, z
+
+Processing language: Southern Samo (sbd)
+Vowels in Southern Samo: a, e, i, o, u, à, á, ã, è, é, ì, í, ò, ó, ù, ú, ĩ, ũ, ǎ, ɔ, ə, ɛ
+Consonants in Southern Samo: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Botolan Sambal (sbl)
+Vowels in Botolan Sambal: a, e, i, o
+Consonants in Botolan Sambal: b, d, g, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Toraja-Sa'dan (sda)
+Vowels in Toraja-Sa'dan: a, e, i, o, u
+Consonants in Toraja-Sa'dan: b, c, d, f, g, h, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Mag-antsi Ayta (sgb)
+Vowels in Mag-antsi Ayta: a, e, i, o, u, á, ê, í, ú
+Consonants in Mag-antsi Ayta: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Tachelhit (shi)
+Vowels in Tachelhit: a, e, i, u
+Consonants in Tachelhit: b, d, f, g, h, j, k, l, m, n, q, r, s, t, w, y, z, ɛ
+
+Processing language: Shilluk (shk)
+Vowels in Shilluk: a, e, h, i, n, o, u, á, è, é, ë, ì, í, ï, ó, ö, ø, ù, ɑ
+Consonants in Shilluk: b, c, d, g, j, k, l, m, p, r, s, t, w, y
+
+Processing language: Paasaal (sig)
+Vowels in Paasaal: a, e, i, o, u, á, ɔ, ɛ, ɩ, ʋ
+Consonants in Paasaal: b, d, f, g, h, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Tumulung Sisaala (sil)
+Vowels in Tumulung Sisaala: a, c, e, i, o, u, á, í, ɛ, ↄ
+Consonants in Tumulung Sisaala: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Epena (sja)
+Vowels in Epena: a, e, i, o, u, á, ã, é, ë, í, ó, õ, ú, ĩ, ũ, ɨ, ẽ
+Consonants in Epena: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Sissala (sld)
+Vowels in Sissala: a, e, i, o, u, ɔ, ɛ, ɩ, ʋ
+Consonants in Sissala: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Slovenian (slv)
+Vowels in Slovenian: a, e, i, o, u, y, á, ä, é, í, ó, ô, ú
+Consonants in Slovenian: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x, z
+
+Processing language: Samoan (smo)
+Vowels in Samoan: a, e, i, o, u, ā, ē, ō
+Consonants in Samoan: f, g, h, k, l, m, n, p, r, s, t, v
+
+Processing language: Shona (sna)
+Vowels in Shona: a, e, i, o, u
+Consonants in Shona: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Somali (som)
+Vowels in Somali: a, e, i, o, u
+Consonants in Somali: b, c, d, f, g, h, j, k, l, m, n, q, r, s, t, w, x, y
+
+Processing language: Miyobe (soy)
+Vowels in Miyobe: a, c, e, i, o, u, ɔ
+Consonants in Miyobe: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Spanish (spa)
+Vowels in Spanish: a, e, i, o, u, á, é, í, ó, ú, ü
+Consonants in Spanish: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Supyire Senoufo (spp)
+Vowels in Supyire Senoufo: a, e, i, o, u, à, á, â, è, é, ê, ì, í, î, ò, ó, ô, ù, ú, û, ɔ, ɛ
+Consonants in Supyire Senoufo: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Sabaot (spy)
+Vowels in Sabaot: b, c, f, k, l, m, n, r, s, t, w, y
+Consonants in Sabaot: a, e, g, i, o, u, ā, ē, ō
+
+Processing language: Albanian (sqi)
+Vowels in Albanian: a, e, i, o, u, y, é, ë
+Consonants in Albanian: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, z
+
+Processing language: Siriano (sri)
+Vowels in Siriano: a, e, i, o, r, u, á, ã, é, í, ó, õ, ú, ü, ʉ
+Consonants in Siriano: b, c, d, f, g, h, j, k, l, m, n, p, q, s, t, v, w, x, y, z, ñ
+
+Processing language: Saramaccan (srm)
+Vowels in Saramaccan: a, e, i, o, u, ë, ö, ú
+Consonants in Saramaccan: b, d, f, g, h, j, k, l, m, n, p, s, t, v, w, z
+
+Processing language: Sranan Tongo (srn)
+Vowels in Sranan Tongo: a, e, i, o, u, á, è, ê, ô
+Consonants in Sranan Tongo: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Serbian (srp)
+Vowels in Serbian: a, o, а, е, и, о, у
+Consonants in Serbian: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, ђ, ј, љ, њ, ћ
+
+Processing language: Owa (stn)
+Vowels in Owa: a, e, i, o, u
+Consonants in Owa: b, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w
+
+Processing language: Southeastern Tepehuan (stp)
+Vowels in Southeastern Tepehuan: a, e, h, i, o, u, ɨ
+Consonants in Southeastern Tepehuan: b, c, d, g, j, k, l, m, n, p, r, s, t, x, y, ñ
+
+Processing language: Sulka (sua)
+Vowels in Sulka: a, e, i, o, u
+Consonants in Sulka: b, c, d, f, g, h, j, k, l, m, n, p, s, t, v, w, y, z
+
+Processing language: Sukuma (suk)
+Vowels in Sukuma: a, e, i, o, u
+Consonants in Sukuma: b, d, g, h, k, l, m, n, p, r, s, t, v, y
+
+Processing language: Sundanese (sun)
+Vowels in Sundanese: a, e, i, o, u
+Consonants in Sundanese: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Mwaghavul (sur)
+Vowels in Mwaghavul: a, e, i, o, u, é, í, ú
+Consonants in Mwaghavul: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Susu (sus)
+Vowels in Susu: a, e, i, o, u, ɔ, ɛ
+Consonants in Susu: b, d, f, g, h, k, l, m, n, p, r, s, t, w, x, y
+
+Processing language: Swahili (swa)
+Vowels in Swahili: a, e, i, o, u
+Consonants in Swahili: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Swedish (swe)
+Vowels in Swedish: a, e, i, o, u, y, ä, å, é, ö
+Consonants in Swedish: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, x
+
+Processing language: Swahili (macrolanguage) (swh)
+Vowels in Swahili (macrolanguage): a, e, i, o, u
+Consonants in Swahili (macrolanguage): b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Tabassaran (tab)
+Vowels in Tabassaran: а, е, и, й, о, у, э, ю, я, і
+Consonants in Tabassaran: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, ъ, ь
+
+Processing language: Lowland Tarahumara (tac)
+Vowels in Lowland Tarahumara: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Lowland Tarahumara: b, c, g, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Tamasheq (taq)
+Vowels in Tamasheq: a, e, i, o, u, ǝ
+Consonants in Tamasheq: b, d, f, g, h, j, k, l, m, n, q, r, s, t, w, x, y, z
+
+Processing language: Tatar (tat)
+Vowels in Tatar: а, е, и, й, о, у, ъ, ы, ь, э, ю, я, ѳ, ү, ә
+Consonants in Tatar: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ч, ш, җ, ң, һ
+
+Processing language: Takia (tbc)
+Vowels in Takia: a, e, i, o, u
+Consonants in Takia: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Tabaru (tby)
+Vowels in Tabaru: a, e, i, o, u
+Consonants in Tabaru: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Ticuna (tca)
+Vowels in Ticuna: a, e, h, i, o, u, á, ã, é, í, ó, õ, ú, ü, ĩ, ũ, ẽ
+Consonants in Ticuna: b, c, d, f, g, k, l, m, n, p, q, r, s, t, w, x, y, z, ñ
+
+Processing language: Datooga (tcc)
+Vowels in Datooga: a, c, e, i, o, u
+Consonants in Datooga: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Huehuetla Tepehua (tee)
+Vowels in Huehuetla Tepehua: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Huehuetla Tepehua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Timne (tem)
+Vowels in Timne: a, e, g, i, o, u, ǝ, ȧ, ɔ, ə, ɛ
+Consonants in Timne: b, c, d, f, h, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Teribe (tfr)
+Vowels in Teribe: a, e, i, o, u, á, ã, ä, è, é, ê, ë, í, î, ò, ó, õ, ö, ú, û
+Consonants in Teribe: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ð
+
+Processing language: Tagalog (tgl)
+Vowels in Tagalog: a, e, i, o, u, á, â
+Consonants in Tagalog: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Tharaka (thk)
+Vowels in Tharaka: a, e, h, i, o, u, î, û
+Consonants in Tharaka: b, c, d, f, g, j, k, m, n, p, r, s, t, w, y
+
+Processing language: Tikopia (tik)
+Vowels in Tikopia: a, e, i, n, o, u, æ, ɔ, ɛ
+Consonants in Tikopia: b, c, d, f, g, h, j, k, l, m, p, r, s, t, v, w, y, z
+
+Processing language: Coyutla Totonac (toc)
+Vowels in Coyutla Totonac: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Coyutla Totonac: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Gitonga (toh)
+Vowels in Gitonga: a, e, i, o, u
+Consonants in Gitonga: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, x, y, z
+
+Processing language: Highland Totonac (tos)
+Vowels in Highland Totonac: a, e, i, o, u
+Consonants in Highland Totonac: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Tok Pisin (tpi)
+Vowels in Tok Pisin: a, e, i, o, u
+Consonants in Tok Pisin: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Tampulma (tpm)
+Vowels in Tampulma: a, c, e, i, o, u, ɔ, ɛ
+Consonants in Tampulma: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Tlachichilco Tepehua (tpt)
+Vowels in Tlachichilco Tepehua: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Tlachichilco Tepehua: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Tektiteko (ttc)
+Vowels in Tektiteko: a, e, h, i, o, u, z, á, é, í, ó, ú
+Consonants in Tektiteko: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, w, x, y
+
+Processing language: Tupuri (tue)
+Vowels in Tupuri: a, e, i, o, u, á, ã, é, í, ó, õ, ú, ĩ, ũ, ẽ
+Consonants in Tupuri: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Central Tunebo (tuf)
+Vowels in Central Tunebo: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Central Tunebo: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Turkmen (tuk)
+Vowels in Turkmen: a, e, i, o, u, y, ä, ö, ü
+Consonants in Turkmen: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, z
+
+Processing language: Tucano (tuo)
+Vowels in Tucano: a, b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, y, z, á, â, ã
+Consonants in Tucano: e, i, o, u, é, ê, í, î, ó, ô, õ, ú, û, ĩ, ũ, ɨ, ẽ
+
+Processing language: Termanu (twu)
+Vowels in Termanu: a, e, i, o, u
+Consonants in Termanu: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Kayapó (txu)
+Vowels in Kayapó: a, e, h, i, o, u, y
+Consonants in Kayapó: b, d, g, j, k, m, n, p, r, t, w, x
+
+Processing language: Tuvinian (tyv)
+Vowels in Tuvinian: a, а, е, и, й, о, у, ы, ь, ё, ү, ө
+Consonants in Tuvinian: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, ъ, э, ю, я, ң
+
+Processing language: Tz'utujil (tzj)
+Vowels in Tz'utujil: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Tz'utujil: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Tzotzil (tzo)
+Vowels in Tzotzil: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Tzotzil: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Tz'utujil (tzt)
+Vowels in Tz'utujil: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Tz'utujil: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Ubu (ubu)
+Vowels in Ubu: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Ubu: b, d, g, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Uduk (udu)
+Vowels in Uduk: a, e, i, o, u
+Consonants in Uduk: b, c, d, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Ukrainian (ukr)
+Vowels in Ukrainian: а, е, и, й, о, у, ь, ю, я, і, ї
+Consonants in Ukrainian: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, щ, є, ґ
+
+Processing language: Ura (Papua New Guinea) (ura)
+Vowels in Ura (Papua New Guinea): a, e, i, o, u
+Consonants in Ura (Papua New Guinea): b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, y
+
+Processing language: Orya (ury)
+Vowels in Orya: a, e, i, o, u, ë, ï
+Consonants in Orya: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Uspanteco (usp)
+Vowels in Uspanteco: a, e, h, i, o, u, á, é, í, ó, ú
+Consonants in Uspanteco: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Uzbek (uzb)
+Vowels in Uzbek: а, е, и, й, о, у, ь, э, ю, я, ё, ў
+Consonants in Uzbek: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ч, ш, ъ, ғ, қ, ҳ
+
+Processing language: Northern Uzbek (uzn)
+Vowels in Northern Uzbek: а, е, и, й, о, у, э, ю, я, ё, ў
+Consonants in Northern Uzbek: б, в, г, д, ж, з, к, л, м, н, п, р, с, т, ф, х, ч, ш, ъ, ғ, қ, ҳ
+
+Processing language: Vagla (vag)
+Vowels in Vagla: a, c, e, i, o, u, à, á, é, í, ú, ɔ, ɛ
+Consonants in Vagla: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Vietnamese (vie)
+Vowels in Vietnamese: b, c, d, g, h, j, k, l, m, n, p, q, r, s, t, v, x
+Consonants in Vietnamese: a, e, i, o, u, y, à, á, â, ã, è, é, ê, ì, í, ò, ó, ô, õ, ù, ú, ĩ, ũ, ơ, ư, ạ, ả, ấ, ầ, ậ, ẽ, ế, ề, ể, ệ, ỏ, ố, ồ, ộ, ớ, ờ, ở, ỡ, ợ, ủ
+
+Processing language: Iduna (viv)
+Vowels in Iduna: a, e, i, o, u
+Consonants in Iduna: b, d, f, g, h, k, l, m, n, s, t, v, w, y
+
+Processing language: Ayautla Mazatec (vmy)
+Vowels in Ayautla Mazatec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Ayautla Mazatec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Wunai Bunu (vun)
+Vowels in Wunai Bunu: a, e, o, u
+Consonants in Wunai Bunu: b, c, d, f, g, h, i, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Wolaytta (wal)
+Vowels in Wolaytta: a, e, i, o, u
+Consonants in Wolaytta: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, w, x, y, z
+
+Processing language: Waray (Philippines) (war)
+Vowels in Waray (Philippines): a, e, i, o, u
+Consonants in Waray (Philippines): b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Wayana (way)
+Vowels in Wayana: a, e, i, o, u, ë, ï
+Consonants in Wayana: h, j, k, l, m, n, p, s, t, w
+
+Processing language: Sorbian languages (wen)
+Vowels in Sorbian languages: a, e, i, o, s, u, y, á, é, í, ó, ú, ü, ě
+Consonants in Sorbian languages: b, c, d, f, g, h, j, k, l, m, n, p, r, t, v, z
+
+Processing language: Wè Northern (wob)
+Vowels in Wè Northern: a, e, i, o, u, ɔ, ɛ, ɩ, ʋ
+Consonants in Wè Northern: b, c, d, f, g, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Kalmyk (xal)
+Vowels in Kalmyk: а, е, и, й, о, у, ы, ь, э, ю, я, ё, ѳ, ң, ү, ә
+Consonants in Kalmyk: б, в, г, д, з, к, л, м, н, п, р, с, т, ф, х, ц, ч, ш, җ, һ
+
+Processing language: Xavante (xav)
+Vowels in Xavante: a, e, i, o, u, y, â, ã, é, ô, õ
+Consonants in Xavante: b, c, d, h, m, n, p, r, s, t, w, z
+
+Processing language: Konkomba (xon)
+Vowels in Konkomba: a, c, e, i, o, u, ɔ
+Consonants in Konkomba: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y
+
+Processing language: Eastern Karaboro (xrb)
+Vowels in Eastern Karaboro: a, e, i, o, u, ã, ĩ, ũ, ɔ, ɛ, ẽ
+Consonants in Eastern Karaboro: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y
+
+Processing language: Kasem (xsm)
+Vowels in Kasem: a, e, i, o, u, ɔ, ə, ɛ, ɩ, ʋ
+Consonants in Kasem: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: Sanumá (xsu)
+Vowels in Sanumá: a, e, i, o, u, á, â, ã, ä, é, í, ó, ô, õ, ö, ú, ĩ, ũ, ẽ
+Consonants in Sanumá: b, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w
+
+Processing language: Diuxi-Tilantongo Mixtec (xtd)
+Vowels in Diuxi-Tilantongo Mixtec: a, e, i, o, u, á, é, í, ó, ú, ɨ
+Consonants in Diuxi-Tilantongo Mixtec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Yalunka (yal)
+Vowels in Yalunka: a, e, i, o, u, ɔ, ɛ
+Consonants in Yalunka: b, d, f, g, h, k, l, m, n, p, r, s, t, w, x, y
+
+Processing language: Yamba (yam)
+Vowels in Yamba: a, e, i, o, u, à, è, ì, ò, ù, ə, ɛ, ʉ
+Consonants in Yamba: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, v, w, y, z
+
+Processing language: West Yugur (yby)
+Vowels in West Yugur: a, e, i, o, u
+Consonants in West Yugur: b, d, g, h, j, k, l, m, n, p, s, t, v, w, y
+
+Processing language: Angguruk Yali (yli)
+Vowels in Angguruk Yali: a, e, i, o, u
+Consonants in Angguruk Yali: b, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Western Tlacolula Valley Zapotec (zab)
+Vowels in Western Tlacolula Valley Zapotec: a, e, h, i, o, u, y, á, é, í, ó, ú, ü, ɨ
+Consonants in Western Tlacolula Valley Zapotec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, x, z
+
+Processing language: Ocotlán Zapotec (zac)
+Vowels in Ocotlán Zapotec: a, e, i, o, u, á, é, ë, í, ó, ú, ü
+Consonants in Ocotlán Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Cajonos Zapotec (zad)
+Vowels in Cajonos Zapotec: a, e, h, i, o, u, á, é, í, ó, ú, ə
+Consonants in Cajonos Zapotec: b, c, d, f, g, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Isthmus Zapotec (zai)
+Vowels in Isthmus Zapotec: a, e, i, o, u, á, é, í, ó, ú, ü
+Consonants in Isthmus Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Miahuatlán Zapotec (zam)
+Vowels in Miahuatlán Zapotec: a, e, i, o, u, à, á, è, é, ì, í, ò, ó, ù, ú, ü
+Consonants in Miahuatlán Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z, ñ
+
+Processing language: Ozolotepec Zapotec (zao)
+Vowels in Ozolotepec Zapotec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Ozolotepec Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Santo Domingo Albarradas Zapotec (zas)
+Vowels in Santo Domingo Albarradas Zapotec: a, e, i, o, u, á, é, ë, í, ó, ú, ü
+Consonants in Santo Domingo Albarradas Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Mitla Zapotec (zaw)
+Vowels in Mitla Zapotec: a, e, i, o, u, w, á, ä, é, í, ó, ú
+Consonants in Mitla Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Mixtepec Zapotec (zpm)
+Vowels in Mixtepec Zapotec: a, e, i, o, u, á, é, ë, í, ó, ú, ü
+Consonants in Mixtepec Zapotec: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Amatlán Zapotec (zpo)
+Vowels in Amatlán Zapotec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Amatlán Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Zoogocho Zapotec (zpq)
+Vowels in Zoogocho Zapotec: a, e, i, o, w, á, é, í, ó, ú
+Consonants in Zoogocho Zapotec: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, u, v, x, y, z, ñ, ü
+
+Processing language: Yalálag Zapotec (zpu)
+Vowels in Yalálag Zapotec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Yalálag Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z
+
+Processing language: Chichicapan Zapotec (zpv)
+Vowels in Chichicapan Zapotec: a, e, i, o, u, á, é, í, ó
+Consonants in Chichicapan Zapotec: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Texmelucan Zapotec (zpz)
+Vowels in Texmelucan Zapotec: a, e, h, i, o, u, á, é, í, ó, ü
+Consonants in Texmelucan Zapotec: b, c, d, f, g, j, l, m, n, p, q, r, s, t, v, w, y, z, ñ
+
+Processing language: Standard Malay (zsm)
+Vowels in Standard Malay: a, e, i, o, u
+Consonants in Standard Malay: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, y, z
+
+Processing language: Southern Rincon Zapotec (zsr)
+Vowels in Southern Rincon Zapotec: a, e, i, o, u, á, é, ë, í, ó, ö, ú, ü
+Consonants in Southern Rincon Zapotec: b, c, d, f, g, h, j, l, m, n, p, q, r, s, t, v, x, y, z
+
+Processing language: Quioquitani-Quierí Zapotec (ztq)
+Vowels in Quioquitani-Quierí Zapotec: a, e, i, o, u, á, é, ë, í, ó, ú
+Consonants in Quioquitani-Quierí Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z, ñ
+
+Processing language: Yatee Zapotec (zty)
+Vowels in Yatee Zapotec: a, e, i, o, u, á, é, í, ó, ú
+Consonants in Yatee Zapotec: b, c, d, f, g, h, j, k, l, m, n, p, r, s, t, w, x, y, z

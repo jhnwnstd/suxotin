@@ -58,16 +58,38 @@ def classify(
     sux_vowels_list, _, _ = classify_vowels(sums, matrix, index_to_char)
     sux_v = set(v for v in sux_vowels_list if v.strip())
 
+    # --- Detect and correct SVD label flip ---
+    # Suxotin's orientation is grounded in adjacency sums (positive = vowel),
+    # so use it as reference. If SVD's vowels overlap more with Suxotin's
+    # consonants than its vowels, the SVD labels are flipped.
+    svd_c = all_chars - svd_v
+    sux_c = set(ch for ch in (all_chars - sux_v) if ch.strip())
+    svd_v_agrees = len(svd_v & sux_v)
+    svd_v_disagrees = len(svd_v & sux_c)
+    if svd_v_disagrees > svd_v_agrees:
+        svd_v, svd_c = svd_c, svd_v
+
     # --- Ensemble: SVD primary, Suxotin confirms ---
     # Core vowels: agreed by both
     core_vowels = svd_v & sux_v
 
-    # Accept SVD-only vowels if they appear frequently enough
     freq = Counter(ch for ch in text.lower() if ch.isalpha())
     total = sum(freq.values())
+
+    # Accept SVD-only vowels if they appear frequently enough
     for ch in svd_v - sux_v:
         if total > 0 and freq.get(ch, 0) / total > 0.001:
             core_vowels.add(ch)
+
+    # Accept Suxotin-only vowels if they are at least as frequent as the
+    # most frequent agreed-upon vowel. This catches cases where SVD
+    # misassigns a very frequent vowel (e.g. 'a' in Ipili) without
+    # pulling in moderately frequent consonants.
+    if core_vowels:
+        max_vowel_freq = max(freq.get(ch, 0) for ch in core_vowels)
+        for ch in sux_v - svd_v:
+            if freq.get(ch, 0) >= max_vowel_freq:
+                core_vowels.add(ch)
 
     # --- Accent propagation ---
     for ch in all_chars:

@@ -14,17 +14,27 @@ from utils import get_language_data, load_languages, preprocess_text
 
 
 def vowel_consonant_classification(
-    V: np.ndarray, letters: List[str], most_freq_letter: str
+    V: np.ndarray,
+    letters: List[str],
+    letters_count: np.ndarray,
 ) -> Tuple[List[str], List[str]]:
     """
     Classify letters by the sign of the second right singular vector.
 
-    The cluster containing the most frequent letter is labeled vowels.
+    Uses the most frequent letter to orient the clusters: the cluster
+    containing it is labeled vowels (the most frequent letter is usually
+    a vowel across languages). Cluster size is used as a tiebreaker.
     """
     V1 = V[:, 1]
+    most_freq_letter = letters[int(np.argmax(letters_count))]
+
     cluster_pos = [letter for idx, letter in enumerate(letters) if V1[idx] > 0]
     cluster_neg = [letter for idx, letter in enumerate(letters) if V1[idx] < 0]
 
+    if not cluster_pos or not cluster_neg:
+        return cluster_pos, cluster_neg
+
+    # Primary: cluster containing the most frequent letter = vowels
     if most_freq_letter in cluster_pos:
         return cluster_pos, cluster_neg
     return cluster_neg, cluster_pos
@@ -74,8 +84,7 @@ def algorithm1(
     _, _, Vt = np.linalg.svd(A, full_matrices=False)
     V = Vt.T
 
-    most_freq_letter = letters[int(np.argmax(letters_count))]
-    return vowel_consonant_classification(V, letters, most_freq_letter)
+    return vowel_consonant_classification(V, letters, letters_count)
 
 
 def run(
